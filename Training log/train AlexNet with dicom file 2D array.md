@@ -1,1 +1,2 @@
-#### fine tuning AlexNet with transformed png file
+#### Training AlexNet with 2D array lmdb
+
