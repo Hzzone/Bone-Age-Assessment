@@ -8,6 +8,7 @@ caffe_model='/home/bw/web_demo/model/bone-age-classification.caffemodel'   #训�
 img='/home/bw/DeepLearning/three_dimen_png/18/244.png'    #随机找的一张待测图片
 labels_filename = '/home/bw/web_demo/model/labels.txt'  #类别名称文件，将数字标签转换回类别名称
 mean_file = '/home/bw/web_demo/model/mean.npy'
+caffe.set_mode_gpu()
 net = caffe.Net(deploy,caffe_model,caffe.TEST)   #加载model和network
 
 # #图片预处理设置
@@ -25,6 +26,6 @@ out = net.forward()
 
 labels = np.loadtxt(labels_filename, str, delimiter='\t')   #读取类别名称文件
 prob= net.blobs['prob'].data[0].flatten() #取出最后一层（Softmax）属于某个类别的概率值，并打印
-print prob
-order=prob.argsort()[-1]  #将概率值排序，取出最大值所在的序号 
-print 'the class is:',labels[order]   #将该序号转换成对应的类别名称，并打印
+order=prob.argsort()[::-1][:5]  #将概率值排序，取出前五所在的序号
+for o in zip(prob[order], labels[order]):
+	print o
