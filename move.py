@@ -27,7 +27,7 @@ def move(source):
             # print(os.path.join(root, d))
 
 def rename(source):
-    index = 0
+    index = 2000
     for root, dirs, files in os.walk(source):
         for file in files:
             index = index + 1
@@ -36,6 +36,6 @@ def rename(source):
             # print(len(files))
 
 if __name__ == "__main__":
-    # rename("/Users/HZzone/Desktop/image")
-    move("/Users/HZzone/Desktop/image/20")
+    # rename("/Volumes/Hzzone-Disk/image/25")
+    move("/Volumes/Hzzone-Disk/image/25")
 
