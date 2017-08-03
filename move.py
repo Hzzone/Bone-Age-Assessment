@@ -2,6 +2,7 @@ import dicom
 import os
 import datetime
 import shutil
+import info
 # for root, dirs, files in os.walk("/Volumes/Hzzone-Disk/18"):
 #     for file in files:
 #         if os.path.isdir(os.path.join(root, file)):
@@ -35,7 +36,14 @@ def rename(source):
             # print(os.path.join(root, str(index)+".jpg"))
             # print(len(files))
 
-if __name__ == "__main__":
-    # rename("/Volumes/Hzzone-Disk/image/25")
-    move("/Volumes/Hzzone-Disk/image/25")
-
+# move file to 2 classify problem
+def move2(source):
+    for root, dirs,files, in os.walk(source):
+        for file in files:
+            path = os.path.join(root, file)
+            age = info.getInfo(path)
+            if age > 18:
+                shutil.move(path, os.path.join(root, '1'))
+            else:
+                shutil.move(path, os.path.join(root, '0'))
+            print(path)
