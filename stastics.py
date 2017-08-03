@@ -2,6 +2,7 @@ import os
 import dicom
 import datetime
 import xlrd
+import info
 
 def statistic(source):
     f = open("/Users/HZzone/Desktop/test.txt", "w")
@@ -50,6 +51,11 @@ def compute(source):
             r.append(file)
     print(len(r))
 
-if __name__ == "__main__":
-    statistic("/Volumes/Hzzone-Disk/backup")
-
+# the error sample to delete
+def error_sample(source):
+    for root, dirs, files in os.walk(source):
+        for file in files:
+            path = os.path.join(root, file)
+            age = info.getInfo(path)
+            if age < 14 or age > 27:
+                print(path+" " + str(age))

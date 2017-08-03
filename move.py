@@ -43,7 +43,7 @@ def move2(source):
             path = os.path.join(root, file)
             age = info.getInfo(path)
             if age > 18:
-                shutil.move(path, os.path.join(root, '1'))
+                shutil.move(path, os.path.join(source, '1'))
             else:
-                shutil.move(path, os.path.join(root, '0'))
+                shutil.move(path, os.path.join(source, '0'))
             print(path)
