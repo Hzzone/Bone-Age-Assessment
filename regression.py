@@ -35,6 +35,11 @@ def generateColorImage(source, target):
         for file in files:
             ds = dicom.read_file(os.path.join(root, file))
             pixel_array = ds.pixel_array
+            height, width = pixel_array.shape
+            if height < width:
+                pixel_array = pixel_array[:, (width - height) / 2:(width + height) / 2]
+            else:
+                pixel_array = pixel_array[(height - width) / 2:(width + height) / 2, :]
             im = resize(pixel_array, (227, 227))
             # im = bytescale(im)
             im = np.dstack((im, im, im))
