@@ -3,7 +3,10 @@ import stastics
 import info
 import os
 import move
+import regression
+import preprocess
 if __name__=="__main__":
-    # stastics.error_sample("/home/bw/DeepLearning/2")
-    move.move2("/home/bw/DeepLearning/2/male")
+    regression.generateFile("/home/bw/DeepLearning/male_regression/male", "/home/bw/DeepLearning/male_regression/train.txt")
+    # regression.moveRegressionTestFile("/home/bw/DeepLearning/male_regression/male")
+    # regression.generateColorImage("/home/bw/DeepLearning/male_regression/test", "/home/bw/DeepLearning/male_regression/png/test_bytescale")
 

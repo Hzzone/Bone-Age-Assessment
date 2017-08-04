@@ -28,7 +28,7 @@ def move(source):
             # print(os.path.join(root, d))
 
 def rename(source):
-    index = 2000
+    index = 0
     for root, dirs, files in os.walk(source):
         for file in files:
             index = index + 1

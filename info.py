@@ -3,7 +3,6 @@ import datetime
 
 # get the age of one sample from source path
 def getInfo(source):
-    s = ''
     try:
         ds = dicom.read_file(source)
         birthDate = ds.PatientBirthDate
