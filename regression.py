@@ -13,8 +13,7 @@ def generateFile(source, target=None):
     for root, dirs, files in os.walk(source):
         for file in files:
             age = info.getInfo(os.path.join(root, file))
-            print age
-            s = "/home/shared/male_regression/png/train/%s.jpg %.2f\n" % (file, age)
+            s = "/home/shared/male_regression/png/test/%s.jpg %.2f\n" % (file, age)
             print(s)
             f.write(s)
     f.close()

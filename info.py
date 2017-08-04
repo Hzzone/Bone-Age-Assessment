@@ -12,7 +12,7 @@ def getInfo(source):
         bd = datetime.datetime.strptime(bDate, '%Y-%m-%d')
         sd = datetime.datetime.strptime(sDate, '%Y-%m-%d')
         days = (sd - bd).days
-        age = days / 365
+        age = float(days) / 365
         return age
     except:
         print(source+" is not a dicom file")
