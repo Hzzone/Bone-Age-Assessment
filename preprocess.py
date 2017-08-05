@@ -25,10 +25,3 @@ def resize(source):
     img.save(source)
 
 
-if __name__ == "__main__":
-    # resize("/Users/HZzone/Desktop/280.jpg")
-    for root, dirs, files in os.walk("/Users/HZzone/Desktop/image/25"):
-        for file in files:
-            path = os.path.join(root, file)
-            print(path)
-            resize(path)
