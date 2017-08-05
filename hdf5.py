@@ -17,7 +17,7 @@ def generateHdf5(source, target):
             file_list.append(os.path.join(root, file))
     random.shuffle(file_list)
     random.shuffle(file_list)
-    data = np.zeros((len(file_list), 3, 227, 227), dtype=np.float64)
+    data = np.zeros((len(file_list), 3, 227, 227), dtype=np.float)
     labels = np.zeros(len(file_list), dtype=np.float32)
     for index, file in enumerate(file_list):
         ds = dicom.read_file(file)
@@ -25,11 +25,12 @@ def generateHdf5(source, target):
         pixel_array = ds.pixel_array
         height, width = pixel_array.shape
         if height < width:
-            pixel_array = pixel_array[:, (width - height) / 2:(width + height) / 2]
+            pixel_array = pixel_array[:, int((width - height) / 2):int((width + height) / 2)]
         else:
-            pixel_array = pixel_array[(height - width) / 2:(width + height) / 2, :]
+            pixel_array = pixel_array[int((height - width) / 2):int((width + height) / 2), :]
         im = resize(pixel_array, (227, 227))
-        # im = bytescale(im)
+        im = bytescale(im)
+        im = im/256
         im = np.dstack((im, im, im))
         im = im[:, :, [2, 1, 0]]
         im = im.transpose((2, 0, 1))
