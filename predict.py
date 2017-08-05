@@ -1,4 +1,3 @@
-from __future__ import division
 import sys
 sys.path.insert(0, "/home/bw/code/caffe/python")
 import caffe
@@ -8,23 +7,12 @@ from skimage.transform import resize
 from scipy.misc import bytescale
 import dicom
 import os
+import preprocess
 
 # predict the age from a new dicom file by a trained caffemodel and deploy file
 def predict(caffemodel, deploy, dicom_file):
-    ds = dicom.read_file(dicom_file)
     age = info.getInfo(dicom_file)
-    pixel_array = ds.pixel_array
-    height, width = pixel_array.shape
-    if height < width:
-        pixel_array = pixel_array[:, int((width - height) / 2):int((width + height) / 2)]
-    else:
-        pixel_array = pixel_array[int((height - width) / 2):int((width + height) / 2), :]
-    im = resize(pixel_array, (227, 227))
-    im = bytescale(im)
-    im = im/256
-    im = np.dstack((im, im, im))
-    im = im[:, :, [2, 1, 0]]
-    im = im.transpose((2, 0, 1))
+    im = preprocess.process(dicom_file)
     caffe.set_mode_gpu()
     net = caffe.Net(deploy, caffemodel, caffe.TEST)
     net.blobs['data'].reshape(1, 3, 227, 227)
@@ -34,7 +22,9 @@ def predict(caffemodel, deploy, dicom_file):
     predict_age = output['my-fc8'][0][0]
     return age, predict_age
     # print("predict: %s real: %s" % (predict_age, age))
-
+'''
+The dimension of deploy file must be (the length of test dir, 3, 227, 227)
+'''
 def predict_dir(caffemodel, deploy, source):
     # f = open("predict.log", "w")
     file_list = []
@@ -44,21 +34,43 @@ def predict_dir(caffemodel, deploy, source):
             file_list.append(os.path.join(root, file))
             # f.write(str(real_age)+" "+str(predict_age)+'\n')
     # f.close()
-    for dicom_file in file_list:
-        real_age, predict_age = predict(caffemodel, deploy, dicom_file)
-        if abs(predict_age - real_age)<=3:
+    images = np.zeros((len(file_list), 3, 227, 227), dtype=np.float)
+
+    # read age list
+    real_ages = []
+    for index, dicom_file in enumerate(file_list):
+        real_age = info.getInfo(dicom_file)
+        real_ages.append(real_age)
+        images[index, :, :, :] = preprocess.process(dicom_file)
+        # if abs(predict_age - real_age)<=3:
+        #     correct_num = correct_num+1
+    caffe.set_mode_gpu()
+    net = caffe.Net(deploy, caffemodel, caffe.TEST)
+    net.blobs['data'].reshape(len(file_list), 3, 227, 227)
+    net.blobs['data'].data[...] = images
+    output = net.forward()
+    for index, result in enumerate(output['my-fc8']):
+        predict_age = result[0]
+        real_age = real_ages[index]
+        if abs(predict_age - real_age) <= 3:
             correct_num = correct_num+1
     return float(correct_num)/len(file_list)
 
-def predict_by_caffemodel_dir(source):
+def predict_by_caffemodel_dir(caffemodel_source, test_deploy, test_data_spurce):
     f = open("predict.log", "w")
-    for root, dirs, files in os.walk(source):
+    results = {}
+    for root, dirs, files in os.walk(caffemodel_source):
         for file in files:
             path = os.path.join(root, file)
-            probal = predict_dir(path, "/home/bw/DeepLearning/male_regression/deploy.prototxt", "/home/bw/DeepLearning/male_regression/test")
-            f.write("%s %f" % (path, probal))
+            probal = predict_dir(path, test_deploy, test_data_spurce)
+            results[path] = probal
+    results = sorted(results.items(), key=lambda d: d[1], reverse=True)
+    print(results)
+    for result in results:
+        f.write("%s %f\n" % (result[0], result[1]))
     f.close()
 # run
 # print(predict_dir("/home/bw/DeepLearning/male_regression/stepsize, 6000/caffenet_train_iter_1000.caffemodel", "/home/bw/DeepLearning/male_regression/deploy.prototxt", "/home/bw/DeepLearning/male_regression/test"))
-predict_by_caffemodel_dir("/home/bw/DeepLearning/male_regression/stepsize, 6000")
+predict_by_caffemodel_dir("/home/bw/DeepLearning/male_regression/stepsize, 6000", "/home/bw/DeepLearning/male_regression/test_deploy.prototxt", "/home/bw/DeepLearning/male_regression/test")
+# print(predict_dir("/home/bw/DeepLearning/male_regression/stepsize, 6000/caffenet_train_iter_1000.caffemodel", "/home/bw/DeepLearning/male_regression/test_deploy.prototxt", "/home/bw/DeepLearning/male_regression/test"))
 

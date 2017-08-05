@@ -1,27 +1,20 @@
-import os
-from PIL import Image
+import dicom
+import numpy as np
+from skimage.transform import resize
+from scipy.misc import bytescale
 
-
-def resize(source):
-    img = Image.open(source)
-    w, h = img.size
-    x1=0
-    x2=0
-    y1=0
-    y2=0
-    if w > h:
-        x1 = (w-h)/2
-        x2 = (w+h)/2
-        y1 = 0
-        y2 = h
+def process(source):
+    ds = dicom.read_file(source)
+    pixel_array = ds.pixel_array
+    height, width = pixel_array.shape
+    if height < width:
+        pixel_array = pixel_array[:, int((width - height) / 2):int((width + height) / 2)]
     else:
-        x1 = 0
-        x2 = w
-        y1 = (h-w)/2
-        y2 = (h+w)/2
-    box = (x1, y1, x2, y2)
-    img = img.crop(box)
-    img = img.resize((227, 227), Image.ANTIALIAS)
-    img.save(source)
-
-
+        pixel_array = pixel_array[int((height - width) / 2):int((width + height) / 2), :]
+    im = resize(pixel_array, (227, 227))
+    im = bytescale(im)
+    # im = im / 256
+    im = np.dstack((im, im, im))
+    im = im[:, :, [2, 1, 0]]
+    im = im.transpose((2, 0, 1))
+    return im
