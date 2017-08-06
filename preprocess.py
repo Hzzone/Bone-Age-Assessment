@@ -1,3 +1,4 @@
+from __future__ import division
 import dicom
 import numpy as np
 from skimage.transform import resize
@@ -13,7 +14,7 @@ def process(source):
         pixel_array = pixel_array[int((height - width) / 2):int((width + height) / 2), :]
     im = resize(pixel_array, (227, 227))
     im = bytescale(im)
-    # im = im / 256
+    im = im / 256
     im = np.dstack((im, im, im))
     im = im[:, :, [2, 1, 0]]
     im = im.transpose((2, 0, 1))

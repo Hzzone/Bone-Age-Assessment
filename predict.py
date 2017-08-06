@@ -3,9 +3,6 @@ sys.path.insert(0, "/home/bw/code/caffe/python")
 import caffe
 import numpy as np
 import info
-from skimage.transform import resize
-from scipy.misc import bytescale
-import dicom
 import os
 import preprocess
 
@@ -52,7 +49,12 @@ def predict_dir(caffemodel, deploy, source):
     for index, result in enumerate(output['my-fc8']):
         predict_age = result[0]
         real_age = real_ages[index]
-        if abs(predict_age - real_age) <= 3:
+        '''
+        the condition that you think the prediction result is correct
+        '''
+        # if abs(predict_age - real_age) <= 3:
+        #     correct_num = correct_num+1
+        if (predict_age>18 and real_age>18) or (predict_age<=18 and real_age<=18):
             correct_num = correct_num+1
     return float(correct_num)/len(file_list)
 
@@ -71,6 +73,6 @@ def predict_by_caffemodel_dir(caffemodel_source, test_deploy, test_data_spurce):
     f.close()
 # run
 # print(predict_dir("/home/bw/DeepLearning/male_regression/stepsize, 6000/caffenet_train_iter_1000.caffemodel", "/home/bw/DeepLearning/male_regression/deploy.prototxt", "/home/bw/DeepLearning/male_regression/test"))
-predict_by_caffemodel_dir("/home/bw/DeepLearning/male_regression/stepsize, 6000", "/home/bw/DeepLearning/male_regression/test_deploy.prototxt", "/home/bw/DeepLearning/male_regression/test")
+predict_by_caffemodel_dir("/home/bw/DeepLearning/male_regression/divide_256/fixed,0.1", "/home/bw/DeepLearning/male_regression/test_deploy.prototxt", "/home/bw/DeepLearning/male_regression/test")
 # print(predict_dir("/home/bw/DeepLearning/male_regression/stepsize, 6000/caffenet_train_iter_1000.caffemodel", "/home/bw/DeepLearning/male_regression/test_deploy.prototxt", "/home/bw/DeepLearning/male_regression/test"))
 
