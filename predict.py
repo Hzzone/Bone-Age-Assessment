@@ -10,7 +10,7 @@ import preprocess
 def predict(caffemodel, deploy, dicom_file):
     age = info.getInfo(dicom_file)
     im = preprocess.process(dicom_file)
-    caffe.set_mode_gpu()
+    caffe.set_mode_cpu()
     net = caffe.Net(deploy, caffemodel, caffe.TEST)
     net.blobs['data'].reshape(1, 3, 227, 227)
     # read a dicom file
@@ -31,7 +31,7 @@ def predict_dir(caffemodel, deploy, source):
             file_list.append(os.path.join(root, file))
             # f.write(str(real_age)+" "+str(predict_age)+'\n')
     # f.close()
-    images = np.zeros((len(file_list), 3, 227, 227), dtype=np.float)
+    images = np.zeros((len(file_list), 3, 224, 224), dtype=np.float)
 
     # read age list
     real_ages = []
@@ -43,10 +43,10 @@ def predict_dir(caffemodel, deploy, source):
         #     correct_num = correct_num+1
     caffe.set_mode_gpu()
     net = caffe.Net(deploy, caffemodel, caffe.TEST)
-    net.blobs['data'].reshape(len(file_list), 3, 227, 227)
+    net.blobs['data'].reshape(len(file_list), 3, 224, 224)
     net.blobs['data'].data[...] = images
     output = net.forward()
-    for index, result in enumerate(output['my-fc8']):
+    for index, result in enumerate(output['my-loss3/classifier']):
         predict_age = result[0]
         real_age = real_ages[index]
         '''
@@ -73,6 +73,6 @@ def predict_by_caffemodel_dir(caffemodel_source, test_deploy, test_data_spurce):
     f.close()
 # run
 # print(predict_dir("/home/bw/DeepLearning/male_regression/stepsize, 6000/caffenet_train_iter_1000.caffemodel", "/home/bw/DeepLearning/male_regression/deploy.prototxt", "/home/bw/DeepLearning/male_regression/test"))
-predict_by_caffemodel_dir("/home/bw/DeepLearning/male_regression/Caffenet/nodiv256_2", "/home/bw/DeepLearning/male_regression/Caffenet/test_deploy.prototxt", "/home/bw/DeepLearning/male_regression/test")
+predict_by_caffemodel_dir("/home/bw/DeepLearning/male_regression/Googlenet/models", "/home/bw/DeepLearning/male_regression/Googlenet/deploy.prototxt", "/home/bw/DeepLearning/male_regression/test")
 # print(predict_dir("/home/bw/DeepLearning/male_regression/stepsize, 6000/caffenet_train_iter_1000.caffemodel", "/home/bw/DeepLearning/male_regression/test_deploy.prototxt", "/home/bw/DeepLearning/male_regression/test"))
 
