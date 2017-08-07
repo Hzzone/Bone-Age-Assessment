@@ -52,10 +52,10 @@ def predict_dir(caffemodel, deploy, source):
         '''
         the condition that you think the prediction result is correct
         '''
-        if abs(predict_age - real_age) <= 3:
-            correct_num = correct_num+1
-        # if (predict_age>18 and real_age>18) or (predict_age<=18 and real_age<=18):
+        # if abs(predict_age - real_age) <= 3:
         #     correct_num = correct_num+1
+        if (predict_age > 18 and real_age > 18) or (predict_age<=18 and real_age<=18):
+            correct_num = correct_num+1
     return float(correct_num)/len(file_list)
 
 def predict_by_caffemodel_dir(caffemodel_source, test_deploy, test_data_spurce):
@@ -73,6 +73,6 @@ def predict_by_caffemodel_dir(caffemodel_source, test_deploy, test_data_spurce):
     f.close()
 # run
 # print(predict_dir("/home/bw/DeepLearning/male_regression/stepsize, 6000/caffenet_train_iter_1000.caffemodel", "/home/bw/DeepLearning/male_regression/deploy.prototxt", "/home/bw/DeepLearning/male_regression/test"))
-predict_by_caffemodel_dir("/home/bw/DeepLearning/male_regression/Alexnet/model", "/home/bw/DeepLearning/male_regression/Alexnet/deploy.prototxt", "/home/bw/DeepLearning/male_regression/test")
+predict_by_caffemodel_dir("/home/bw/DeepLearning/male_regression/Caffenet/nodiv256_2", "/home/bw/DeepLearning/male_regression/Caffenet/test_deploy.prototxt", "/home/bw/DeepLearning/male_regression/test")
 # print(predict_dir("/home/bw/DeepLearning/male_regression/stepsize, 6000/caffenet_train_iter_1000.caffemodel", "/home/bw/DeepLearning/male_regression/test_deploy.prototxt", "/home/bw/DeepLearning/male_regression/test"))
 
