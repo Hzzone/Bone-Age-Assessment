@@ -1,0 +1,1 @@
+Fine-tuning on AlexNet, CaffeNet, GoogLeNet, and ResNet50 with their result including above-and-below 18, 2 Fluctuately and corresponding training log.
