@@ -12,7 +12,7 @@ def process(source):
         pixel_array = pixel_array[:, int((width - height) / 2):int((width + height) / 2)]
     else:
         pixel_array = pixel_array[int((height - width) / 2):int((width + height) / 2), :]
-    im = resize(pixel_array, (224, 224))
+    im = resize(pixel_array, (227, 227))
     im = bytescale(im)
     # im = im / 256
     im = np.dstack((im, im, im))
