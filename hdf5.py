@@ -29,5 +29,5 @@ def generateHdf5(source, target):
     h5_file.close()
 
 if __name__ == "__main__":
-    generateHdf5("/home/bw/DeepLearning/male_regression/train", "/home/bw/DeepLearning/male_regression/Googlenet/train.h5")
-    generateHdf5("/home/bw/DeepLearning/male_regression/test", "/home/bw/DeepLearning/male_regression/Googlenet/test.h5")
+    generateHdf5("/home/bw/DeepLearning/female_regression/train", "/home/bw/DeepLearning/female_regression/train.h5")
+    generateHdf5("/home/bw/DeepLearning/female_regression/test", "/home/bw/DeepLearning/female_regression/test.h5")

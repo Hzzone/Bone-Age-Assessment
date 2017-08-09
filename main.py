@@ -1,14 +1,14 @@
-from scipy.misc import bytescale
-import stastics
-import info
 import os
-import move
-import regression
-import preprocess
-import h5py
-import dicom
-import hdf5
-from skimage.transform import resize
-import predict
+import random
+import shutil
 if __name__ == "__main__":
-    print(preprocess.process())
+    f = []
+    for root, dirs, files in os.walk("/home/bw/DeepLearning/female_regression/train"):
+        for file in files:
+            f.append(os.path.join(root, file))
+    random.shuffle(f)
+    random.shuffle(f)
+    for index, file in enumerate(f):
+        if index % 10 == 0:
+            shutil.move(file, "/home/bw/DeepLearning/female_regression/test")
+            print(file)
