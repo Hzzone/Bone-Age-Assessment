@@ -4,7 +4,7 @@ import numpy as np
 from skimage.transform import resize
 from scipy.misc import bytescale
 
-def process(source):
+def process(source, IMAGE_SIZE=227):
     ds = dicom.read_file(source)
     pixel_array = ds.pixel_array
     height, width = pixel_array.shape
@@ -12,7 +12,7 @@ def process(source):
         pixel_array = pixel_array[:, int((width - height) / 2):int((width + height) / 2)]
     else:
         pixel_array = pixel_array[int((height - width) / 2):int((width + height) / 2), :]
-    im = resize(pixel_array, (224, 224))
+    im = resize(pixel_array, (IMAGE_SIZE, IMAGE_SIZE))
     im = bytescale(im)
     # im = im / 256
     im = np.dstack((im, im, im))
