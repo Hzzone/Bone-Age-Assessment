@@ -101,23 +101,25 @@ def predict_dir_output(caffemodel, deploy, source, mode=True, IMAGE_SIZE=227, LA
     net.blobs['data'].data[...] = images
     output = net.forward()
     f = open(LOGFILE, 'w')
-    # results = {}
+    dic = {}
     for index, result in enumerate(output[LAYER_NAME]):
         predict_age = result[0]
         real_age = real_ages[index]
-        line = "%s predict: %s real: %s\n" % (file_list[index], predict_age, real_age)
-        f.write(line)
+        line = "%s predict: %s real: %s" % (file_list[index], predict_age, real_age)
+        # f.write(line)
         # results[line] = abs(predict_age-real_age)
-    # results = sorted(results.items(), key=lambda d: d[1], reverse=True)
-    # for s in results:
-    #     f.write(str(s))
-    #     print(results[s])
+        dic[line] = abs(predict_age - real_age)
+    dic = sorted(dic.items(), key=lambda d: d[1], reverse=True)
+    for key, value in dic:
+        f.write("%s %s\n" % (key, value))
+        # print(type(dic[key]))
+        # print(key, value)
     f.close()
 
 # run
-predict_by_caffemodel_dir(caffemodel_source="/home/bw/DeepLearning/female_regression/GoogLeNet/model", test_deploy="/home/bw/DeepLearning/female_regression/GoogLeNet/deploy.prototxt", test_data_source="/home/bw/DeepLearning/female_regression/test", IMAGE_SIZE=224, mode=False, LOG_FILE="GoogLeNet_predict.log", LAYER_NAME="my-loss3/classifier")
-predict_by_caffemodel_dir(caffemodel_source="/home/bw/DeepLearning/female_regression/ResNet50/model", test_deploy="/home/bw/DeepLearning/female_regression/ResNet50/deploy.prototxt", test_data_source="/home/bw/DeepLearning/female_regression/test", IMAGE_SIZE=224, mode=False, LOG_FILE="ResNet_predict.log", LAYER_NAME="my-score")
+# predict_by_caffemodel_dir(caffemodel_source="/home/bw/DeepLearning/female_regression/GoogLeNet/model", test_deploy="/home/bw/DeepLearning/female_regression/GoogLeNet/deploy.prototxt", test_data_source="/home/bw/DeepLearning/female_regression/test", IMAGE_SIZE=224, mode=False, LOG_FILE="GoogLeNet_predict.log", LAYER_NAME="my-loss3/classifier")
+# predict_by_caffemodel_dir(caffemodel_source="/home/bw/DeepLearning/female_regression/ResNet50/model", test_deploy="/home/bw/DeepLearning/female_regression/ResNet50/deploy.prototxt", test_data_source="/home/bw/DeepLearning/female_regression/test", IMAGE_SIZE=224, mode=False, LOG_FILE="ResNet_predict.log", LAYER_NAME="my-score")
+# predict_by_caffemodel_dir(caffemodel_source="/home/bw/DeepLearning/female_regression/CaffeNet/model", test_deploy="/home/bw/DeepLearning/female_regression/CaffeNet/deploy.prototxt", test_data_source="/home/bw/DeepLearning/female_regression/test", LOG_FILE="CaffeNet_predict.log")
+# predict_by_caffemodel_dir(caffemodel_source="/home/bw/DeepLearning/female_regression/AlexNet/model", test_deploy="/home/bw/DeepLearning/female_regression/AlexNet/deploy.prototxt", test_data_source="/home/bw/DeepLearning/female_regression/test", LOG_FILE="AlexNet_predict.log")
 
-predict_by_caffemodel_dir(caffemodel_source="/home/bw/DeepLearning/female_regression/CaffeNet/model", test_deploy="/home/bw/DeepLearning/female_regression/CaffeNet/deploy.prototxt", test_data_source="/home/bw/DeepLearning/female_regression/test", LOG_FILE="CaffeNet_predict.log")
-predict_by_caffemodel_dir(caffemodel_source="/home/bw/DeepLearning/female_regression/AlexNet/model", test_deploy="/home/bw/DeepLearning/female_regression/AlexNet/deploy.prototxt", test_data_source="/home/bw/DeepLearning/female_regression/test", LOG_FILE="AlexNet_predict.log")
-# predict_dir_output(caffemodel="/home/bw/DeepLearning/female_regression/CaffeNet/model/caffenet_train_iter_4000.caffemodel", deploy="/home/bw/DeepLearning/female_regression/CaffeNet/deploy.prototxt", source="/home/bw/DeepLearning/female_regression/test", LOGFILE="error.txt")
+predict_dir_output(caffemodel="/home/bw/DeepLearning/female_regression/CaffeNet/model/caffenet_train_iter_4000.caffemodel", deploy="/home/bw/DeepLearning/female_regression/CaffeNet/deploy.prototxt", source="/home/bw/DeepLearning/female_regression/test", LOGFILE="error.log")
