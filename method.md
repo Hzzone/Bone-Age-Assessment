@@ -1,5 +1,7 @@
 #### How I do this 
 
+##### Data preparation
+
 ##### middle layers output dimensions
 ```angular2html
 conv1	(96, 3, 11, 11)		(96,)
