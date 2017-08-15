@@ -6,6 +6,7 @@ import os
 import preprocess
 import matplotlib.pyplot as plt
 import shutil
+from scipy.misc import imsave
 
 # predict the age from a new dicom file by a trained caffemodel and deploy file
 def visualize_layers(caffemodel, deploy, dicom_file, IMAGE_SIZE=227):
@@ -22,15 +23,41 @@ def visualize_layers(caffemodel, deploy, dicom_file, IMAGE_SIZE=227):
         features_path = os.path.join(curr_path, layer_name)
         if os.path.exists(features_path):
             shutil.rmtree(features_path)
-    for layer_name, param in net.params.iteritems():
-        features_path = os.path.join(curr_path, layer_name)
+    # for layer_name, param in net.params.iteritems():
+    #     features_path = os.path.join(curr_path, layer_name)
+    #     print net.blobs[layer_name]
         # if layer feature map folder not exists
-        if not os.path.exists(features_path):
-            os.mkdir(features_path)
-        for index, feature in enumerate(net.blobs[layer_name].data[0]):
-            path = os.path.join(features_path, str(index))
-            plt.imsave(path, feature, cmap=plt.cm.gray)
-            print path
+        # if not os.path.exists(features_path):
+        #     os.mkdir(features_path)
+        # for index, feature in enumerate(net.blobs[layer_name].data[0]):
+        #     path = os.path.join(features_path, str(index))
+        #     # plt.imsave(path, feature, cmap=plt.cm.gray)
+        #     # plt.imshow(feature)
+        #     # plt.show()
+        #     # imsave(path+".jpg", feature)
+        #     print path
+    # full connected layer
+    # fc6
+    # feat = net.blobs['fc6'].data[0]
+    # plt.subplot(2, 1, 1)
+    # plt.plot(feat.flat)
+    # plt.subplot(2, 1, 2)
+    # _ = plt.hist(feat.flat[feat.flat > 0], bins=100)
+    # plt.show()
+    # fc7
+    # feat = net.blobs['fc7'].data[0]
+    # plt.subplot(2, 1, 1)
+    # plt.plot(feat.flat)
+    # plt.subplot(2, 1, 2)
+    # _ = plt.hist(feat.flat[feat.flat > 0], bins=100)
+    # plt.show()
+    # fc8
+    feat = net.blobs['my-fc8'].data[0]
+    plt.subplot(2, 1, 1)
+    plt.plot(feat.flat)
+    plt.subplot(2, 1, 2)
+    _ = plt.hist(feat.flat[feat.flat > 0], bins=100)
+    plt.show()
 
 
 def vis_square(data):
