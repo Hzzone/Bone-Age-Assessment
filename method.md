@@ -87,7 +87,7 @@ It is proved that CaffeNet has the most effective result on this problem.
 
 <img src="http://omoitwcai.bkt.clouddn.com/2017-08-15-%E4%B8%8B%E8%BD%BD.png" style="clear: both; 
 display: block; 
-margin:auto;" />
+margin:auto;" />	
 (更容易理解的:)
 <img src="http://omoitwcai.bkt.clouddn.com/2017-08-15-FireShot%20Capture%202%20-%20Netscope%20-%20http___ethereon.github.io_netscope_-_editor.png" style="clear: both; 
 display: block; 
