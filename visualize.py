@@ -23,6 +23,17 @@ def visualize_layers(caffemodel, deploy, dicom_file, IMAGE_SIZE=227):
         features_path = os.path.join(curr_path, layer_name)
         if os.path.exists(features_path):
             shutil.rmtree(features_path)
+    LAYER_NAME = "conv1"
+    path = "./%s" % LAYER_NAME
+    os.mkdir(path)
+    features = net.blobs[LAYER_NAME].data[0]
+    for index, feature in enumerate(features):
+        plt.xticks([])
+        plt.yticks([])
+        plt.imshow(feature)
+        plt.axis('off')
+        plt.savefig("%s/%s" % (path, index), bbox_inches='tight', pad_inches=0)
+        # plt.show()
     # for layer_name, param in net.params.iteritems():
     #     features_path = os.path.join(curr_path, layer_name)
     #     print net.blobs[layer_name]
@@ -52,12 +63,12 @@ def visualize_layers(caffemodel, deploy, dicom_file, IMAGE_SIZE=227):
     # _ = plt.hist(feat.flat[feat.flat > 0], bins=100)
     # plt.show()
     # fc8
-    feat = net.blobs['my-fc8'].data[0]
-    plt.subplot(2, 1, 1)
-    plt.plot(feat.flat)
-    plt.subplot(2, 1, 2)
-    _ = plt.hist(feat.flat[feat.flat > 0], bins=100)
-    plt.show()
+    # feat = net.blobs['my-fc8'].data[0]
+    # plt.subplot(2, 1, 1)
+    # plt.plot(feat.flat)
+    # plt.subplot(2, 1, 2)
+    # _ = plt.hist(feat.flat[feat.flat > 0], bins=100)
+    # plt.show()
 
 
 def vis_square(data):
