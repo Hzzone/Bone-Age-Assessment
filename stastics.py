@@ -65,6 +65,7 @@ def read_hdf5(source):
     f = h5py.File(source, 'r')
     # print f.keys()
     label = f['label'][:]
+    number = len(label)
     result = {}
     for a in label:
         n = int(a)
@@ -79,6 +80,7 @@ def read_hdf5(source):
     emmmm = []
     for s in result:
         emmmm.append(" ".join(s))
+    emmmm.append(str(number))
     return emmmm
 
 def read_folder(source):
@@ -100,6 +102,7 @@ def read_folder(source):
             age = days / 365
             ages.append(age)
     result = {}
+    number = len(ages)
     for a in ages:
         n = int(a)
         key = "%.2f-%s" % (n, n+0.99)
@@ -112,6 +115,7 @@ def read_folder(source):
     emmmm = []
     for s in result:
         emmmm.append(" ".join(s))
+    emmmm.append(str(number))
     print "complete!"
     return emmmm
 

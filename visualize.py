@@ -92,7 +92,19 @@ def vis_square(data):
     plt.axis('off')
     plt.show()
 
+def visualize_output_size(caffemodel, deploy, dicom_file, IMAGE_SIZE=227):
+    im = preprocess.process(dicom_file, IMAGE_SIZE=IMAGE_SIZE)
+    caffe.set_mode_gpu()
+    net = caffe.Net(deploy, caffemodel, caffe.TEST)
+    net.blobs['data'].reshape(1, 3, IMAGE_SIZE, IMAGE_SIZE)
+    # read a dicom file
+    net.blobs['data'].data[...] = im
+    net.forward()
+    # for each layer, show the output shape
+    for layer_name, blob in net.blobs.iteritems():
+        print layer_name + '\t' + str(blob.data.shape)
+
 if __name__=="__main__":
-    visualize_layers("/home/bw/DeepLearning/male_regression/CaffeNet/model/caffenet_train_iter_2000.caffemodel",
+    visualize_output_size("/home/bw/DeepLearning/male_regression/CaffeNet/model/caffenet_train_iter_2000.caffemodel",
                      "/home/bw/DeepLearning/male_regression/CaffeNet/deploy.prototxt",
                      "/home/bw/DeepLearning/male_regression/test/33660437")
