@@ -103,6 +103,13 @@ def visualize_output_size(caffemodel, deploy, dicom_file, IMAGE_SIZE=227):
     # for each layer, show the output shape
     for layer_name, blob in net.blobs.iteritems():
         print layer_name + '\t' + str(blob.data.shape)
+    # the parameters are a list of [weights, biases]
+    # filters = net.params['conv1'][0].data
+    # print filters.shape
+    # vis_square(filters.transpose(0, 2, 3, 1))
+    # plt.imshow(filters[0])
+    for layer_name, param in net.params.iteritems():
+        print layer_name + '\t' + str(param[0].data.shape), str(param[1].data.shape)
 
 if __name__=="__main__":
     visualize_output_size("/home/bw/DeepLearning/male_regression/CaffeNet/model/caffenet_train_iter_2000.caffemodel",
