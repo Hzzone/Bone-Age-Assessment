@@ -105,14 +105,14 @@ def predict_dir_output(caffemodel, deploy, source, mode=True, IMAGE_SIZE=227, LA
     for index, result in enumerate(output[LAYER_NAME]):
         predict_age = result[0]
         real_age = real_ages[index]
-        line = "%s predict: %s real: %s" % (file_list[index], predict_age, real_age)
         # only see the error sample
         # if (predict_age > BORDER_AGE and real_age > BORDER_AGE) or (predict_age <= BORDER_AGE and real_age <= BORDER_AGE):
         #     continue
+        line = "%s %s %s" % (real_age, predict_age, abs(predict_age - real_age))
         dic[line] = abs(predict_age - real_age)
     dic = sorted(dic.items(), key=lambda d: d[1], reverse=True)
     for key, value in dic:
-        f.write("%s %s\n" % (key, value))
+        f.write("%s\n" % key)
         # print(type(dic[key]))
         # print(key, value)
     f.close()
@@ -128,4 +128,5 @@ def predict_dir_output(caffemodel, deploy, source, mode=True, IMAGE_SIZE=227, LA
 # predict_by_caffemodel_dir(caffemodel_source="/home/bw/DeepLearning/male_regression/CaffeNet/model", test_deploy="/home/bw/DeepLearning/male_regression/CaffeNet/deploy.prototxt", test_data_source="/home/bw/DeepLearning/male_regression/test", LOG_FILE="CaffeNet_predict.log")
 # predict_by_caffemodel_dir(caffemodel_source="/home/bw/DeepLearning/male_regression/AlexNet/model", test_deploy="/home/bw/DeepLearning/male_regression/AlexNet/deploy.prototxt", test_data_source="/home/bw/DeepLearning/male_regression/test", LOG_FILE="AlexNet_predict.log")
 
-predict_dir_output(caffemodel="/home/bw/DeepLearning/male_regression/CaffeNet/model/caffenet_train_iter_2000.caffemodel", deploy="/home/bw/DeepLearning/male_regression/CaffeNet/deploy.prototxt", source="/home/bw/DeepLearning/male_regression/test", LOGFILE="error.log")
+# predict_dir_output(caffemodel="/home/bw/DeepLearning/male_regression/CaffeNet/model/caffenet_train_iter_2000.caffemodel", deploy="/home/bw/DeepLearning/male_regression/CaffeNet/deploy.prototxt", source="/home/bw/DeepLearning/male_regression/test", LOGFILE="error.log")
+predict_dir_output(caffemodel="/home/bw/DeepLearning/female_regression/CaffeNet/model/caffenet_train_iter_2000.caffemodel", deploy="/home/bw/DeepLearning/female_regression/CaffeNet/deploy.prototxt", source="/home/bw/DeepLearning/female_regression/test", LOGFILE="error.log")
