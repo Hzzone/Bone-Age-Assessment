@@ -23,7 +23,7 @@ def visualize_layers(caffemodel, deploy, dicom_file, IMAGE_SIZE=227):
         features_path = os.path.join(curr_path, layer_name)
         if os.path.exists(features_path):
             shutil.rmtree(features_path)
-    LAYER_NAME = "conv1"
+    LAYER_NAME = "conv2"
     path = "./%s" % LAYER_NAME
     os.mkdir(path)
     features = net.blobs[LAYER_NAME].data[0]
