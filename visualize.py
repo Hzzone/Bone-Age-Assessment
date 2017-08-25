@@ -1,5 +1,6 @@
 import sys
-sys.path.insert(0, "/home/bw/code/caffe/python")
+# sys.path.insert(0, "/home/bw/code/caffe/python")
+sys.path.insert(0, "/Users/HZzone/caffe/python")
 import caffe
 import numpy as np
 import os
@@ -7,11 +8,16 @@ import preprocess
 import matplotlib.pyplot as plt
 import shutil
 from scipy.misc import imsave
+import dicom
 
 # predict the age from a new dicom file by a trained caffemodel and deploy file
-def visualize_layers(caffemodel, deploy, dicom_file, IMAGE_SIZE=227):
+def visualize_layers(caffemodel, deploy, dicom_file, IMAGE_SIZE=227, mode=True):
     im = preprocess.process(dicom_file, IMAGE_SIZE=IMAGE_SIZE)
-    caffe.set_mode_gpu()
+    patientID = dicom.read_file(dicom_file).PatientID
+    if mode:
+        caffe.set_mode_gpu()
+    else:
+        caffe.set_mode_cpu()
     net = caffe.Net(deploy, caffemodel, caffe.TEST)
     net.blobs['data'].reshape(1, 3, IMAGE_SIZE, IMAGE_SIZE)
     # read a dicom file
@@ -20,56 +26,28 @@ def visualize_layers(caffemodel, deploy, dicom_file, IMAGE_SIZE=227):
     curr_path = os.path.dirname(os.path.abspath(__file__))
     # get every layer feature map and save to files
     for layer_name, param in net.params.iteritems():
-        features_path = os.path.join(curr_path, layer_name)
-        if os.path.exists(features_path):
-            shutil.rmtree(features_path)
-    LAYER_NAME = "conv2"
-    path = "./%s" % LAYER_NAME
-    os.mkdir(path)
-    features = net.blobs[LAYER_NAME].data[0]
-    for index, feature in enumerate(features):
-        plt.xticks([])
-        plt.yticks([])
-        plt.imshow(feature)
-        plt.axis('off')
-        plt.savefig("%s/%s" % (path, index), bbox_inches='tight', pad_inches=0)
-        # plt.show()
-    # for layer_name, param in net.params.iteritems():
-    #     features_path = os.path.join(curr_path, layer_name)
-    #     print net.blobs[layer_name]
-        # if layer feature map folder not exists
-        # if not os.path.exists(features_path):
-        #     os.mkdir(features_path)
-        # for index, feature in enumerate(net.blobs[layer_name].data[0]):
-        #     path = os.path.join(features_path, str(index))
-        #     # plt.imsave(path, feature, cmap=plt.cm.gray)
-        #     # plt.imshow(feature)
-        #     # plt.show()
-        #     # imsave(path+".jpg", feature)
-        #     print path
-    # full connected layer
-    # fc6
-    # feat = net.blobs['fc6'].data[0]
-    # plt.subplot(2, 1, 1)
-    # plt.plot(feat.flat)
-    # plt.subplot(2, 1, 2)
-    # _ = plt.hist(feat.flat[feat.flat > 0], bins=100)
-    # plt.show()
-    # fc7
-    # feat = net.blobs['fc7'].data[0]
-    # plt.subplot(2, 1, 1)
-    # plt.plot(feat.flat)
-    # plt.subplot(2, 1, 2)
-    # _ = plt.hist(feat.flat[feat.flat > 0], bins=100)
-    # plt.show()
-    # fc8
-    # feat = net.blobs['my-fc8'].data[0]
-    # plt.subplot(2, 1, 1)
-    # plt.plot(feat.flat)
-    # plt.subplot(2, 1, 2)
-    # _ = plt.hist(feat.flat[feat.flat > 0], bins=100)
-    # plt.show()
+            try:
+                features = net.blobs[layer_name].data[0]
+            except:
+                continue
 
+            features_path = os.path.join(curr_path, patientID)
+            # if os.path.exists(features_path):
+            #     shutil.rmtree(features_path)
+            if not os.path.exists(features_path):
+                os.mkdir(features_path)
+            features_path = os.path.join(features_path, layer_name)
+            # if os.path.exists(features_path):
+            #     shutil.rmtree(features_path)
+            os.mkdir(features_path)
+
+            try:
+                for i, feature in enumerate(features):
+                    p = os.path.join(features_path, str(i))
+                    plt.imsave(p, feature, cmap=plt.cm.gray)
+                    print(p)
+            except:
+                os.rmdir(features_path)
 
 def vis_square(data):
     """Take an array of shape (n, height, width) or (n, height, width, 3)
@@ -112,6 +90,13 @@ def visualize_output_size(caffemodel, deploy, dicom_file, IMAGE_SIZE=227):
         print layer_name + '\t' + str(param[0].data.shape), str(param[1].data.shape)
 
 if __name__=="__main__":
-    visualize_output_size("/home/bw/DeepLearning/male_regression/CaffeNet/model/caffenet_train_iter_2000.caffemodel",
-                     "/home/bw/DeepLearning/male_regression/CaffeNet/deploy.prototxt",
-                     "/home/bw/DeepLearning/male_regression/test/33660437")
+    for root, dirs, files in os.walk("/Volumes/Hzzone-disk/DeepLearning/male_regression/test"):
+        for index, dicom_file in enumerate(files):
+            visualize_layers("/Volumes/Hzzone-disk/DeepLearning/male_regression/CaffeNet/model/caffenet_train_iter_2000.caffemodel",
+                             "/Volumes/Hzzone-disk/DeepLearning/male_regression/CaffeNet/deploy.prototxt",
+                             os.path.join(root, dicom_file), mode=False)
+    # for root, dirs, files in os.walk("/Volumes/Hzzone-disk/DeepLearning/female_regression/test"):
+    #     for index, dicom_file in enumerate(files):
+    #         visualize_layers("/Volumes/Hzzone-disk/DeepLearning/female_regression/CaffeNet/model/caffenet_train_iter_2000.caffemodel",
+    #                          "/Volumes/Hzzone-disk/DeepLearning/female_regression/CaffeNet/deploy.prototxt",
+    #                          os.path.join(root, dicom_file), mode=False)
