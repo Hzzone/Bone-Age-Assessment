@@ -21,9 +21,12 @@ def statistic(source):
             bd = datetime.datetime.strptime(bDate, '%Y-%m-%d')
             sd = datetime.datetime.strptime(sDate, '%Y-%m-%d')
             days = (sd - bd).days
-            age = days / 365
+            age = float(days) / 365
             sex = ds.PatientSex
             id = ds.PatientID
+            if age >=26:
+                print "----------- " + id
+                print path
             s = "%s %s %s %s %.2f\n" % (id, sex, birthDate, studyDate, age)
             print s
             result.append(s)
@@ -99,7 +102,7 @@ def read_folder(source):
             bd = datetime.datetime.strptime(bDate, '%Y-%m-%d')
             sd = datetime.datetime.strptime(sDate, '%Y-%m-%d')
             days = (sd - bd).days
-            age = days / 365
+            age = float(days) / 365
             ages.append(age)
     result = {}
     number = len(ages)
@@ -120,20 +123,5 @@ def read_folder(source):
     return emmmm
 
 if __name__ == "__main__":
-    f = open("./paper/data.txt", 'w')
-    f.write("male train\n")
-    result = read_hdf5("/home/bw/DeepLearning/male_regression/CaffeNet/train.h5")
-    f.write("\n".join(result))
-    f.write("\n--------------\n")
-    f.write("male test\n")
-    result = read_folder("/home/bw/DeepLearning/male_regression/test")
-    f.write("\n".join(result))
-    f.write("\n--------------\n")
-    f.write("female train\n")
-    result = read_hdf5("/home/bw/DeepLearning/female_regression/CaffeNet/train.h5")
-    f.write("\n".join(result))
-    f.write("\n--------------\n")
-    f.write("female test\n")
-    result = read_folder("/home/bw/DeepLearning/female_regression/test")
-    f.write("\n".join(result))
-    f.close()
+    statistic("/Volumes/Hzzone-disk/DeepLearning/male_regression/test")
+    statistic("/Volumes/Hzzone-disk/DeepLearning/female_regression/test")
