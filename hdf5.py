@@ -14,7 +14,7 @@ def generateHdf5(source, target):
     random.shuffle(file_list)
     random.shuffle(file_list)
     # change the image size to you want
-    data = np.zeros((len(file_list), 3, 224, 224))
+    data = np.zeros((len(file_list), 3, 227, 227))
     labels = np.zeros(len(file_list), dtype=np.float32)
     for index, file in enumerate(file_list):
         age = info.getInfo(file)
@@ -29,5 +29,7 @@ def generateHdf5(source, target):
     h5_file.close()
 
 if __name__ == "__main__":
-    generateHdf5("/home/bw/DeepLearning/female_regression/train", "/home/bw/DeepLearning/female_regression/train.h5")
-    generateHdf5("/home/bw/DeepLearning/female_regression/test", "/home/bw/DeepLearning/female_regression/test.h5")
+    generateHdf5("/Volumes/Hzzone/processed/male/test", "/Volumes/Hzzone/processed/male/test.h5")
+    generateHdf5("/Volumes/Hzzone/processed/male/train", "/Volumes/Hzzone/processed/male/train.h5")
+    generateHdf5("/Volumes/Hzzone/processed/female/test", "/Volumes/Hzzone/processed/female/test.h5")
+    generateHdf5("/Volumes/Hzzone/processed/female/train", "/Volumes/Hzzone/processed/female/train.h5")
