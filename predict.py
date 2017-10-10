@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, "/home/bw/code/caffe/python")
+sys.path.insert(0, "/Users/HZzone/caffe/python")
 import caffe
 import numpy as np
 import info
@@ -129,4 +129,6 @@ def predict_dir_output(caffemodel, deploy, source, mode=True, IMAGE_SIZE=227, LA
 # predict_by_caffemodel_dir(caffemodel_source="/home/bw/DeepLearning/male_regression/AlexNet/model", test_deploy="/home/bw/DeepLearning/male_regression/AlexNet/deploy.prototxt", test_data_source="/home/bw/DeepLearning/male_regression/test", LOG_FILE="AlexNet_predict.log")
 
 # predict_dir_output(caffemodel="/home/bw/DeepLearning/male_regression/CaffeNet/model/caffenet_train_iter_2000.caffemodel", deploy="/home/bw/DeepLearning/male_regression/CaffeNet/deploy.prototxt", source="/home/bw/DeepLearning/male_regression/test", LOGFILE="error.log")
-predict_dir_output(caffemodel="/home/bw/DeepLearning/female_regression/CaffeNet/model/caffenet_train_iter_2000.caffemodel", deploy="/home/bw/DeepLearning/female_regression/CaffeNet/deploy.prototxt", source="/home/bw/DeepLearning/female_regression/test", LOGFILE="error.log")
+# predict_dir_output(caffemodel="/home/bw/DeepLearning/female_regression/CaffeNet/model/caffenet_train_iter_2000.caffemodel", deploy="/home/bw/DeepLearning/female_regression/CaffeNet/deploy.prototxt", source="/home/bw/DeepLearning/female_regression/test", LOGFILE="error.log")
+predict_by_caffemodel_dir(caffemodel_source="/Volumes/Hzzone/bone-age-model/female", test_deploy="/Volumes/Hzzone/temp/deploy.prototxt", test_data_source="/Volumes/Hzzone/temp/female", LOG_FILE="female_predict.log", mode=False)
+# predict_by_caffemodel_dir(caffemodel_source="/Volumes/Hzzone/bone-age-model/male", test_deploy="/Volumes/Hzzone/temp/deploy.prototxt", test_data_source="/Volumes/Hzzone/temp/female", LOG_FILE="male_predict.log", mode=False)

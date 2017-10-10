@@ -38,7 +38,7 @@ def rename(source):
 
 # move file to 2 classify problem
 def move2(source):
-    for root, dirs,files, in os.walk(source):
+    for root, dirs, files in os.walk(source):
         for file in files:
             path = os.path.join(root, file)
             age = info.getInfo(path)
@@ -47,3 +47,18 @@ def move2(source):
             else:
                 shutil.move(path, os.path.join(source, '0'))
             print(path)
+
+def move3(source):
+    for root, dirs, files in os.walk(source):
+        for dicom_file in files:
+            path = os.path.join(root, dicom_file)
+            sex = dicom_file[-1]
+            if sex == 'F':
+                shutil.copy(path, os.path.join("/Volumes/Hzzone/temp", 'female'))
+                print sex
+                print path
+            else:
+                shutil.copy(path, os.path.join("/Volumes/Hzzone/temp", 'male'))
+
+if __name__ == "__main__":
+    move3("/Volumes/Hzzone/test-9-20")
