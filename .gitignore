@@ -3,3 +3,4 @@
 __pycache__
 /*.log
 paper/paper.docx
+*.caffemodel
