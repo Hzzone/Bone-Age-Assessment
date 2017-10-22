@@ -60,5 +60,18 @@ def move3(source):
             else:
                 shutil.copy(path, os.path.join("/Volumes/Hzzone/temp", 'male'))
 
+def move4(source):
+    for dicom_file in os.listdir(source):
+            path = os.path.join(source, dicom_file)
+            age = info.getInfo(path)
+            n = int(age)
+            key = "%.2f-%s" % (n, n + 0.99)
+            save_path = os.path.join(source, key)
+            if not os.path.exists(save_path):
+                os.mkdir(save_path)
+            shutil.move(path, save_path)
+
 if __name__ == "__main__":
-    move3("/Volumes/Hzzone/test-9-20")
+    # move3("/Volumes/Hzzone/test-9-20")
+    move4("/home/hzzone/processed/female")
+    move4("/home/hzzone/processed/male")
