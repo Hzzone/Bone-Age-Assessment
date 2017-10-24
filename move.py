@@ -71,7 +71,31 @@ def move4(source):
                 os.mkdir(save_path)
             shutil.move(path, save_path)
 
+def move5(source, target):
+    for root, dirs, files in os.walk(source):
+        for dicom_file in files:
+            path = os.path.join(root, dicom_file)
+            print path
+            age, sex = info.getInfo(path)
+            n = int(age)
+            if sex=='F':
+                temp = os.path.join(target, 'female')
+            elif sex=='M':
+                temp = os.path.join(target, 'male')
+            key = "%.2f-%s" % (n, n + 0.99)
+            save_path = os.path.join(temp, key)
+            if not os.path.exists(save_path):
+                os.mkdir(save_path)
+            try:
+                shutil.move(path, save_path)
+            except shutil.Error as e:
+                with open("test.txt", "w") as f:
+                    f.write(save_path + " " + path + "\n")
+                    print e
+            print path, save_path
+
 if __name__ == "__main__":
     # move3("/Volumes/Hzzone/test-9-20")
-    move4("/home/hzzone/processed/female")
-    move4("/home/hzzone/processed/male")
+    # move4("/home/hzzone/processed/female")
+    # move4("/home/hzzone/processed/male")
+    move5("/home/hzzone/test/new_data", "/home/hzzone/test/new_data_processed")

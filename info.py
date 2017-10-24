@@ -14,7 +14,7 @@ def getInfo(source):
         sd = datetime.datetime.strptime(sDate, '%Y-%m-%d')
         days = (sd - bd).days
         age = float(days) / 365.25
-        return age
+        return age, ds.PatientSex
     except:
         print(source+" is not a dicom file")
 
