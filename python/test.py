@@ -4,6 +4,7 @@ import datetime
 import dicom
 import shutil
 import info
+import preprocess
 def x1(source, target):
 	for root, dirs, files in os.walk(source):
 		for dicom_file in files:
@@ -39,7 +40,4 @@ def test(source):
 
 
 if __name__ == "__main__":
-	# x1("/Volumes/Hzzone/11/测试集", "/Volumes/Hzzone/11/test")
-	# x1("/Volumes/Hzzone/11/训练集", "/Volumes/Hzzone/11/train")
-    # print(info.getInfo("/Volumes/Hzzone/补充资料+重新训练10月22日/测试集 二/女性/11（空）/40182985"))
-    test("/Volumes/Hzzone/BoneAgeData")
+    preprocess.process("/Volumes/Hzzone/BoneAgeData/initial_data_train/female/13.00-13.99/34076107")
