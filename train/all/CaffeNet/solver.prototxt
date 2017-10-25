@@ -10,5 +10,5 @@ max_iter: 10000
 momentum: 0.9
 weight_decay: 0.0005
 snapshot: 100
-snapshot_prefix: "/home/hzzone/1tb/bone-age-model/caffenet_train"
+snapshot_prefix: "/home/hzzone/1tb/bone-age-model/all/all_caffenet_train"
 solver_mode: GPU

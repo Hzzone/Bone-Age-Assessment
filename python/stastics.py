@@ -5,33 +5,33 @@ import xlrd
 import info
 import h5py
 
-def statistic(source):
-    result = []
-    for root, dirs, files in os.walk(source):
-        for file in files:
-            path = os.path.join(root, file)
-            try:
-                ds = dicom.read_file(path)
-            except:
-                print "error"
-            birthDate = ds.PatientBirthDate
-            studyDate = ds.StudyDate
-            bDate = birthDate[0:4] + '-' + birthDate[4:6] + '-' + birthDate[6:8]
-            sDate = studyDate[0:4] + '-' + studyDate[4:6] + '-' + studyDate[6:8]
-            bd = datetime.datetime.strptime(bDate, '%Y-%m-%d')
-            sd = datetime.datetime.strptime(sDate, '%Y-%m-%d')
-            days = (sd - bd).days
-            age = float(days) / 365
-            sex = ds.PatientSex
-            id = ds.PatientID
-            if age >=26:
-                print "----------- " + id
-                print path
-            s = "%s %s %s %s %.2f\n" % (id, sex, birthDate, studyDate, age)
-            print s
-            result.append(s)
-    print "complete!"
-    return result
+def statistic(source_list, target):
+    result = {}
+    for source in source_list:
+        for root, dirs, files in os.walk(source):
+            for dicom_file in files:
+                path = os.path.join(root, dicom_file)
+                try:
+                    ds = dicom.read_file(path)
+                except:
+                    print "error"
+                birthDate = ds.PatientBirthDate
+                studyDate = ds.StudyDate
+                bDate = birthDate[0:4] + '-' + birthDate[4:6] + '-' + birthDate[6:8]
+                sDate = studyDate[0:4] + '-' + studyDate[4:6] + '-' + studyDate[6:8]
+                bd = datetime.datetime.strptime(bDate, '%Y-%m-%d')
+                sd = datetime.datetime.strptime(sDate, '%Y-%m-%d')
+                days = (sd - bd).days
+                age = float(days) / 365.25
+                n = int(age)
+                key = "%.2f-%s" % (n, n + 0.99)
+                if not result.has_key(key):
+                    result[key] = 0
+                result[key] += 1
+    with open(target, "w") as f:
+        for key in result:
+            line = "%s %s\n" % (key, result[key])
+            f.write(line)
 
 def delete(source):
     r = []
@@ -123,5 +123,9 @@ def read_folder(source):
     return emmmm
 
 if __name__ == "__main__":
-    statistic("/Volumes/Hzzone-disk/DeepLearning/male_regression/test")
-    statistic("/Volumes/Hzzone-disk/DeepLearning/female_regression/test")
+    statistic(["/Volumes/Hzzone/BoneAgeData/initial_data_train/male", "/Volumes/Hzzone/BoneAgeData/new_data_train/new_data_processed/male"], "male_train.txt")
+    statistic(["/Volumes/Hzzone/BoneAgeData/initial_data_train/female", "/Volumes/Hzzone/BoneAgeData/new_data_train/new_data_processed/female"], "female_train.txt")
+    statistic(["/Volumes/Hzzone/BoneAgeData/test1/male"], "male_test1.txt")
+    statistic(["/Volumes/Hzzone/BoneAgeData/test2/male"], "male_test2.txt")
+    statistic(["/Volumes/Hzzone/BoneAgeData/test1/female"], "female_test1.txt")
+    statistic(["/Volumes/Hzzone/BoneAgeData/test2/female"], "female_test2.txt")
