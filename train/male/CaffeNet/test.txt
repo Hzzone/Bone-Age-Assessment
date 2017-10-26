@@ -1,1 +1,1 @@
-/home/hzzone/1tb/Bone-Age-Data/227/bysex/male_test.h5
+/home/hzzone/Bone-Age-Data/227/bysex/male_test.h5
