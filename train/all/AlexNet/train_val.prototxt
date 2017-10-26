@@ -333,7 +333,7 @@ layer {
   name: "my-fc8"
   type: "InnerProduct"
   bottom: "fc7"
-  top: "fc8"
+  top: "my-fc8"
   param {
     lr_mult: 1
     decay_mult: 1
