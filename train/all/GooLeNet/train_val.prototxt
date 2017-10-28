@@ -9,7 +9,7 @@ layer {
   }
   hdf5_data_param {
     source: "./train.txt"
-    batch_size: 256
+    batch_size: 10
     shuffle: true
   }
 }
@@ -22,7 +22,7 @@ layer {
     phase: TEST
   }
   hdf5_data_param {
-    batch_size: 128
+    batch_size: 2
     source: "./test.txt"
   }
 }
@@ -1654,7 +1654,7 @@ layer {
   type: "EuclideanLoss"
   bottom: "my-loss2/classifier"
   bottom: "label"
-  top: "loss"
+  top: "loss2/loss"
   loss_weight: 0.3
 }
 layer {
@@ -2340,10 +2340,10 @@ layer {
   }
 }
 layer {
-  name: "loss3/loss3"
+  name: "loss3/loss"
   type: "EuclideanLoss"
   bottom: "my-loss3/classifier"
   bottom: "label"
-  top: "loss3/loss3"
+  top: "loss3/loss"
   loss_weight: 1
 }
