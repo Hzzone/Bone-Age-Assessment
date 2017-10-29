@@ -12,5 +12,5 @@ max_iter: 10000
 momentum: 0.9
 weight_decay: 0.0002
 snapshot: 100
-snapshot_prefix: "./bvlc_googlenet"
+snapshot_prefix: "/home/hzzone/1tb/bone-age-model/all/all_bvlc_googlenet"
 solver_mode: GPU

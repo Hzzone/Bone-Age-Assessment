@@ -1,1 +1,0 @@
-/Volumes/Hzzone/Bone-Age-Data/224/all/train.h5

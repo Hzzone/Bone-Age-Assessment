@@ -1363,3 +1363,1694 @@ I1026 17:41:46.328431 12447 solver.cpp:397]     Test net output #0: loss = 3.693
 I1026 17:41:46.679605 12447 solver.cpp:218] Iteration 1100 (1.09875 iter/s, 18.2026s/20 iters), loss = 1.91613
 I1026 17:41:46.679672 12447 solver.cpp:237]     Train net output #0: loss = 1.91613 (* 1 = 1.91613 loss)
 I1026 17:41:46.679685 12447 sgd_solver.cpp:105] Iteration 1100, lr = 1e-05
+I1026 17:41:53.894070 12447 solver.cpp:218] Iteration 1120 (2.77227 iter/s, 7.21432s/20 iters), loss = 2.02445
+I1026 17:41:53.894165 12447 solver.cpp:237]     Train net output #0: loss = 2.02445 (* 1 = 2.02445 loss)
+I1026 17:41:53.894184 12447 sgd_solver.cpp:105] Iteration 1120, lr = 1e-05
+I1026 17:42:01.118615 12447 solver.cpp:218] Iteration 1140 (2.7684 iter/s, 7.22438s/20 iters), loss = 1.56888
+I1026 17:42:01.118695 12447 solver.cpp:237]     Train net output #0: loss = 1.56888 (* 1 = 1.56888 loss)
+I1026 17:42:01.118710 12447 sgd_solver.cpp:105] Iteration 1140, lr = 1e-05
+I1026 17:42:05.972337 12447 solver.cpp:218] Iteration 1160 (4.12068 iter/s, 4.85357s/20 iters), loss = 2.05596
+I1026 17:42:05.972550 12447 solver.cpp:237]     Train net output #0: loss = 2.05596 (* 1 = 2.05596 loss)
+I1026 17:42:05.972564 12447 sgd_solver.cpp:105] Iteration 1160, lr = 1e-05
+I1026 17:42:11.192107 12447 solver.cpp:218] Iteration 1180 (3.83179 iter/s, 5.2195s/20 iters), loss = 2.21023
+I1026 17:42:11.192188 12447 solver.cpp:237]     Train net output #0: loss = 2.21023 (* 1 = 2.21023 loss)
+I1026 17:42:11.192200 12447 sgd_solver.cpp:105] Iteration 1180, lr = 1e-05
+I1026 17:42:16.026710 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_1200.caffemodel
+I1026 17:42:17.554445 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_1200.solverstate
+I1026 17:42:18.066809 12447 solver.cpp:330] Iteration 1200, Testing net (#0)
+I1026 17:42:29.112287 12447 solver.cpp:397]     Test net output #0: loss = 3.73515 (* 1 = 3.73515 loss)
+I1026 17:42:29.463217 12447 solver.cpp:218] Iteration 1200 (1.09464 iter/s, 18.2709s/20 iters), loss = 1.5864
+I1026 17:42:29.463286 12447 solver.cpp:237]     Train net output #0: loss = 1.5864 (* 1 = 1.5864 loss)
+I1026 17:42:29.463299 12447 sgd_solver.cpp:105] Iteration 1200, lr = 1e-05
+I1026 17:42:36.665086 12447 solver.cpp:218] Iteration 1220 (2.77711 iter/s, 7.20173s/20 iters), loss = 1.68394
+I1026 17:42:36.665210 12447 solver.cpp:237]     Train net output #0: loss = 1.68394 (* 1 = 1.68394 loss)
+I1026 17:42:36.665223 12447 sgd_solver.cpp:105] Iteration 1220, lr = 1e-05
+I1026 17:42:43.873235 12447 solver.cpp:218] Iteration 1240 (2.77471 iter/s, 7.20796s/20 iters), loss = 1.64449
+I1026 17:42:43.873302 12447 solver.cpp:237]     Train net output #0: loss = 1.64449 (* 1 = 1.64449 loss)
+I1026 17:42:43.873317 12447 sgd_solver.cpp:105] Iteration 1240, lr = 1e-05
+I1026 17:42:48.714746 12447 solver.cpp:218] Iteration 1260 (4.13106 iter/s, 4.84137s/20 iters), loss = 1.57631
+I1026 17:42:48.714838 12447 solver.cpp:237]     Train net output #0: loss = 1.57631 (* 1 = 1.57631 loss)
+I1026 17:42:48.714851 12447 sgd_solver.cpp:105] Iteration 1260, lr = 1e-05
+I1026 17:42:53.954939 12447 solver.cpp:218] Iteration 1280 (3.81676 iter/s, 5.24004s/20 iters), loss = 1.57823
+I1026 17:42:53.955008 12447 solver.cpp:237]     Train net output #0: loss = 1.57823 (* 1 = 1.57823 loss)
+I1026 17:42:53.955021 12447 sgd_solver.cpp:105] Iteration 1280, lr = 1e-05
+I1026 17:42:58.783458 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_1300.caffemodel
+I1026 17:43:00.314970 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_1300.solverstate
+I1026 17:43:00.848590 12447 solver.cpp:330] Iteration 1300, Testing net (#0)
+I1026 17:43:11.831706 12447 solver.cpp:397]     Test net output #0: loss = 5.31033 (* 1 = 5.31033 loss)
+I1026 17:43:12.184690 12447 solver.cpp:218] Iteration 1300 (1.09712 iter/s, 18.2296s/20 iters), loss = 2.23091
+I1026 17:43:12.184754 12447 solver.cpp:237]     Train net output #0: loss = 2.23091 (* 1 = 2.23091 loss)
+I1026 17:43:12.184768 12447 sgd_solver.cpp:105] Iteration 1300, lr = 1e-05
+I1026 17:43:19.423331 12447 solver.cpp:218] Iteration 1320 (2.76359 iter/s, 7.23695s/20 iters), loss = 1.41935
+I1026 17:43:19.423466 12447 solver.cpp:237]     Train net output #0: loss = 1.41935 (* 1 = 1.41935 loss)
+I1026 17:43:19.423497 12447 sgd_solver.cpp:105] Iteration 1320, lr = 1e-05
+I1026 17:43:26.678004 12447 solver.cpp:218] Iteration 1340 (2.75744 iter/s, 7.25311s/20 iters), loss = 1.80737
+I1026 17:43:26.678088 12447 solver.cpp:237]     Train net output #0: loss = 1.80737 (* 1 = 1.80737 loss)
+I1026 17:43:26.678104 12447 sgd_solver.cpp:105] Iteration 1340, lr = 1e-05
+I1026 17:43:31.601722 12447 solver.cpp:218] Iteration 1360 (4.0621 iter/s, 4.92356s/20 iters), loss = 1.5467
+I1026 17:43:31.601814 12447 solver.cpp:237]     Train net output #0: loss = 1.5467 (* 1 = 1.5467 loss)
+I1026 17:43:31.601831 12447 sgd_solver.cpp:105] Iteration 1360, lr = 1e-05
+I1026 17:43:36.822250 12447 solver.cpp:218] Iteration 1380 (3.83114 iter/s, 5.22037s/20 iters), loss = 1.67179
+I1026 17:43:36.822331 12447 solver.cpp:237]     Train net output #0: loss = 1.67179 (* 1 = 1.67179 loss)
+I1026 17:43:36.822345 12447 sgd_solver.cpp:105] Iteration 1380, lr = 1e-05
+I1026 17:43:41.654122 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_1400.caffemodel
+I1026 17:43:43.124366 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_1400.solverstate
+I1026 17:43:43.631343 12447 solver.cpp:330] Iteration 1400, Testing net (#0)
+I1026 17:43:54.654507 12447 solver.cpp:397]     Test net output #0: loss = 4.14552 (* 1 = 4.14552 loss)
+I1026 17:43:55.006384 12447 solver.cpp:218] Iteration 1400 (1.09987 iter/s, 18.184s/20 iters), loss = 1.37153
+I1026 17:43:55.006451 12447 solver.cpp:237]     Train net output #0: loss = 1.37153 (* 1 = 1.37153 loss)
+I1026 17:43:55.006464 12447 sgd_solver.cpp:105] Iteration 1400, lr = 1e-05
+I1026 17:44:02.207980 12447 solver.cpp:218] Iteration 1420 (2.77722 iter/s, 7.20145s/20 iters), loss = 1.52659
+I1026 17:44:02.208061 12447 solver.cpp:237]     Train net output #0: loss = 1.52659 (* 1 = 1.52659 loss)
+I1026 17:44:02.208073 12447 sgd_solver.cpp:105] Iteration 1420, lr = 1e-05
+I1026 17:44:09.436219 12447 solver.cpp:218] Iteration 1440 (2.76698 iter/s, 7.22809s/20 iters), loss = 1.25915
+I1026 17:44:09.436303 12447 solver.cpp:237]     Train net output #0: loss = 1.25915 (* 1 = 1.25915 loss)
+I1026 17:44:09.436321 12447 sgd_solver.cpp:105] Iteration 1440, lr = 1e-05
+I1026 17:44:14.294733 12447 solver.cpp:218] Iteration 1460 (4.11662 iter/s, 4.85836s/20 iters), loss = 1.31517
+I1026 17:44:14.294873 12447 solver.cpp:237]     Train net output #0: loss = 1.31517 (* 1 = 1.31517 loss)
+I1026 17:44:14.294885 12447 sgd_solver.cpp:105] Iteration 1460, lr = 1e-05
+I1026 17:44:19.518985 12447 solver.cpp:218] Iteration 1480 (3.82845 iter/s, 5.22405s/20 iters), loss = 1.78343
+I1026 17:44:19.519055 12447 solver.cpp:237]     Train net output #0: loss = 1.78343 (* 1 = 1.78343 loss)
+I1026 17:44:19.519068 12447 sgd_solver.cpp:105] Iteration 1480, lr = 1e-05
+I1026 17:44:24.350374 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_1500.caffemodel
+I1026 17:44:25.868749 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_1500.solverstate
+I1026 17:44:26.394495 12447 solver.cpp:330] Iteration 1500, Testing net (#0)
+I1026 17:44:37.429062 12447 solver.cpp:397]     Test net output #0: loss = 4.64059 (* 1 = 4.64059 loss)
+I1026 17:44:37.779245 12447 solver.cpp:218] Iteration 1500 (1.09529 iter/s, 18.2601s/20 iters), loss = 1.87001
+I1026 17:44:37.779323 12447 solver.cpp:237]     Train net output #0: loss = 1.87001 (* 1 = 1.87001 loss)
+I1026 17:44:37.779335 12447 sgd_solver.cpp:105] Iteration 1500, lr = 1e-05
+I1026 17:44:44.991700 12447 solver.cpp:218] Iteration 1520 (2.77304 iter/s, 7.21229s/20 iters), loss = 1.36126
+I1026 17:44:44.991840 12447 solver.cpp:237]     Train net output #0: loss = 1.36126 (* 1 = 1.36126 loss)
+I1026 17:44:44.991854 12447 sgd_solver.cpp:105] Iteration 1520, lr = 1e-05
+I1026 17:44:52.204581 12447 solver.cpp:218] Iteration 1540 (2.7729 iter/s, 7.21267s/20 iters), loss = 1.23967
+I1026 17:44:52.204660 12447 solver.cpp:237]     Train net output #0: loss = 1.23967 (* 1 = 1.23967 loss)
+I1026 17:44:52.204672 12447 sgd_solver.cpp:105] Iteration 1540, lr = 1e-05
+I1026 17:44:57.119662 12447 solver.cpp:218] Iteration 1560 (4.06923 iter/s, 4.91494s/20 iters), loss = 1.35871
+I1026 17:44:57.119745 12447 solver.cpp:237]     Train net output #0: loss = 1.35871 (* 1 = 1.35871 loss)
+I1026 17:44:57.119760 12447 sgd_solver.cpp:105] Iteration 1560, lr = 1e-05
+I1026 17:45:02.339056 12447 solver.cpp:218] Iteration 1580 (3.83197 iter/s, 5.21925s/20 iters), loss = 1.36247
+I1026 17:45:02.339187 12447 solver.cpp:237]     Train net output #0: loss = 1.36247 (* 1 = 1.36247 loss)
+I1026 17:45:02.339210 12447 sgd_solver.cpp:105] Iteration 1580, lr = 1e-05
+I1026 17:45:07.158035 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_1600.caffemodel
+I1026 17:45:08.652725 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_1600.solverstate
+I1026 17:45:09.199528 12447 solver.cpp:330] Iteration 1600, Testing net (#0)
+I1026 17:45:20.327134 12447 solver.cpp:397]     Test net output #0: loss = 4.60668 (* 1 = 4.60668 loss)
+I1026 17:45:20.676069 12447 solver.cpp:218] Iteration 1600 (1.0907 iter/s, 18.3368s/20 iters), loss = 1.40689
+I1026 17:45:20.676136 12447 solver.cpp:237]     Train net output #0: loss = 1.40689 (* 1 = 1.40689 loss)
+I1026 17:45:20.676151 12447 sgd_solver.cpp:105] Iteration 1600, lr = 1e-05
+I1026 17:45:27.884790 12447 solver.cpp:218] Iteration 1620 (2.77447 iter/s, 7.20858s/20 iters), loss = 1.279
+I1026 17:45:27.884869 12447 solver.cpp:237]     Train net output #0: loss = 1.279 (* 1 = 1.279 loss)
+I1026 17:45:27.884882 12447 sgd_solver.cpp:105] Iteration 1620, lr = 1e-05
+I1026 17:45:35.086601 12447 solver.cpp:218] Iteration 1640 (2.77714 iter/s, 7.20166s/20 iters), loss = 1.46734
+I1026 17:45:35.086678 12447 solver.cpp:237]     Train net output #0: loss = 1.46734 (* 1 = 1.46734 loss)
+I1026 17:45:35.086688 12447 sgd_solver.cpp:105] Iteration 1640, lr = 1e-05
+I1026 17:45:39.897311 12447 solver.cpp:218] Iteration 1660 (4.15751 iter/s, 4.81057s/20 iters), loss = 1.35396
+I1026 17:45:39.897392 12447 solver.cpp:237]     Train net output #0: loss = 1.35396 (* 1 = 1.35396 loss)
+I1026 17:45:39.897403 12447 sgd_solver.cpp:105] Iteration 1660, lr = 1e-05
+I1026 17:45:45.114640 12447 solver.cpp:218] Iteration 1680 (3.83349 iter/s, 5.21718s/20 iters), loss = 1.29423
+I1026 17:45:45.114717 12447 solver.cpp:237]     Train net output #0: loss = 1.29423 (* 1 = 1.29423 loss)
+I1026 17:45:45.114728 12447 sgd_solver.cpp:105] Iteration 1680, lr = 1e-05
+I1026 17:45:50.046229 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_1700.caffemodel
+I1026 17:45:51.556854 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_1700.solverstate
+I1026 17:45:52.149395 12447 solver.cpp:330] Iteration 1700, Testing net (#0)
+I1026 17:46:03.267895 12447 solver.cpp:397]     Test net output #0: loss = 3.68853 (* 1 = 3.68853 loss)
+I1026 17:46:03.627260 12447 solver.cpp:218] Iteration 1700 (1.08036 iter/s, 18.5124s/20 iters), loss = 1.17433
+I1026 17:46:03.627427 12447 solver.cpp:237]     Train net output #0: loss = 1.17433 (* 1 = 1.17433 loss)
+I1026 17:46:03.627444 12447 sgd_solver.cpp:105] Iteration 1700, lr = 1e-05
+I1026 17:46:10.846752 12447 solver.cpp:218] Iteration 1720 (2.77037 iter/s, 7.21925s/20 iters), loss = 1.43809
+I1026 17:46:10.846843 12447 solver.cpp:237]     Train net output #0: loss = 1.43809 (* 1 = 1.43809 loss)
+I1026 17:46:10.846858 12447 sgd_solver.cpp:105] Iteration 1720, lr = 1e-05
+I1026 17:46:18.076567 12447 solver.cpp:218] Iteration 1740 (2.76639 iter/s, 7.22965s/20 iters), loss = 1.12871
+I1026 17:46:18.076642 12447 solver.cpp:237]     Train net output #0: loss = 1.12871 (* 1 = 1.12871 loss)
+I1026 17:46:18.076655 12447 sgd_solver.cpp:105] Iteration 1740, lr = 1e-05
+I1026 17:46:22.753321 12447 solver.cpp:218] Iteration 1760 (4.2766 iter/s, 4.67662s/20 iters), loss = 1.20686
+I1026 17:46:22.753525 12447 solver.cpp:237]     Train net output #0: loss = 1.20686 (* 1 = 1.20686 loss)
+I1026 17:46:22.753542 12447 sgd_solver.cpp:105] Iteration 1760, lr = 1e-05
+I1026 17:46:27.976094 12447 solver.cpp:218] Iteration 1780 (3.82958 iter/s, 5.2225s/20 iters), loss = 1.19267
+I1026 17:46:27.976186 12447 solver.cpp:237]     Train net output #0: loss = 1.19267 (* 1 = 1.19267 loss)
+I1026 17:46:27.976204 12447 sgd_solver.cpp:105] Iteration 1780, lr = 1e-05
+I1026 17:46:32.891382 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_1800.caffemodel
+I1026 17:46:34.355237 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_1800.solverstate
+I1026 17:46:34.863320 12447 solver.cpp:330] Iteration 1800, Testing net (#0)
+I1026 17:46:45.867108 12447 solver.cpp:397]     Test net output #0: loss = 4.25476 (* 1 = 4.25476 loss)
+I1026 17:46:46.218924 12447 solver.cpp:218] Iteration 1800 (1.09633 iter/s, 18.2426s/20 iters), loss = 1.08374
+I1026 17:46:46.219002 12447 solver.cpp:237]     Train net output #0: loss = 1.08374 (* 1 = 1.08374 loss)
+I1026 17:46:46.219015 12447 sgd_solver.cpp:105] Iteration 1800, lr = 1e-05
+I1026 17:46:53.432885 12447 solver.cpp:218] Iteration 1820 (2.77246 iter/s, 7.2138s/20 iters), loss = 1.14959
+I1026 17:46:53.433079 12447 solver.cpp:237]     Train net output #0: loss = 1.14959 (* 1 = 1.14959 loss)
+I1026 17:46:53.433110 12447 sgd_solver.cpp:105] Iteration 1820, lr = 1e-05
+I1026 17:47:00.649847 12447 solver.cpp:218] Iteration 1840 (2.77135 iter/s, 7.2167s/20 iters), loss = 1.17362
+I1026 17:47:00.649919 12447 solver.cpp:237]     Train net output #0: loss = 1.17362 (* 1 = 1.17362 loss)
+I1026 17:47:00.649931 12447 sgd_solver.cpp:105] Iteration 1840, lr = 1e-05
+I1026 17:47:05.459940 12447 solver.cpp:218] Iteration 1860 (4.15805 iter/s, 4.80995s/20 iters), loss = 1.08693
+I1026 17:47:05.460039 12447 solver.cpp:237]     Train net output #0: loss = 1.08693 (* 1 = 1.08693 loss)
+I1026 17:47:05.460057 12447 sgd_solver.cpp:105] Iteration 1860, lr = 1e-05
+I1026 17:47:10.679726 12447 solver.cpp:218] Iteration 1880 (3.83169 iter/s, 5.21962s/20 iters), loss = 1.65493
+I1026 17:47:10.679795 12447 solver.cpp:237]     Train net output #0: loss = 1.65493 (* 1 = 1.65493 loss)
+I1026 17:47:10.679807 12447 sgd_solver.cpp:105] Iteration 1880, lr = 1e-05
+I1026 17:47:15.618216 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_1900.caffemodel
+I1026 17:47:17.094856 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_1900.solverstate
+I1026 17:47:17.622064 12447 solver.cpp:330] Iteration 1900, Testing net (#0)
+I1026 17:47:28.600008 12447 solver.cpp:397]     Test net output #0: loss = 3.97621 (* 1 = 3.97621 loss)
+I1026 17:47:28.952922 12447 solver.cpp:218] Iteration 1900 (1.09451 iter/s, 18.273s/20 iters), loss = 1.1565
+I1026 17:47:28.952992 12447 solver.cpp:237]     Train net output #0: loss = 1.1565 (* 1 = 1.1565 loss)
+I1026 17:47:28.953004 12447 sgd_solver.cpp:105] Iteration 1900, lr = 1e-05
+I1026 17:47:36.156486 12447 solver.cpp:218] Iteration 1920 (2.77646 iter/s, 7.20342s/20 iters), loss = 1.18623
+I1026 17:47:36.156553 12447 solver.cpp:237]     Train net output #0: loss = 1.18623 (* 1 = 1.18623 loss)
+I1026 17:47:36.156568 12447 sgd_solver.cpp:105] Iteration 1920, lr = 1e-05
+I1026 17:47:43.358176 12447 solver.cpp:218] Iteration 1940 (2.77718 iter/s, 7.20155s/20 iters), loss = 1.03231
+I1026 17:47:43.358247 12447 solver.cpp:237]     Train net output #0: loss = 1.03231 (* 1 = 1.03231 loss)
+I1026 17:47:43.358261 12447 sgd_solver.cpp:105] Iteration 1940, lr = 1e-05
+I1026 17:47:48.127502 12447 solver.cpp:218] Iteration 1960 (4.19358 iter/s, 4.76919s/20 iters), loss = 1.19182
+I1026 17:47:48.127573 12447 solver.cpp:237]     Train net output #0: loss = 1.19182 (* 1 = 1.19182 loss)
+I1026 17:47:48.127586 12447 sgd_solver.cpp:105] Iteration 1960, lr = 1e-05
+I1026 17:47:53.341189 12447 solver.cpp:218] Iteration 1980 (3.83615 iter/s, 5.21355s/20 iters), loss = 1.25078
+I1026 17:47:53.341260 12447 solver.cpp:237]     Train net output #0: loss = 1.25078 (* 1 = 1.25078 loss)
+I1026 17:47:53.341272 12447 sgd_solver.cpp:105] Iteration 1980, lr = 1e-05
+I1026 17:47:58.143384 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2000.caffemodel
+I1026 17:47:59.698565 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2000.solverstate
+I1026 17:48:00.224262 12447 solver.cpp:330] Iteration 2000, Testing net (#0)
+I1026 17:48:11.316900 12447 solver.cpp:397]     Test net output #0: loss = 3.83046 (* 1 = 3.83046 loss)
+I1026 17:48:11.669028 12447 solver.cpp:218] Iteration 2000 (1.09125 iter/s, 18.3277s/20 iters), loss = 1.16241
+I1026 17:48:11.669106 12447 solver.cpp:237]     Train net output #0: loss = 1.16241 (* 1 = 1.16241 loss)
+I1026 17:48:11.669119 12447 sgd_solver.cpp:105] Iteration 2000, lr = 1e-05
+I1026 17:48:18.886934 12447 solver.cpp:218] Iteration 2020 (2.77094 iter/s, 7.21776s/20 iters), loss = 1.1356
+I1026 17:48:18.887012 12447 solver.cpp:237]     Train net output #0: loss = 1.1356 (* 1 = 1.1356 loss)
+I1026 17:48:18.887024 12447 sgd_solver.cpp:105] Iteration 2020, lr = 1e-05
+I1026 17:48:26.093075 12447 solver.cpp:218] Iteration 2040 (2.77547 iter/s, 7.20599s/20 iters), loss = 1.05221
+I1026 17:48:26.093148 12447 solver.cpp:237]     Train net output #0: loss = 1.05221 (* 1 = 1.05221 loss)
+I1026 17:48:26.093160 12447 sgd_solver.cpp:105] Iteration 2040, lr = 1e-05
+I1026 17:48:30.911828 12447 solver.cpp:218] Iteration 2060 (4.15058 iter/s, 4.8186s/20 iters), loss = 1.10775
+I1026 17:48:30.911970 12447 solver.cpp:237]     Train net output #0: loss = 1.10775 (* 1 = 1.10775 loss)
+I1026 17:48:30.911984 12447 sgd_solver.cpp:105] Iteration 2060, lr = 1e-05
+I1026 17:48:36.122213 12447 solver.cpp:218] Iteration 2080 (3.83864 iter/s, 5.21018s/20 iters), loss = 1.10829
+I1026 17:48:36.122290 12447 solver.cpp:237]     Train net output #0: loss = 1.10829 (* 1 = 1.10829 loss)
+I1026 17:48:36.122303 12447 sgd_solver.cpp:105] Iteration 2080, lr = 1e-05
+I1026 17:48:41.056092 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2100.caffemodel
+I1026 17:48:42.558514 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2100.solverstate
+I1026 17:48:43.095067 12447 solver.cpp:330] Iteration 2100, Testing net (#0)
+I1026 17:48:54.244891 12447 solver.cpp:397]     Test net output #0: loss = 3.58767 (* 1 = 3.58767 loss)
+I1026 17:48:54.597837 12447 solver.cpp:218] Iteration 2100 (1.08252 iter/s, 18.4754s/20 iters), loss = 1.03725
+I1026 17:48:54.597915 12447 solver.cpp:237]     Train net output #0: loss = 1.03725 (* 1 = 1.03725 loss)
+I1026 17:48:54.597929 12447 sgd_solver.cpp:105] Iteration 2100, lr = 1e-05
+I1026 17:49:01.820269 12447 solver.cpp:218] Iteration 2120 (2.76921 iter/s, 7.22228s/20 iters), loss = 1.10184
+I1026 17:49:01.820397 12447 solver.cpp:237]     Train net output #0: loss = 1.10184 (* 1 = 1.10184 loss)
+I1026 17:49:01.820410 12447 sgd_solver.cpp:105] Iteration 2120, lr = 1e-05
+I1026 17:49:09.033578 12447 solver.cpp:218] Iteration 2140 (2.77273 iter/s, 7.21311s/20 iters), loss = 0.901303
+I1026 17:49:09.033654 12447 solver.cpp:237]     Train net output #0: loss = 0.901303 (* 1 = 0.901303 loss)
+I1026 17:49:09.033666 12447 sgd_solver.cpp:105] Iteration 2140, lr = 1e-05
+I1026 17:49:13.767647 12447 solver.cpp:218] Iteration 2160 (4.22483 iter/s, 4.73391s/20 iters), loss = 0.947535
+I1026 17:49:13.767748 12447 solver.cpp:237]     Train net output #0: loss = 0.947535 (* 1 = 0.947535 loss)
+I1026 17:49:13.767765 12447 sgd_solver.cpp:105] Iteration 2160, lr = 1e-05
+I1026 17:49:18.960011 12447 solver.cpp:218] Iteration 2180 (3.85193 iter/s, 5.1922s/20 iters), loss = 1.22904
+I1026 17:49:18.960084 12447 solver.cpp:237]     Train net output #0: loss = 1.22904 (* 1 = 1.22904 loss)
+I1026 17:49:18.960095 12447 sgd_solver.cpp:105] Iteration 2180, lr = 1e-05
+I1026 17:49:24.010105 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2200.caffemodel
+I1026 17:49:25.531170 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2200.solverstate
+I1026 17:49:26.065986 12447 solver.cpp:330] Iteration 2200, Testing net (#0)
+I1026 17:49:37.194877 12447 solver.cpp:397]     Test net output #0: loss = 3.86429 (* 1 = 3.86429 loss)
+I1026 17:49:37.546202 12447 solver.cpp:218] Iteration 2200 (1.07608 iter/s, 18.586s/20 iters), loss = 0.892001
+I1026 17:49:37.546279 12447 solver.cpp:237]     Train net output #0: loss = 0.892001 (* 1 = 0.892001 loss)
+I1026 17:49:37.546293 12447 sgd_solver.cpp:105] Iteration 2200, lr = 1e-05
+I1026 17:49:44.757474 12447 solver.cpp:218] Iteration 2220 (2.7735 iter/s, 7.21111s/20 iters), loss = 0.938604
+I1026 17:49:44.757566 12447 solver.cpp:237]     Train net output #0: loss = 0.938604 (* 1 = 0.938604 loss)
+I1026 17:49:44.757585 12447 sgd_solver.cpp:105] Iteration 2220, lr = 1e-05
+I1026 17:49:51.975303 12447 solver.cpp:218] Iteration 2240 (2.77098 iter/s, 7.21767s/20 iters), loss = 0.955704
+I1026 17:49:51.975371 12447 solver.cpp:237]     Train net output #0: loss = 0.955704 (* 1 = 0.955704 loss)
+I1026 17:49:51.975383 12447 sgd_solver.cpp:105] Iteration 2240, lr = 1e-05
+I1026 17:49:56.535176 12447 solver.cpp:218] Iteration 2260 (4.38623 iter/s, 4.55973s/20 iters), loss = 0.786663
+I1026 17:49:56.535285 12447 solver.cpp:237]     Train net output #0: loss = 0.786663 (* 1 = 0.786663 loss)
+I1026 17:49:56.535301 12447 sgd_solver.cpp:105] Iteration 2260, lr = 1e-05
+I1026 17:50:01.758661 12447 solver.cpp:218] Iteration 2280 (3.82899 iter/s, 5.22331s/20 iters), loss = 0.882826
+I1026 17:50:01.758738 12447 solver.cpp:237]     Train net output #0: loss = 0.882826 (* 1 = 0.882826 loss)
+I1026 17:50:01.758749 12447 sgd_solver.cpp:105] Iteration 2280, lr = 1e-05
+I1026 17:50:06.781975 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2300.caffemodel
+I1026 17:50:08.296314 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2300.solverstate
+I1026 17:50:08.839648 12447 solver.cpp:330] Iteration 2300, Testing net (#0)
+I1026 17:50:19.936456 12447 solver.cpp:397]     Test net output #0: loss = 4.95801 (* 1 = 4.95801 loss)
+I1026 17:50:20.286257 12447 solver.cpp:218] Iteration 2300 (1.07948 iter/s, 18.5274s/20 iters), loss = 1.14266
+I1026 17:50:20.286326 12447 solver.cpp:237]     Train net output #0: loss = 1.14266 (* 1 = 1.14266 loss)
+I1026 17:50:20.286339 12447 sgd_solver.cpp:105] Iteration 2300, lr = 1e-05
+I1026 17:50:27.496915 12447 solver.cpp:218] Iteration 2320 (2.77373 iter/s, 7.21052s/20 iters), loss = 0.974624
+I1026 17:50:27.496982 12447 solver.cpp:237]     Train net output #0: loss = 0.974624 (* 1 = 0.974624 loss)
+I1026 17:50:27.496995 12447 sgd_solver.cpp:105] Iteration 2320, lr = 1e-05
+I1026 17:50:34.700470 12447 solver.cpp:218] Iteration 2340 (2.77646 iter/s, 7.20341s/20 iters), loss = 1.05991
+I1026 17:50:34.700538 12447 solver.cpp:237]     Train net output #0: loss = 1.05991 (* 1 = 1.05991 loss)
+I1026 17:50:34.700551 12447 sgd_solver.cpp:105] Iteration 2340, lr = 1e-05
+I1026 17:50:39.249104 12447 solver.cpp:218] Iteration 2360 (4.39705 iter/s, 4.5485s/20 iters), loss = 1.01164
+I1026 17:50:39.249238 12447 solver.cpp:237]     Train net output #0: loss = 1.01164 (* 1 = 1.01164 loss)
+I1026 17:50:39.249250 12447 sgd_solver.cpp:105] Iteration 2360, lr = 1e-05
+I1026 17:50:44.470151 12447 solver.cpp:218] Iteration 2380 (3.83081 iter/s, 5.22083s/20 iters), loss = 0.969689
+I1026 17:50:44.470263 12447 solver.cpp:237]     Train net output #0: loss = 0.969689 (* 1 = 0.969689 loss)
+I1026 17:50:44.470280 12447 sgd_solver.cpp:105] Iteration 2380, lr = 1e-05
+I1026 17:50:49.493885 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2400.caffemodel
+I1026 17:50:50.977512 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2400.solverstate
+I1026 17:50:51.487835 12447 solver.cpp:330] Iteration 2400, Testing net (#0)
+I1026 17:51:02.467572 12447 solver.cpp:397]     Test net output #0: loss = 3.92341 (* 1 = 3.92341 loss)
+I1026 17:51:02.821863 12447 solver.cpp:218] Iteration 2400 (1.08983 iter/s, 18.3515s/20 iters), loss = 0.82285
+I1026 17:51:02.821928 12447 solver.cpp:237]     Train net output #0: loss = 0.82285 (* 1 = 0.82285 loss)
+I1026 17:51:02.821943 12447 sgd_solver.cpp:105] Iteration 2400, lr = 1e-05
+I1026 17:51:10.041281 12447 solver.cpp:218] Iteration 2420 (2.77036 iter/s, 7.21927s/20 iters), loss = 1.14976
+I1026 17:51:10.041474 12447 solver.cpp:237]     Train net output #0: loss = 1.14976 (* 1 = 1.14976 loss)
+I1026 17:51:10.041491 12447 sgd_solver.cpp:105] Iteration 2420, lr = 1e-05
+I1026 17:51:17.240175 12447 solver.cpp:218] Iteration 2440 (2.77831 iter/s, 7.19862s/20 iters), loss = 0.982032
+I1026 17:51:17.240269 12447 solver.cpp:237]     Train net output #0: loss = 0.982032 (* 1 = 0.982032 loss)
+I1026 17:51:17.240286 12447 sgd_solver.cpp:105] Iteration 2440, lr = 1e-05
+I1026 17:51:21.902745 12447 solver.cpp:218] Iteration 2460 (4.28963 iter/s, 4.66241s/20 iters), loss = 0.814353
+I1026 17:51:21.902846 12447 solver.cpp:237]     Train net output #0: loss = 0.814353 (* 1 = 0.814353 loss)
+I1026 17:51:21.902866 12447 sgd_solver.cpp:105] Iteration 2460, lr = 1e-05
+I1026 17:51:27.117067 12447 solver.cpp:218] Iteration 2480 (3.83571 iter/s, 5.21416s/20 iters), loss = 0.969418
+I1026 17:51:27.117137 12447 solver.cpp:237]     Train net output #0: loss = 0.969418 (* 1 = 0.969418 loss)
+I1026 17:51:27.117149 12447 sgd_solver.cpp:105] Iteration 2480, lr = 1e-05
+I1026 17:51:32.018695 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2500.caffemodel
+I1026 17:51:33.577913 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2500.solverstate
+I1026 17:51:34.105885 12447 solver.cpp:330] Iteration 2500, Testing net (#0)
+I1026 17:51:45.200677 12447 solver.cpp:397]     Test net output #0: loss = 3.59203 (* 1 = 3.59203 loss)
+I1026 17:51:45.551509 12447 solver.cpp:218] Iteration 2500 (1.08494 iter/s, 18.4343s/20 iters), loss = 0.962467
+I1026 17:51:45.551574 12447 solver.cpp:237]     Train net output #0: loss = 0.962467 (* 1 = 0.962467 loss)
+I1026 17:51:45.551589 12447 sgd_solver.cpp:105] Iteration 2500, lr = 1e-05
+I1026 17:51:52.772650 12447 solver.cpp:218] Iteration 2520 (2.7697 iter/s, 7.221s/20 iters), loss = 1.1117
+I1026 17:51:52.772729 12447 solver.cpp:237]     Train net output #0: loss = 1.1117 (* 1 = 1.1117 loss)
+I1026 17:51:52.772742 12447 sgd_solver.cpp:105] Iteration 2520, lr = 1e-05
+I1026 17:51:59.989867 12447 solver.cpp:218] Iteration 2540 (2.77121 iter/s, 7.21707s/20 iters), loss = 0.830033
+I1026 17:51:59.989933 12447 solver.cpp:237]     Train net output #0: loss = 0.830033 (* 1 = 0.830033 loss)
+I1026 17:51:59.989946 12447 sgd_solver.cpp:105] Iteration 2540, lr = 1e-05
+I1026 17:52:04.726964 12447 solver.cpp:218] Iteration 2560 (4.22211 iter/s, 4.73696s/20 iters), loss = 0.847
+I1026 17:52:04.727044 12447 solver.cpp:237]     Train net output #0: loss = 0.847 (* 1 = 0.847 loss)
+I1026 17:52:04.727056 12447 sgd_solver.cpp:105] Iteration 2560, lr = 1e-05
+I1026 17:52:09.952118 12447 solver.cpp:218] Iteration 2580 (3.82775 iter/s, 5.22501s/20 iters), loss = 0.917719
+I1026 17:52:09.952203 12447 solver.cpp:237]     Train net output #0: loss = 0.917719 (* 1 = 0.917719 loss)
+I1026 17:52:09.952215 12447 sgd_solver.cpp:105] Iteration 2580, lr = 1e-05
+I1026 17:52:14.979786 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2600.caffemodel
+I1026 17:52:16.488632 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2600.solverstate
+I1026 17:52:17.019258 12447 solver.cpp:330] Iteration 2600, Testing net (#0)
+I1026 17:52:28.165323 12447 solver.cpp:397]     Test net output #0: loss = 3.93868 (* 1 = 3.93868 loss)
+I1026 17:52:28.516645 12447 solver.cpp:218] Iteration 2600 (1.07733 iter/s, 18.5643s/20 iters), loss = 0.724098
+I1026 17:52:28.516710 12447 solver.cpp:237]     Train net output #0: loss = 0.724098 (* 1 = 0.724098 loss)
+I1026 17:52:28.516724 12447 sgd_solver.cpp:105] Iteration 2600, lr = 1e-05
+I1026 17:52:35.734334 12447 solver.cpp:218] Iteration 2620 (2.77103 iter/s, 7.21754s/20 iters), loss = 0.896134
+I1026 17:52:35.734426 12447 solver.cpp:237]     Train net output #0: loss = 0.896134 (* 1 = 0.896134 loss)
+I1026 17:52:35.734441 12447 sgd_solver.cpp:105] Iteration 2620, lr = 1e-05
+I1026 17:52:42.960281 12447 solver.cpp:218] Iteration 2640 (2.76787 iter/s, 7.22577s/20 iters), loss = 0.683829
+I1026 17:52:42.960377 12447 solver.cpp:237]     Train net output #0: loss = 0.683829 (* 1 = 0.683829 loss)
+I1026 17:52:42.960394 12447 sgd_solver.cpp:105] Iteration 2640, lr = 1e-05
+I1026 17:52:47.514142 12447 solver.cpp:218] Iteration 2660 (4.39203 iter/s, 4.55371s/20 iters), loss = 0.87975
+I1026 17:52:47.514268 12447 solver.cpp:237]     Train net output #0: loss = 0.87975 (* 1 = 0.87975 loss)
+I1026 17:52:47.514284 12447 sgd_solver.cpp:105] Iteration 2660, lr = 1e-05
+I1026 17:52:52.751500 12447 solver.cpp:218] Iteration 2680 (3.81887 iter/s, 5.23716s/20 iters), loss = 0.873187
+I1026 17:52:52.751591 12447 solver.cpp:237]     Train net output #0: loss = 0.873187 (* 1 = 0.873187 loss)
+I1026 17:52:52.751608 12447 sgd_solver.cpp:105] Iteration 2680, lr = 1e-05
+I1026 17:52:57.776840 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2700.caffemodel
+I1026 17:52:59.271805 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2700.solverstate
+I1026 17:52:59.805162 12447 solver.cpp:330] Iteration 2700, Testing net (#0)
+I1026 17:53:10.953619 12447 solver.cpp:397]     Test net output #0: loss = 3.46672 (* 1 = 3.46672 loss)
+I1026 17:53:11.304976 12447 solver.cpp:218] Iteration 2700 (1.07798 iter/s, 18.5533s/20 iters), loss = 1.09929
+I1026 17:53:11.305043 12447 solver.cpp:237]     Train net output #0: loss = 1.09929 (* 1 = 1.09929 loss)
+I1026 17:53:11.305057 12447 sgd_solver.cpp:105] Iteration 2700, lr = 1e-05
+I1026 17:53:18.517581 12447 solver.cpp:218] Iteration 2720 (2.77298 iter/s, 7.21246s/20 iters), loss = 0.808028
+I1026 17:53:18.517738 12447 solver.cpp:237]     Train net output #0: loss = 0.808028 (* 1 = 0.808028 loss)
+I1026 17:53:18.517777 12447 sgd_solver.cpp:105] Iteration 2720, lr = 1e-05
+I1026 17:53:25.719012 12447 solver.cpp:218] Iteration 2740 (2.77731 iter/s, 7.2012s/20 iters), loss = 0.750709
+I1026 17:53:25.719091 12447 solver.cpp:237]     Train net output #0: loss = 0.750709 (* 1 = 0.750709 loss)
+I1026 17:53:25.719105 12447 sgd_solver.cpp:105] Iteration 2740, lr = 1e-05
+I1026 17:53:30.271471 12447 solver.cpp:218] Iteration 2760 (4.39337 iter/s, 4.55231s/20 iters), loss = 0.853098
+I1026 17:53:30.271560 12447 solver.cpp:237]     Train net output #0: loss = 0.853098 (* 1 = 0.853098 loss)
+I1026 17:53:30.271579 12447 sgd_solver.cpp:105] Iteration 2760, lr = 1e-05
+I1026 17:53:35.492424 12447 solver.cpp:218] Iteration 2780 (3.83083 iter/s, 5.2208s/20 iters), loss = 0.749813
+I1026 17:53:35.492496 12447 solver.cpp:237]     Train net output #0: loss = 0.749813 (* 1 = 0.749813 loss)
+I1026 17:53:35.492509 12447 sgd_solver.cpp:105] Iteration 2780, lr = 1e-05
+I1026 17:53:40.511477 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2800.caffemodel
+I1026 17:53:42.014652 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2800.solverstate
+I1026 17:53:42.553871 12447 solver.cpp:330] Iteration 2800, Testing net (#0)
+I1026 17:53:53.682310 12447 solver.cpp:397]     Test net output #0: loss = 3.83869 (* 1 = 3.83869 loss)
+I1026 17:53:54.035604 12447 solver.cpp:218] Iteration 2800 (1.07857 iter/s, 18.543s/20 iters), loss = 0.732541
+I1026 17:53:54.035676 12447 solver.cpp:237]     Train net output #0: loss = 0.732541 (* 1 = 0.732541 loss)
+I1026 17:53:54.035689 12447 sgd_solver.cpp:105] Iteration 2800, lr = 1e-05
+I1026 17:54:01.243253 12447 solver.cpp:218] Iteration 2820 (2.77489 iter/s, 7.2075s/20 iters), loss = 0.834823
+I1026 17:54:01.243332 12447 solver.cpp:237]     Train net output #0: loss = 0.834823 (* 1 = 0.834823 loss)
+I1026 17:54:01.243343 12447 sgd_solver.cpp:105] Iteration 2820, lr = 1e-05
+I1026 17:54:08.459194 12447 solver.cpp:218] Iteration 2840 (2.7717 iter/s, 7.2158s/20 iters), loss = 0.706771
+I1026 17:54:08.459270 12447 solver.cpp:237]     Train net output #0: loss = 0.706771 (* 1 = 0.706771 loss)
+I1026 17:54:08.459283 12447 sgd_solver.cpp:105] Iteration 2840, lr = 1e-05
+I1026 17:54:13.016001 12447 solver.cpp:218] Iteration 2860 (4.38917 iter/s, 4.55667s/20 iters), loss = 0.841615
+I1026 17:54:13.016074 12447 solver.cpp:237]     Train net output #0: loss = 0.841615 (* 1 = 0.841615 loss)
+I1026 17:54:13.016088 12447 sgd_solver.cpp:105] Iteration 2860, lr = 1e-05
+I1026 17:54:18.231837 12447 solver.cpp:218] Iteration 2880 (3.83458 iter/s, 5.21569s/20 iters), loss = 0.829838
+I1026 17:54:18.231915 12447 solver.cpp:237]     Train net output #0: loss = 0.829838 (* 1 = 0.829838 loss)
+I1026 17:54:18.231928 12447 sgd_solver.cpp:105] Iteration 2880, lr = 1e-05
+I1026 17:54:23.251268 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2900.caffemodel
+I1026 17:54:24.767614 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_2900.solverstate
+I1026 17:54:25.306938 12447 solver.cpp:330] Iteration 2900, Testing net (#0)
+I1026 17:54:36.451040 12447 solver.cpp:397]     Test net output #0: loss = 3.94586 (* 1 = 3.94586 loss)
+I1026 17:54:36.803638 12447 solver.cpp:218] Iteration 2900 (1.07691 iter/s, 18.5716s/20 iters), loss = 0.76676
+I1026 17:54:36.803711 12447 solver.cpp:237]     Train net output #0: loss = 0.76676 (* 1 = 0.76676 loss)
+I1026 17:54:36.803730 12447 sgd_solver.cpp:105] Iteration 2900, lr = 1e-05
+I1026 17:54:44.037295 12447 solver.cpp:218] Iteration 2920 (2.76491 iter/s, 7.23351s/20 iters), loss = 0.908698
+I1026 17:54:44.037392 12447 solver.cpp:237]     Train net output #0: loss = 0.908698 (* 1 = 0.908698 loss)
+I1026 17:54:44.037410 12447 sgd_solver.cpp:105] Iteration 2920, lr = 1e-05
+I1026 17:54:51.267410 12447 solver.cpp:218] Iteration 2940 (2.76627 iter/s, 7.22994s/20 iters), loss = 0.814269
+I1026 17:54:51.267489 12447 solver.cpp:237]     Train net output #0: loss = 0.814269 (* 1 = 0.814269 loss)
+I1026 17:54:51.267503 12447 sgd_solver.cpp:105] Iteration 2940, lr = 1e-05
+I1026 17:54:55.830196 12447 solver.cpp:218] Iteration 2960 (4.38342 iter/s, 4.56265s/20 iters), loss = 0.781402
+I1026 17:54:55.830322 12447 solver.cpp:237]     Train net output #0: loss = 0.781402 (* 1 = 0.781402 loss)
+I1026 17:54:55.830337 12447 sgd_solver.cpp:105] Iteration 2960, lr = 1e-05
+I1026 17:55:01.051970 12447 solver.cpp:218] Iteration 2980 (3.83026 iter/s, 5.22157s/20 iters), loss = 0.730676
+I1026 17:55:01.052055 12447 solver.cpp:237]     Train net output #0: loss = 0.730676 (* 1 = 0.730676 loss)
+I1026 17:55:01.052070 12447 sgd_solver.cpp:105] Iteration 2980, lr = 1e-05
+I1026 17:55:06.079583 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3000.caffemodel
+I1026 17:55:07.589900 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3000.solverstate
+I1026 17:55:08.125625 12447 solver.cpp:330] Iteration 3000, Testing net (#0)
+I1026 17:55:19.265226 12447 solver.cpp:397]     Test net output #0: loss = 3.81891 (* 1 = 3.81891 loss)
+I1026 17:55:19.617182 12447 solver.cpp:218] Iteration 3000 (1.0773 iter/s, 18.565s/20 iters), loss = 0.949841
+I1026 17:55:19.617254 12447 solver.cpp:237]     Train net output #0: loss = 0.949841 (* 1 = 0.949841 loss)
+I1026 17:55:19.617266 12447 sgd_solver.cpp:105] Iteration 3000, lr = 1e-05
+I1026 17:55:26.836357 12447 solver.cpp:218] Iteration 3020 (2.77046 iter/s, 7.21902s/20 iters), loss = 0.629169
+I1026 17:55:26.837030 12447 solver.cpp:237]     Train net output #0: loss = 0.629169 (* 1 = 0.629169 loss)
+I1026 17:55:26.837044 12447 sgd_solver.cpp:105] Iteration 3020, lr = 1e-05
+I1026 17:55:34.054425 12447 solver.cpp:218] Iteration 3040 (2.77111 iter/s, 7.21733s/20 iters), loss = 0.908191
+I1026 17:55:34.054494 12447 solver.cpp:237]     Train net output #0: loss = 0.908191 (* 1 = 0.908191 loss)
+I1026 17:55:34.054507 12447 sgd_solver.cpp:105] Iteration 3040, lr = 1e-05
+I1026 17:55:38.619747 12447 solver.cpp:218] Iteration 3060 (4.381 iter/s, 4.56517s/20 iters), loss = 0.748544
+I1026 17:55:38.619841 12447 solver.cpp:237]     Train net output #0: loss = 0.748544 (* 1 = 0.748544 loss)
+I1026 17:55:38.619858 12447 sgd_solver.cpp:105] Iteration 3060, lr = 1e-05
+I1026 17:55:43.847060 12447 solver.cpp:218] Iteration 3080 (3.82617 iter/s, 5.22716s/20 iters), loss = 0.685281
+I1026 17:55:43.847131 12447 solver.cpp:237]     Train net output #0: loss = 0.685281 (* 1 = 0.685281 loss)
+I1026 17:55:43.847143 12447 sgd_solver.cpp:105] Iteration 3080, lr = 1e-05
+I1026 17:55:48.874807 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3100.caffemodel
+I1026 17:55:50.385218 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3100.solverstate
+I1026 17:55:50.915187 12447 solver.cpp:330] Iteration 3100, Testing net (#0)
+I1026 17:56:02.054309 12447 solver.cpp:397]     Test net output #0: loss = 3.70212 (* 1 = 3.70212 loss)
+I1026 17:56:02.405891 12447 solver.cpp:218] Iteration 3100 (1.07766 iter/s, 18.5586s/20 iters), loss = 0.655325
+I1026 17:56:02.405963 12447 solver.cpp:237]     Train net output #0: loss = 0.655325 (* 1 = 0.655325 loss)
+I1026 17:56:02.405975 12447 sgd_solver.cpp:105] Iteration 3100, lr = 1e-05
+I1026 17:56:09.622722 12447 solver.cpp:218] Iteration 3120 (2.77136 iter/s, 7.21669s/20 iters), loss = 0.833284
+I1026 17:56:09.622798 12447 solver.cpp:237]     Train net output #0: loss = 0.833284 (* 1 = 0.833284 loss)
+I1026 17:56:09.622812 12447 sgd_solver.cpp:105] Iteration 3120, lr = 1e-05
+I1026 17:56:16.831183 12447 solver.cpp:218] Iteration 3140 (2.77457 iter/s, 7.20831s/20 iters), loss = 0.648356
+I1026 17:56:16.831251 12447 solver.cpp:237]     Train net output #0: loss = 0.648356 (* 1 = 0.648356 loss)
+I1026 17:56:16.831264 12447 sgd_solver.cpp:105] Iteration 3140, lr = 1e-05
+I1026 17:56:21.421363 12447 solver.cpp:218] Iteration 3160 (4.35727 iter/s, 4.59003s/20 iters), loss = 0.785758
+I1026 17:56:21.421483 12447 solver.cpp:237]     Train net output #0: loss = 0.785758 (* 1 = 0.785758 loss)
+I1026 17:56:21.421499 12447 sgd_solver.cpp:105] Iteration 3160, lr = 1e-05
+I1026 17:56:26.638690 12447 solver.cpp:218] Iteration 3180 (3.83352 iter/s, 5.21714s/20 iters), loss = 0.699446
+I1026 17:56:26.638794 12447 solver.cpp:237]     Train net output #0: loss = 0.699446 (* 1 = 0.699446 loss)
+I1026 17:56:26.638813 12447 sgd_solver.cpp:105] Iteration 3180, lr = 1e-05
+I1026 17:56:31.631949 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3200.caffemodel
+I1026 17:56:33.200559 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3200.solverstate
+I1026 17:56:33.713989 12447 solver.cpp:330] Iteration 3200, Testing net (#0)
+I1026 17:56:44.808632 12447 solver.cpp:397]     Test net output #0: loss = 3.85647 (* 1 = 3.85647 loss)
+I1026 17:56:45.161698 12447 solver.cpp:218] Iteration 3200 (1.07975 iter/s, 18.5228s/20 iters), loss = 0.671424
+I1026 17:56:45.161783 12447 solver.cpp:237]     Train net output #0: loss = 0.671424 (* 1 = 0.671424 loss)
+I1026 17:56:45.161795 12447 sgd_solver.cpp:105] Iteration 3200, lr = 1e-05
+I1026 17:56:52.377825 12447 solver.cpp:218] Iteration 3220 (2.77163 iter/s, 7.21598s/20 iters), loss = 0.725775
+I1026 17:56:52.377903 12447 solver.cpp:237]     Train net output #0: loss = 0.725775 (* 1 = 0.725775 loss)
+I1026 17:56:52.377915 12447 sgd_solver.cpp:105] Iteration 3220, lr = 1e-05
+I1026 17:56:59.600366 12447 solver.cpp:218] Iteration 3240 (2.76917 iter/s, 7.22239s/20 iters), loss = 0.735806
+I1026 17:56:59.600437 12447 solver.cpp:237]     Train net output #0: loss = 0.735806 (* 1 = 0.735806 loss)
+I1026 17:56:59.600450 12447 sgd_solver.cpp:105] Iteration 3240, lr = 1e-05
+I1026 17:57:04.147327 12447 solver.cpp:218] Iteration 3260 (4.39868 iter/s, 4.54682s/20 iters), loss = 0.82602
+I1026 17:57:04.147485 12447 solver.cpp:237]     Train net output #0: loss = 0.82602 (* 1 = 0.82602 loss)
+I1026 17:57:04.147500 12447 sgd_solver.cpp:105] Iteration 3260, lr = 1e-05
+I1026 17:57:09.362903 12447 solver.cpp:218] Iteration 3280 (3.83483 iter/s, 5.21536s/20 iters), loss = 0.74917
+I1026 17:57:09.362972 12447 solver.cpp:237]     Train net output #0: loss = 0.74917 (* 1 = 0.74917 loss)
+I1026 17:57:09.362985 12447 sgd_solver.cpp:105] Iteration 3280, lr = 1e-05
+I1026 17:57:14.386952 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3300.caffemodel
+I1026 17:57:15.889235 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3300.solverstate
+I1026 17:57:16.415953 12447 solver.cpp:330] Iteration 3300, Testing net (#0)
+I1026 17:57:27.457223 12447 solver.cpp:397]     Test net output #0: loss = 4.03395 (* 1 = 4.03395 loss)
+I1026 17:57:27.794103 12447 solver.cpp:218] Iteration 3300 (1.08513 iter/s, 18.431s/20 iters), loss = 0.71135
+I1026 17:57:27.794181 12447 solver.cpp:237]     Train net output #0: loss = 0.71135 (* 1 = 0.71135 loss)
+I1026 17:57:27.794201 12447 sgd_solver.cpp:105] Iteration 3300, lr = 1e-05
+I1026 17:57:35.061280 12447 solver.cpp:218] Iteration 3320 (2.75296 iter/s, 7.26489s/20 iters), loss = 0.710643
+I1026 17:57:35.061405 12447 solver.cpp:237]     Train net output #0: loss = 0.710643 (* 1 = 0.710643 loss)
+I1026 17:57:35.061421 12447 sgd_solver.cpp:105] Iteration 3320, lr = 1e-05
+I1026 17:57:42.332829 12447 solver.cpp:218] Iteration 3340 (2.75129 iter/s, 7.26931s/20 iters), loss = 0.703534
+I1026 17:57:42.332909 12447 solver.cpp:237]     Train net output #0: loss = 0.703534 (* 1 = 0.703534 loss)
+I1026 17:57:42.332923 12447 sgd_solver.cpp:105] Iteration 3340, lr = 1e-05
+I1026 17:57:46.936957 12447 solver.cpp:218] Iteration 3360 (4.34607 iter/s, 4.60186s/20 iters), loss = 0.687279
+I1026 17:57:46.937031 12447 solver.cpp:237]     Train net output #0: loss = 0.687279 (* 1 = 0.687279 loss)
+I1026 17:57:46.937043 12447 sgd_solver.cpp:105] Iteration 3360, lr = 1e-05
+I1026 17:57:52.175786 12447 solver.cpp:218] Iteration 3380 (3.81775 iter/s, 5.23868s/20 iters), loss = 0.654473
+I1026 17:57:52.175868 12447 solver.cpp:237]     Train net output #0: loss = 0.654473 (* 1 = 0.654473 loss)
+I1026 17:57:52.175880 12447 sgd_solver.cpp:105] Iteration 3380, lr = 1e-05
+I1026 17:57:57.225662 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3400.caffemodel
+I1026 17:57:58.738126 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3400.solverstate
+I1026 17:57:59.273658 12447 solver.cpp:330] Iteration 3400, Testing net (#0)
+I1026 17:58:10.400352 12447 solver.cpp:397]     Test net output #0: loss = 4.38269 (* 1 = 4.38269 loss)
+I1026 17:58:10.753809 12447 solver.cpp:218] Iteration 3400 (1.07668 iter/s, 18.5757s/20 iters), loss = 0.635389
+I1026 17:58:10.753902 12447 solver.cpp:237]     Train net output #0: loss = 0.635389 (* 1 = 0.635389 loss)
+I1026 17:58:10.753919 12447 sgd_solver.cpp:105] Iteration 3400, lr = 1e-05
+I1026 17:58:17.976526 12447 solver.cpp:218] Iteration 3420 (2.7691 iter/s, 7.22255s/20 iters), loss = 0.63616
+I1026 17:58:17.976603 12447 solver.cpp:237]     Train net output #0: loss = 0.63616 (* 1 = 0.63616 loss)
+I1026 17:58:17.976614 12447 sgd_solver.cpp:105] Iteration 3420, lr = 1e-05
+I1026 17:58:25.195080 12447 solver.cpp:218] Iteration 3440 (2.7707 iter/s, 7.2184s/20 iters), loss = 0.604329
+I1026 17:58:25.195156 12447 solver.cpp:237]     Train net output #0: loss = 0.604329 (* 1 = 0.604329 loss)
+I1026 17:58:25.195169 12447 sgd_solver.cpp:105] Iteration 3440, lr = 1e-05
+I1026 17:58:29.829232 12447 solver.cpp:218] Iteration 3460 (4.31592 iter/s, 4.63401s/20 iters), loss = 0.729117
+I1026 17:58:29.829314 12447 solver.cpp:237]     Train net output #0: loss = 0.729117 (* 1 = 0.729117 loss)
+I1026 17:58:29.829326 12447 sgd_solver.cpp:105] Iteration 3460, lr = 1e-05
+I1026 17:58:35.059337 12447 solver.cpp:218] Iteration 3480 (3.82412 iter/s, 5.22996s/20 iters), loss = 0.775557
+I1026 17:58:35.059411 12447 solver.cpp:237]     Train net output #0: loss = 0.775557 (* 1 = 0.775557 loss)
+I1026 17:58:35.059422 12447 sgd_solver.cpp:105] Iteration 3480, lr = 1e-05
+I1026 17:58:40.193545 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3500.caffemodel
+I1026 17:58:41.712194 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3500.solverstate
+I1026 17:58:42.248790 12447 solver.cpp:330] Iteration 3500, Testing net (#0)
+I1026 17:58:53.384872 12447 solver.cpp:397]     Test net output #0: loss = 4.14932 (* 1 = 4.14932 loss)
+I1026 17:58:53.735980 12447 solver.cpp:218] Iteration 3500 (1.07087 iter/s, 18.6764s/20 iters), loss = 0.69046
+I1026 17:58:53.736059 12447 solver.cpp:237]     Train net output #0: loss = 0.69046 (* 1 = 0.69046 loss)
+I1026 17:58:53.736073 12447 sgd_solver.cpp:105] Iteration 3500, lr = 1e-05
+I1026 17:59:00.953804 12447 solver.cpp:218] Iteration 3520 (2.77098 iter/s, 7.21767s/20 iters), loss = 0.861356
+I1026 17:59:00.953883 12447 solver.cpp:237]     Train net output #0: loss = 0.861356 (* 1 = 0.861356 loss)
+I1026 17:59:00.953897 12447 sgd_solver.cpp:105] Iteration 3520, lr = 1e-05
+I1026 17:59:08.169437 12447 solver.cpp:218] Iteration 3540 (2.77182 iter/s, 7.21548s/20 iters), loss = 0.769694
+I1026 17:59:08.169518 12447 solver.cpp:237]     Train net output #0: loss = 0.769694 (* 1 = 0.769694 loss)
+I1026 17:59:08.169530 12447 sgd_solver.cpp:105] Iteration 3540, lr = 1e-05
+I1026 17:59:12.612725 12447 solver.cpp:218] Iteration 3560 (4.50131 iter/s, 4.44315s/20 iters), loss = 0.643953
+I1026 17:59:12.612861 12447 solver.cpp:237]     Train net output #0: loss = 0.643953 (* 1 = 0.643953 loss)
+I1026 17:59:12.612872 12447 sgd_solver.cpp:105] Iteration 3560, lr = 1e-05
+I1026 17:59:17.840586 12447 solver.cpp:218] Iteration 3580 (3.8258 iter/s, 5.22766s/20 iters), loss = 0.623421
+I1026 17:59:17.840663 12447 solver.cpp:237]     Train net output #0: loss = 0.623421 (* 1 = 0.623421 loss)
+I1026 17:59:17.840677 12447 sgd_solver.cpp:105] Iteration 3580, lr = 1e-05
+I1026 17:59:22.970690 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3600.caffemodel
+I1026 17:59:24.492189 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3600.solverstate
+I1026 17:59:25.033759 12447 solver.cpp:330] Iteration 3600, Testing net (#0)
+I1026 17:59:36.160552 12447 solver.cpp:397]     Test net output #0: loss = 3.92527 (* 1 = 3.92527 loss)
+I1026 17:59:36.513492 12447 solver.cpp:218] Iteration 3600 (1.07108 iter/s, 18.6727s/20 iters), loss = 0.682129
+I1026 17:59:36.513599 12447 solver.cpp:237]     Train net output #0: loss = 0.682129 (* 1 = 0.682129 loss)
+I1026 17:59:36.513617 12447 sgd_solver.cpp:105] Iteration 3600, lr = 1e-05
+I1026 17:59:43.731170 12447 solver.cpp:218] Iteration 3620 (2.77104 iter/s, 7.2175s/20 iters), loss = 0.621104
+I1026 17:59:43.731377 12447 solver.cpp:237]     Train net output #0: loss = 0.621104 (* 1 = 0.621104 loss)
+I1026 17:59:43.731389 12447 sgd_solver.cpp:105] Iteration 3620, lr = 1e-05
+I1026 17:59:50.940024 12447 solver.cpp:218] Iteration 3640 (2.77447 iter/s, 7.20857s/20 iters), loss = 0.68777
+I1026 17:59:50.940105 12447 solver.cpp:237]     Train net output #0: loss = 0.68777 (* 1 = 0.68777 loss)
+I1026 17:59:50.940119 12447 sgd_solver.cpp:105] Iteration 3640, lr = 1e-05
+I1026 17:59:55.409461 12447 solver.cpp:218] Iteration 3660 (4.47498 iter/s, 4.4693s/20 iters), loss = 0.727264
+I1026 17:59:55.409543 12447 solver.cpp:237]     Train net output #0: loss = 0.727264 (* 1 = 0.727264 loss)
+I1026 17:59:55.409555 12447 sgd_solver.cpp:105] Iteration 3660, lr = 1e-05
+I1026 18:00:00.622776 12447 solver.cpp:218] Iteration 3680 (3.83644 iter/s, 5.21317s/20 iters), loss = 0.71752
+I1026 18:00:00.622849 12447 solver.cpp:237]     Train net output #0: loss = 0.71752 (* 1 = 0.71752 loss)
+I1026 18:00:00.622861 12447 sgd_solver.cpp:105] Iteration 3680, lr = 1e-05
+I1026 18:00:05.728848 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3700.caffemodel
+I1026 18:00:07.287678 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3700.solverstate
+I1026 18:00:07.827924 12447 solver.cpp:330] Iteration 3700, Testing net (#0)
+I1026 18:00:18.926507 12447 solver.cpp:397]     Test net output #0: loss = 4.4495 (* 1 = 4.4495 loss)
+I1026 18:00:19.279002 12447 solver.cpp:218] Iteration 3700 (1.07204 iter/s, 18.656s/20 iters), loss = 0.732953
+I1026 18:00:19.279072 12447 solver.cpp:237]     Train net output #0: loss = 0.732953 (* 1 = 0.732953 loss)
+I1026 18:00:19.279086 12447 sgd_solver.cpp:105] Iteration 3700, lr = 1e-05
+I1026 18:00:26.501278 12447 solver.cpp:218] Iteration 3720 (2.76927 iter/s, 7.22212s/20 iters), loss = 0.733796
+I1026 18:00:26.501374 12447 solver.cpp:237]     Train net output #0: loss = 0.733796 (* 1 = 0.733796 loss)
+I1026 18:00:26.501387 12447 sgd_solver.cpp:105] Iteration 3720, lr = 1e-05
+I1026 18:00:33.727179 12447 solver.cpp:218] Iteration 3740 (2.7679 iter/s, 7.2257s/20 iters), loss = 0.736738
+I1026 18:00:33.727263 12447 solver.cpp:237]     Train net output #0: loss = 0.736738 (* 1 = 0.736738 loss)
+I1026 18:00:33.727275 12447 sgd_solver.cpp:105] Iteration 3740, lr = 1e-05
+I1026 18:00:38.282158 12447 solver.cpp:218] Iteration 3760 (4.39094 iter/s, 4.55483s/20 iters), loss = 0.561374
+I1026 18:00:38.282240 12447 solver.cpp:237]     Train net output #0: loss = 0.561374 (* 1 = 0.561374 loss)
+I1026 18:00:38.282253 12447 sgd_solver.cpp:105] Iteration 3760, lr = 1e-05
+I1026 18:00:43.503070 12447 solver.cpp:218] Iteration 3780 (3.83086 iter/s, 5.22077s/20 iters), loss = 0.632856
+I1026 18:00:43.503152 12447 solver.cpp:237]     Train net output #0: loss = 0.632856 (* 1 = 0.632856 loss)
+I1026 18:00:43.503165 12447 sgd_solver.cpp:105] Iteration 3780, lr = 1e-05
+I1026 18:00:48.723158 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3800.caffemodel
+I1026 18:00:50.236841 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3800.solverstate
+I1026 18:00:50.769896 12447 solver.cpp:330] Iteration 3800, Testing net (#0)
+I1026 18:01:01.893596 12447 solver.cpp:397]     Test net output #0: loss = 3.99555 (* 1 = 3.99555 loss)
+I1026 18:01:02.246557 12447 solver.cpp:218] Iteration 3800 (1.06705 iter/s, 18.7433s/20 iters), loss = 0.609085
+I1026 18:01:02.246650 12447 solver.cpp:237]     Train net output #0: loss = 0.609085 (* 1 = 0.609085 loss)
+I1026 18:01:02.246665 12447 sgd_solver.cpp:105] Iteration 3800, lr = 1e-05
+I1026 18:01:09.461436 12447 solver.cpp:218] Iteration 3820 (2.77213 iter/s, 7.21467s/20 iters), loss = 0.583213
+I1026 18:01:09.461524 12447 solver.cpp:237]     Train net output #0: loss = 0.583213 (* 1 = 0.583213 loss)
+I1026 18:01:09.461540 12447 sgd_solver.cpp:105] Iteration 3820, lr = 1e-05
+I1026 18:01:16.694547 12447 solver.cpp:218] Iteration 3840 (2.76512 iter/s, 7.23295s/20 iters), loss = 0.623395
+I1026 18:01:16.694628 12447 solver.cpp:237]     Train net output #0: loss = 0.623395 (* 1 = 0.623395 loss)
+I1026 18:01:16.694643 12447 sgd_solver.cpp:105] Iteration 3840, lr = 1e-05
+I1026 18:01:21.102824 12447 solver.cpp:218] Iteration 3860 (4.53707 iter/s, 4.40813s/20 iters), loss = 0.648532
+I1026 18:01:21.103027 12447 solver.cpp:237]     Train net output #0: loss = 0.648532 (* 1 = 0.648532 loss)
+I1026 18:01:21.103055 12447 sgd_solver.cpp:105] Iteration 3860, lr = 1e-05
+I1026 18:01:26.329515 12447 solver.cpp:218] Iteration 3880 (3.82671 iter/s, 5.22642s/20 iters), loss = 0.758636
+I1026 18:01:26.329584 12447 solver.cpp:237]     Train net output #0: loss = 0.758636 (* 1 = 0.758636 loss)
+I1026 18:01:26.329596 12447 sgd_solver.cpp:105] Iteration 3880, lr = 1e-05
+I1026 18:01:31.553417 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3900.caffemodel
+I1026 18:01:33.160867 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_3900.solverstate
+I1026 18:01:33.691542 12447 solver.cpp:330] Iteration 3900, Testing net (#0)
+I1026 18:01:44.719383 12447 solver.cpp:397]     Test net output #0: loss = 4.15476 (* 1 = 4.15476 loss)
+I1026 18:01:45.073547 12447 solver.cpp:218] Iteration 3900 (1.06714 iter/s, 18.7418s/20 iters), loss = 0.677282
+I1026 18:01:45.073611 12447 solver.cpp:237]     Train net output #0: loss = 0.677282 (* 1 = 0.677282 loss)
+I1026 18:01:45.073626 12447 sgd_solver.cpp:105] Iteration 3900, lr = 1e-05
+I1026 18:01:52.286367 12447 solver.cpp:218] Iteration 3920 (2.7729 iter/s, 7.21267s/20 iters), loss = 0.572004
+I1026 18:01:52.286511 12447 solver.cpp:237]     Train net output #0: loss = 0.572004 (* 1 = 0.572004 loss)
+I1026 18:01:52.286525 12447 sgd_solver.cpp:105] Iteration 3920, lr = 1e-05
+I1026 18:01:59.490952 12447 solver.cpp:218] Iteration 3940 (2.7761 iter/s, 7.20436s/20 iters), loss = 0.674305
+I1026 18:01:59.491040 12447 solver.cpp:237]     Train net output #0: loss = 0.674305 (* 1 = 0.674305 loss)
+I1026 18:01:59.491060 12447 sgd_solver.cpp:105] Iteration 3940, lr = 1e-05
+I1026 18:02:03.847162 12447 solver.cpp:218] Iteration 3960 (4.59131 iter/s, 4.35605s/20 iters), loss = 0.61965
+I1026 18:02:03.847270 12447 solver.cpp:237]     Train net output #0: loss = 0.61965 (* 1 = 0.61965 loss)
+I1026 18:02:03.847290 12447 sgd_solver.cpp:105] Iteration 3960, lr = 1e-05
+I1026 18:02:09.064512 12447 solver.cpp:218] Iteration 3980 (3.83349 iter/s, 5.21718s/20 iters), loss = 0.691409
+I1026 18:02:09.064589 12447 solver.cpp:237]     Train net output #0: loss = 0.691409 (* 1 = 0.691409 loss)
+I1026 18:02:09.064602 12447 sgd_solver.cpp:105] Iteration 3980, lr = 1e-05
+I1026 18:02:14.275904 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4000.caffemodel
+I1026 18:02:15.796396 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4000.solverstate
+I1026 18:02:16.327615 12447 solver.cpp:330] Iteration 4000, Testing net (#0)
+I1026 18:02:27.459846 12447 solver.cpp:397]     Test net output #0: loss = 3.64554 (* 1 = 3.64554 loss)
+I1026 18:02:27.813370 12447 solver.cpp:218] Iteration 4000 (1.06674 iter/s, 18.7487s/20 iters), loss = 0.546729
+I1026 18:02:27.813446 12447 solver.cpp:237]     Train net output #0: loss = 0.546729 (* 1 = 0.546729 loss)
+I1026 18:02:27.813457 12447 sgd_solver.cpp:105] Iteration 4000, lr = 1e-06
+I1026 18:02:35.021970 12447 solver.cpp:218] Iteration 4020 (2.77452 iter/s, 7.20845s/20 iters), loss = 0.625433
+I1026 18:02:35.022043 12447 solver.cpp:237]     Train net output #0: loss = 0.625433 (* 1 = 0.625433 loss)
+I1026 18:02:35.022056 12447 sgd_solver.cpp:105] Iteration 4020, lr = 1e-06
+I1026 18:02:42.244068 12447 solver.cpp:218] Iteration 4040 (2.76934 iter/s, 7.22195s/20 iters), loss = 0.551115
+I1026 18:02:42.244149 12447 solver.cpp:237]     Train net output #0: loss = 0.551115 (* 1 = 0.551115 loss)
+I1026 18:02:42.244161 12447 sgd_solver.cpp:105] Iteration 4040, lr = 1e-06
+I1026 18:02:46.600085 12447 solver.cpp:218] Iteration 4060 (4.59151 iter/s, 4.35587s/20 iters), loss = 0.547229
+I1026 18:02:46.600167 12447 solver.cpp:237]     Train net output #0: loss = 0.547229 (* 1 = 0.547229 loss)
+I1026 18:02:46.600178 12447 sgd_solver.cpp:105] Iteration 4060, lr = 1e-06
+I1026 18:02:51.822055 12447 solver.cpp:218] Iteration 4080 (3.83008 iter/s, 5.22183s/20 iters), loss = 0.532297
+I1026 18:02:51.822130 12447 solver.cpp:237]     Train net output #0: loss = 0.532297 (* 1 = 0.532297 loss)
+I1026 18:02:51.822144 12447 sgd_solver.cpp:105] Iteration 4080, lr = 1e-06
+I1026 18:02:57.036872 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4100.caffemodel
+I1026 18:02:58.545769 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4100.solverstate
+I1026 18:02:59.080894 12447 solver.cpp:330] Iteration 4100, Testing net (#0)
+I1026 18:03:10.230453 12447 solver.cpp:397]     Test net output #0: loss = 3.84512 (* 1 = 3.84512 loss)
+I1026 18:03:10.584622 12447 solver.cpp:218] Iteration 4100 (1.06596 iter/s, 18.7624s/20 iters), loss = 0.501781
+I1026 18:03:10.584681 12447 solver.cpp:237]     Train net output #0: loss = 0.501781 (* 1 = 0.501781 loss)
+I1026 18:03:10.584697 12447 sgd_solver.cpp:105] Iteration 4100, lr = 1e-06
+I1026 18:03:17.811420 12447 solver.cpp:218] Iteration 4120 (2.76753 iter/s, 7.22666s/20 iters), loss = 0.614127
+I1026 18:03:17.811509 12447 solver.cpp:237]     Train net output #0: loss = 0.614127 (* 1 = 0.614127 loss)
+I1026 18:03:17.811528 12447 sgd_solver.cpp:105] Iteration 4120, lr = 1e-06
+I1026 18:03:25.036705 12447 solver.cpp:218] Iteration 4140 (2.76812 iter/s, 7.22512s/20 iters), loss = 0.486167
+I1026 18:03:25.036770 12447 solver.cpp:237]     Train net output #0: loss = 0.486167 (* 1 = 0.486167 loss)
+I1026 18:03:25.036782 12447 sgd_solver.cpp:105] Iteration 4140, lr = 1e-06
+I1026 18:03:29.404348 12447 solver.cpp:218] Iteration 4160 (4.57928 iter/s, 4.3675s/20 iters), loss = 0.548198
+I1026 18:03:29.404496 12447 solver.cpp:237]     Train net output #0: loss = 0.548198 (* 1 = 0.548198 loss)
+I1026 18:03:29.404512 12447 sgd_solver.cpp:105] Iteration 4160, lr = 1e-06
+I1026 18:03:34.627815 12447 solver.cpp:218] Iteration 4180 (3.82903 iter/s, 5.22326s/20 iters), loss = 0.65887
+I1026 18:03:34.627885 12447 solver.cpp:237]     Train net output #0: loss = 0.65887 (* 1 = 0.65887 loss)
+I1026 18:03:34.627898 12447 sgd_solver.cpp:105] Iteration 4180, lr = 1e-06
+I1026 18:03:39.848949 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4200.caffemodel
+I1026 18:03:41.359494 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4200.solverstate
+I1026 18:03:41.894349 12447 solver.cpp:330] Iteration 4200, Testing net (#0)
+I1026 18:03:53.033956 12447 solver.cpp:397]     Test net output #0: loss = 3.81181 (* 1 = 3.81181 loss)
+I1026 18:03:53.385622 12447 solver.cpp:218] Iteration 4200 (1.06623 iter/s, 18.7576s/20 iters), loss = 0.543304
+I1026 18:03:53.385690 12447 solver.cpp:237]     Train net output #0: loss = 0.543304 (* 1 = 0.543304 loss)
+I1026 18:03:53.385709 12447 sgd_solver.cpp:105] Iteration 4200, lr = 1e-06
+I1026 18:04:00.622429 12447 solver.cpp:218] Iteration 4220 (2.76371 iter/s, 7.23666s/20 iters), loss = 0.551984
+I1026 18:04:00.622629 12447 solver.cpp:237]     Train net output #0: loss = 0.551984 (* 1 = 0.551984 loss)
+I1026 18:04:00.622642 12447 sgd_solver.cpp:105] Iteration 4220, lr = 1e-06
+I1026 18:04:07.841192 12447 solver.cpp:218] Iteration 4240 (2.77066 iter/s, 7.21849s/20 iters), loss = 0.57397
+I1026 18:04:07.841271 12447 solver.cpp:237]     Train net output #0: loss = 0.57397 (* 1 = 0.57397 loss)
+I1026 18:04:07.841284 12447 sgd_solver.cpp:105] Iteration 4240, lr = 1e-06
+I1026 18:04:12.204013 12447 solver.cpp:218] Iteration 4260 (4.58435 iter/s, 4.36267s/20 iters), loss = 0.513134
+I1026 18:04:12.204107 12447 solver.cpp:237]     Train net output #0: loss = 0.513134 (* 1 = 0.513134 loss)
+I1026 18:04:12.204124 12447 sgd_solver.cpp:105] Iteration 4260, lr = 1e-06
+I1026 18:04:17.398145 12447 solver.cpp:218] Iteration 4280 (3.85062 iter/s, 5.19397s/20 iters), loss = 0.548836
+I1026 18:04:17.398226 12447 solver.cpp:237]     Train net output #0: loss = 0.548836 (* 1 = 0.548836 loss)
+I1026 18:04:17.398237 12447 sgd_solver.cpp:105] Iteration 4280, lr = 1e-06
+I1026 18:04:22.641208 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4300.caffemodel
+I1026 18:04:24.168442 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4300.solverstate
+I1026 18:04:24.712057 12447 solver.cpp:330] Iteration 4300, Testing net (#0)
+I1026 18:04:35.824762 12447 solver.cpp:397]     Test net output #0: loss = 3.79048 (* 1 = 3.79048 loss)
+I1026 18:04:36.177314 12447 solver.cpp:218] Iteration 4300 (1.06502 iter/s, 18.779s/20 iters), loss = 0.588931
+I1026 18:04:36.177392 12447 solver.cpp:237]     Train net output #0: loss = 0.588931 (* 1 = 0.588931 loss)
+I1026 18:04:36.177404 12447 sgd_solver.cpp:105] Iteration 4300, lr = 1e-06
+I1026 18:04:43.389036 12447 solver.cpp:218] Iteration 4320 (2.77332 iter/s, 7.21157s/20 iters), loss = 0.691236
+I1026 18:04:43.389111 12447 solver.cpp:237]     Train net output #0: loss = 0.691236 (* 1 = 0.691236 loss)
+I1026 18:04:43.389124 12447 sgd_solver.cpp:105] Iteration 4320, lr = 1e-06
+I1026 18:04:50.593667 12447 solver.cpp:218] Iteration 4340 (2.77605 iter/s, 7.20448s/20 iters), loss = 0.554858
+I1026 18:04:50.593744 12447 solver.cpp:237]     Train net output #0: loss = 0.554858 (* 1 = 0.554858 loss)
+I1026 18:04:50.593755 12447 sgd_solver.cpp:105] Iteration 4340, lr = 1e-06
+I1026 18:04:54.954061 12447 solver.cpp:218] Iteration 4360 (4.58689 iter/s, 4.36025s/20 iters), loss = 0.521373
+I1026 18:04:54.954140 12447 solver.cpp:237]     Train net output #0: loss = 0.521373 (* 1 = 0.521373 loss)
+I1026 18:04:54.954154 12447 sgd_solver.cpp:105] Iteration 4360, lr = 1e-06
+I1026 18:05:00.137974 12447 solver.cpp:218] Iteration 4380 (3.85821 iter/s, 5.18375s/20 iters), loss = 0.598076
+I1026 18:05:00.138061 12447 solver.cpp:237]     Train net output #0: loss = 0.598076 (* 1 = 0.598076 loss)
+I1026 18:05:00.138083 12447 sgd_solver.cpp:105] Iteration 4380, lr = 1e-06
+I1026 18:05:05.371534 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4400.caffemodel
+I1026 18:05:06.888662 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4400.solverstate
+I1026 18:05:07.427989 12447 solver.cpp:330] Iteration 4400, Testing net (#0)
+I1026 18:05:18.547289 12447 solver.cpp:397]     Test net output #0: loss = 3.88167 (* 1 = 3.88167 loss)
+I1026 18:05:18.897902 12447 solver.cpp:218] Iteration 4400 (1.06623 iter/s, 18.7576s/20 iters), loss = 0.668013
+I1026 18:05:18.897972 12447 solver.cpp:237]     Train net output #0: loss = 0.668013 (* 1 = 0.668013 loss)
+I1026 18:05:18.897985 12447 sgd_solver.cpp:105] Iteration 4400, lr = 1e-06
+I1026 18:05:26.100553 12447 solver.cpp:218] Iteration 4420 (2.77681 iter/s, 7.2025s/20 iters), loss = 0.497315
+I1026 18:05:26.100632 12447 solver.cpp:237]     Train net output #0: loss = 0.497315 (* 1 = 0.497315 loss)
+I1026 18:05:26.100643 12447 sgd_solver.cpp:105] Iteration 4420, lr = 1e-06
+I1026 18:05:33.302322 12447 solver.cpp:218] Iteration 4440 (2.77715 iter/s, 7.20161s/20 iters), loss = 0.558832
+I1026 18:05:33.302397 12447 solver.cpp:237]     Train net output #0: loss = 0.558832 (* 1 = 0.558832 loss)
+I1026 18:05:33.302410 12447 sgd_solver.cpp:105] Iteration 4440, lr = 1e-06
+I1026 18:05:37.698721 12447 solver.cpp:218] Iteration 4460 (4.54933 iter/s, 4.39626s/20 iters), loss = 0.524925
+I1026 18:05:37.698933 12447 solver.cpp:237]     Train net output #0: loss = 0.524925 (* 1 = 0.524925 loss)
+I1026 18:05:37.698951 12447 sgd_solver.cpp:105] Iteration 4460, lr = 1e-06
+I1026 18:05:42.880833 12447 solver.cpp:218] Iteration 4480 (3.85964 iter/s, 5.18184s/20 iters), loss = 0.576297
+I1026 18:05:42.880959 12447 solver.cpp:237]     Train net output #0: loss = 0.576297 (* 1 = 0.576297 loss)
+I1026 18:05:42.880985 12447 sgd_solver.cpp:105] Iteration 4480, lr = 1e-06
+I1026 18:05:48.092017 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4500.caffemodel
+I1026 18:05:49.680883 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4500.solverstate
+I1026 18:05:50.213672 12447 solver.cpp:330] Iteration 4500, Testing net (#0)
+I1026 18:06:01.272083 12447 solver.cpp:397]     Test net output #0: loss = 3.86478 (* 1 = 3.86478 loss)
+I1026 18:06:01.623829 12447 solver.cpp:218] Iteration 4500 (1.06708 iter/s, 18.7427s/20 iters), loss = 0.597409
+I1026 18:06:01.623910 12447 solver.cpp:237]     Train net output #0: loss = 0.597409 (* 1 = 0.597409 loss)
+I1026 18:06:01.623924 12447 sgd_solver.cpp:105] Iteration 4500, lr = 1e-06
+I1026 18:06:08.840896 12447 solver.cpp:218] Iteration 4520 (2.77127 iter/s, 7.21691s/20 iters), loss = 0.669543
+I1026 18:06:08.841043 12447 solver.cpp:237]     Train net output #0: loss = 0.669543 (* 1 = 0.669543 loss)
+I1026 18:06:08.841058 12447 sgd_solver.cpp:105] Iteration 4520, lr = 1e-06
+I1026 18:06:16.066097 12447 solver.cpp:218] Iteration 4540 (2.76817 iter/s, 7.22498s/20 iters), loss = 0.585871
+I1026 18:06:16.066176 12447 solver.cpp:237]     Train net output #0: loss = 0.585871 (* 1 = 0.585871 loss)
+I1026 18:06:16.066190 12447 sgd_solver.cpp:105] Iteration 4540, lr = 1e-06
+I1026 18:06:20.465867 12447 solver.cpp:218] Iteration 4560 (4.54584 iter/s, 4.39962s/20 iters), loss = 0.544205
+I1026 18:06:20.465950 12447 solver.cpp:237]     Train net output #0: loss = 0.544205 (* 1 = 0.544205 loss)
+I1026 18:06:20.465961 12447 sgd_solver.cpp:105] Iteration 4560, lr = 1e-06
+I1026 18:06:25.660177 12447 solver.cpp:218] Iteration 4580 (3.85048 iter/s, 5.19416s/20 iters), loss = 0.47544
+I1026 18:06:25.660251 12447 solver.cpp:237]     Train net output #0: loss = 0.47544 (* 1 = 0.47544 loss)
+I1026 18:06:25.660264 12447 sgd_solver.cpp:105] Iteration 4580, lr = 1e-06
+I1026 18:06:30.870779 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4600.caffemodel
+I1026 18:06:32.449443 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4600.solverstate
+I1026 18:06:32.966323 12447 solver.cpp:330] Iteration 4600, Testing net (#0)
+I1026 18:06:44.055883 12447 solver.cpp:397]     Test net output #0: loss = 3.85901 (* 1 = 3.85901 loss)
+I1026 18:06:44.408215 12447 solver.cpp:218] Iteration 4600 (1.06691 iter/s, 18.7457s/20 iters), loss = 0.667862
+I1026 18:06:44.408282 12447 solver.cpp:237]     Train net output #0: loss = 0.667862 (* 1 = 0.667862 loss)
+I1026 18:06:44.408294 12447 sgd_solver.cpp:105] Iteration 4600, lr = 1e-06
+I1026 18:06:51.630405 12447 solver.cpp:218] Iteration 4620 (2.7693 iter/s, 7.22204s/20 iters), loss = 0.49178
+I1026 18:06:51.630499 12447 solver.cpp:237]     Train net output #0: loss = 0.49178 (* 1 = 0.49178 loss)
+I1026 18:06:51.630517 12447 sgd_solver.cpp:105] Iteration 4620, lr = 1e-06
+I1026 18:06:58.843508 12447 solver.cpp:218] Iteration 4640 (2.7728 iter/s, 7.21294s/20 iters), loss = 0.61801
+I1026 18:06:58.843580 12447 solver.cpp:237]     Train net output #0: loss = 0.61801 (* 1 = 0.61801 loss)
+I1026 18:06:58.843593 12447 sgd_solver.cpp:105] Iteration 4640, lr = 1e-06
+I1026 18:07:03.202472 12447 solver.cpp:218] Iteration 4660 (4.5884 iter/s, 4.35882s/20 iters), loss = 0.604981
+I1026 18:07:03.202574 12447 solver.cpp:237]     Train net output #0: loss = 0.604981 (* 1 = 0.604981 loss)
+I1026 18:07:03.202608 12447 sgd_solver.cpp:105] Iteration 4660, lr = 1e-06
+I1026 18:07:08.429222 12447 solver.cpp:218] Iteration 4680 (3.82659 iter/s, 5.22659s/20 iters), loss = 0.570441
+I1026 18:07:08.429292 12447 solver.cpp:237]     Train net output #0: loss = 0.570441 (* 1 = 0.570441 loss)
+I1026 18:07:08.429306 12447 sgd_solver.cpp:105] Iteration 4680, lr = 1e-06
+I1026 18:07:13.636137 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4700.caffemodel
+I1026 18:07:15.121083 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4700.solverstate
+I1026 18:07:15.629225 12447 solver.cpp:330] Iteration 4700, Testing net (#0)
+I1026 18:07:26.630944 12447 solver.cpp:397]     Test net output #0: loss = 3.9682 (* 1 = 3.9682 loss)
+I1026 18:07:26.983218 12447 solver.cpp:218] Iteration 4700 (1.07795 iter/s, 18.5538s/20 iters), loss = 0.577205
+I1026 18:07:26.983285 12447 solver.cpp:237]     Train net output #0: loss = 0.577205 (* 1 = 0.577205 loss)
+I1026 18:07:26.983299 12447 sgd_solver.cpp:105] Iteration 4700, lr = 1e-06
+I1026 18:07:34.186391 12447 solver.cpp:218] Iteration 4720 (2.77661 iter/s, 7.20303s/20 iters), loss = 0.589652
+I1026 18:07:34.186471 12447 solver.cpp:237]     Train net output #0: loss = 0.589652 (* 1 = 0.589652 loss)
+I1026 18:07:34.186481 12447 sgd_solver.cpp:105] Iteration 4720, lr = 1e-06
+I1026 18:07:41.389504 12447 solver.cpp:218] Iteration 4740 (2.77665 iter/s, 7.20293s/20 iters), loss = 0.624509
+I1026 18:07:41.389660 12447 solver.cpp:237]     Train net output #0: loss = 0.624509 (* 1 = 0.624509 loss)
+I1026 18:07:41.389683 12447 sgd_solver.cpp:105] Iteration 4740, lr = 1e-06
+I1026 18:07:45.883808 12447 solver.cpp:218] Iteration 4760 (4.45029 iter/s, 4.49409s/20 iters), loss = 0.486942
+I1026 18:07:45.883927 12447 solver.cpp:237]     Train net output #0: loss = 0.486942 (* 1 = 0.486942 loss)
+I1026 18:07:45.883942 12447 sgd_solver.cpp:105] Iteration 4760, lr = 1e-06
+I1026 18:07:51.100512 12447 solver.cpp:218] Iteration 4780 (3.83398 iter/s, 5.21652s/20 iters), loss = 0.564142
+I1026 18:07:51.100589 12447 solver.cpp:237]     Train net output #0: loss = 0.564142 (* 1 = 0.564142 loss)
+I1026 18:07:51.100600 12447 sgd_solver.cpp:105] Iteration 4780, lr = 1e-06
+I1026 18:07:56.337998 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4800.caffemodel
+I1026 18:07:57.839974 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4800.solverstate
+I1026 18:07:58.373219 12447 solver.cpp:330] Iteration 4800, Testing net (#0)
+I1026 18:08:09.398499 12447 solver.cpp:397]     Test net output #0: loss = 3.83243 (* 1 = 3.83243 loss)
+I1026 18:08:09.743827 12447 solver.cpp:218] Iteration 4800 (1.07278 iter/s, 18.6431s/20 iters), loss = 0.654015
+I1026 18:08:09.743896 12447 solver.cpp:237]     Train net output #0: loss = 0.654015 (* 1 = 0.654015 loss)
+I1026 18:08:09.743907 12447 sgd_solver.cpp:105] Iteration 4800, lr = 1e-06
+I1026 18:08:16.973997 12447 solver.cpp:218] Iteration 4820 (2.76705 iter/s, 7.22792s/20 iters), loss = 0.547088
+I1026 18:08:16.974114 12447 solver.cpp:237]     Train net output #0: loss = 0.547088 (* 1 = 0.547088 loss)
+I1026 18:08:16.974128 12447 sgd_solver.cpp:105] Iteration 4820, lr = 1e-06
+I1026 18:08:24.276506 12447 solver.cpp:218] Iteration 4840 (2.73964 iter/s, 7.30023s/20 iters), loss = 0.590336
+I1026 18:08:24.276607 12447 solver.cpp:237]     Train net output #0: loss = 0.590336 (* 1 = 0.590336 loss)
+I1026 18:08:24.276623 12447 sgd_solver.cpp:105] Iteration 4840, lr = 1e-06
+I1026 18:08:28.639840 12447 solver.cpp:218] Iteration 4860 (4.58601 iter/s, 4.36109s/20 iters), loss = 0.632852
+I1026 18:08:28.639915 12447 solver.cpp:237]     Train net output #0: loss = 0.632852 (* 1 = 0.632852 loss)
+I1026 18:08:28.639928 12447 sgd_solver.cpp:105] Iteration 4860, lr = 1e-06
+I1026 18:08:33.849236 12447 solver.cpp:218] Iteration 4880 (3.83932 iter/s, 5.20925s/20 iters), loss = 0.531775
+I1026 18:08:33.849316 12447 solver.cpp:237]     Train net output #0: loss = 0.531775 (* 1 = 0.531775 loss)
+I1026 18:08:33.849328 12447 sgd_solver.cpp:105] Iteration 4880, lr = 1e-06
+I1026 18:08:39.080859 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4900.caffemodel
+I1026 18:08:40.591452 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_4900.solverstate
+I1026 18:08:41.131104 12447 solver.cpp:330] Iteration 4900, Testing net (#0)
+I1026 18:08:52.286550 12447 solver.cpp:397]     Test net output #0: loss = 3.8318 (* 1 = 3.8318 loss)
+I1026 18:08:52.638718 12447 solver.cpp:218] Iteration 4900 (1.06444 iter/s, 18.7893s/20 iters), loss = 0.612422
+I1026 18:08:52.638787 12447 solver.cpp:237]     Train net output #0: loss = 0.612422 (* 1 = 0.612422 loss)
+I1026 18:08:52.638800 12447 sgd_solver.cpp:105] Iteration 4900, lr = 1e-06
+I1026 18:08:59.866364 12447 solver.cpp:218] Iteration 4920 (2.76721 iter/s, 7.2275s/20 iters), loss = 0.577675
+I1026 18:08:59.866444 12447 solver.cpp:237]     Train net output #0: loss = 0.577675 (* 1 = 0.577675 loss)
+I1026 18:08:59.866456 12447 sgd_solver.cpp:105] Iteration 4920, lr = 1e-06
+I1026 18:09:07.081810 12447 solver.cpp:218] Iteration 4940 (2.77189 iter/s, 7.21529s/20 iters), loss = 0.535166
+I1026 18:09:07.081885 12447 solver.cpp:237]     Train net output #0: loss = 0.535166 (* 1 = 0.535166 loss)
+I1026 18:09:07.081897 12447 sgd_solver.cpp:105] Iteration 4940, lr = 1e-06
+I1026 18:09:11.497941 12447 solver.cpp:218] Iteration 4960 (4.52899 iter/s, 4.41599s/20 iters), loss = 0.569677
+I1026 18:09:11.498021 12447 solver.cpp:237]     Train net output #0: loss = 0.569677 (* 1 = 0.569677 loss)
+I1026 18:09:11.498034 12447 sgd_solver.cpp:105] Iteration 4960, lr = 1e-06
+I1026 18:09:16.714268 12447 solver.cpp:218] Iteration 4980 (3.83423 iter/s, 5.21617s/20 iters), loss = 0.567839
+I1026 18:09:16.714349 12447 solver.cpp:237]     Train net output #0: loss = 0.567839 (* 1 = 0.567839 loss)
+I1026 18:09:16.714367 12447 sgd_solver.cpp:105] Iteration 4980, lr = 1e-06
+I1026 18:09:22.043859 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5000.caffemodel
+I1026 18:09:23.563911 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5000.solverstate
+I1026 18:09:24.101994 12447 solver.cpp:330] Iteration 5000, Testing net (#0)
+I1026 18:09:35.222321 12447 solver.cpp:397]     Test net output #0: loss = 3.79815 (* 1 = 3.79815 loss)
+I1026 18:09:35.574831 12447 solver.cpp:218] Iteration 5000 (1.06042 iter/s, 18.8604s/20 iters), loss = 0.504756
+I1026 18:09:35.574906 12447 solver.cpp:237]     Train net output #0: loss = 0.504756 (* 1 = 0.504756 loss)
+I1026 18:09:35.574918 12447 sgd_solver.cpp:105] Iteration 5000, lr = 1e-06
+I1026 18:09:42.784243 12447 solver.cpp:218] Iteration 5020 (2.77421 iter/s, 7.20925s/20 iters), loss = 0.567785
+I1026 18:09:42.784332 12447 solver.cpp:237]     Train net output #0: loss = 0.567785 (* 1 = 0.567785 loss)
+I1026 18:09:42.784348 12447 sgd_solver.cpp:105] Iteration 5020, lr = 1e-06
+I1026 18:09:49.981142 12447 solver.cpp:218] Iteration 5040 (2.77904 iter/s, 7.19673s/20 iters), loss = 0.681252
+I1026 18:09:49.981207 12447 solver.cpp:237]     Train net output #0: loss = 0.681252 (* 1 = 0.681252 loss)
+I1026 18:09:49.981220 12447 sgd_solver.cpp:105] Iteration 5040, lr = 1e-06
+I1026 18:09:54.248294 12447 solver.cpp:218] Iteration 5060 (4.68707 iter/s, 4.26706s/20 iters), loss = 0.497568
+I1026 18:09:54.248491 12447 solver.cpp:237]     Train net output #0: loss = 0.497568 (* 1 = 0.497568 loss)
+I1026 18:09:54.248509 12447 sgd_solver.cpp:105] Iteration 5060, lr = 1e-06
+I1026 18:09:59.477771 12447 solver.cpp:218] Iteration 5080 (3.82466 iter/s, 5.22922s/20 iters), loss = 0.547031
+I1026 18:09:59.477847 12447 solver.cpp:237]     Train net output #0: loss = 0.547031 (* 1 = 0.547031 loss)
+I1026 18:09:59.477860 12447 sgd_solver.cpp:105] Iteration 5080, lr = 1e-06
+I1026 18:10:04.813534 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5100.caffemodel
+I1026 18:10:06.321451 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5100.solverstate
+I1026 18:10:06.855473 12447 solver.cpp:330] Iteration 5100, Testing net (#0)
+I1026 18:10:17.970641 12447 solver.cpp:397]     Test net output #0: loss = 3.81326 (* 1 = 3.81326 loss)
+I1026 18:10:18.322084 12447 solver.cpp:218] Iteration 5100 (1.06134 iter/s, 18.8441s/20 iters), loss = 0.546251
+I1026 18:10:18.322150 12447 solver.cpp:237]     Train net output #0: loss = 0.546251 (* 1 = 0.546251 loss)
+I1026 18:10:18.322165 12447 sgd_solver.cpp:105] Iteration 5100, lr = 1e-06
+I1026 18:10:25.525040 12447 solver.cpp:218] Iteration 5120 (2.77669 iter/s, 7.20281s/20 iters), loss = 0.550637
+I1026 18:10:25.525182 12447 solver.cpp:237]     Train net output #0: loss = 0.550637 (* 1 = 0.550637 loss)
+I1026 18:10:25.525193 12447 sgd_solver.cpp:105] Iteration 5120, lr = 1e-06
+I1026 18:10:32.721138 12447 solver.cpp:218] Iteration 5140 (2.77937 iter/s, 7.19587s/20 iters), loss = 0.522647
+I1026 18:10:32.721213 12447 solver.cpp:237]     Train net output #0: loss = 0.522647 (* 1 = 0.522647 loss)
+I1026 18:10:32.721227 12447 sgd_solver.cpp:105] Iteration 5140, lr = 1e-06
+I1026 18:10:37.049928 12447 solver.cpp:218] Iteration 5160 (4.62035 iter/s, 4.32867s/20 iters), loss = 0.590593
+I1026 18:10:37.050027 12447 solver.cpp:237]     Train net output #0: loss = 0.590593 (* 1 = 0.590593 loss)
+I1026 18:10:37.050045 12447 sgd_solver.cpp:105] Iteration 5160, lr = 1e-06
+I1026 18:10:42.264441 12447 solver.cpp:218] Iteration 5180 (3.83557 iter/s, 5.21435s/20 iters), loss = 0.532456
+I1026 18:10:42.264518 12447 solver.cpp:237]     Train net output #0: loss = 0.532456 (* 1 = 0.532456 loss)
+I1026 18:10:42.264530 12447 sgd_solver.cpp:105] Iteration 5180, lr = 1e-06
+I1026 18:10:47.689699 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5200.caffemodel
+I1026 18:10:49.204484 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5200.solverstate
+I1026 18:10:49.743436 12447 solver.cpp:330] Iteration 5200, Testing net (#0)
+I1026 18:11:00.860558 12447 solver.cpp:397]     Test net output #0: loss = 3.83102 (* 1 = 3.83102 loss)
+I1026 18:11:01.212306 12447 solver.cpp:218] Iteration 5200 (1.05554 iter/s, 18.9477s/20 iters), loss = 0.555341
+I1026 18:11:01.212381 12447 solver.cpp:237]     Train net output #0: loss = 0.555341 (* 1 = 0.555341 loss)
+I1026 18:11:01.212394 12447 sgd_solver.cpp:105] Iteration 5200, lr = 1e-06
+I1026 18:11:08.419088 12447 solver.cpp:218] Iteration 5220 (2.77522 iter/s, 7.20663s/20 iters), loss = 0.525138
+I1026 18:11:08.419167 12447 solver.cpp:237]     Train net output #0: loss = 0.525138 (* 1 = 0.525138 loss)
+I1026 18:11:08.419180 12447 sgd_solver.cpp:105] Iteration 5220, lr = 1e-06
+I1026 18:11:15.426055 12447 solver.cpp:218] Iteration 5240 (2.85437 iter/s, 7.00681s/20 iters), loss = 0.600745
+I1026 18:11:15.426137 12447 solver.cpp:237]     Train net output #0: loss = 0.600745 (* 1 = 0.600745 loss)
+I1026 18:11:15.426151 12447 sgd_solver.cpp:105] Iteration 5240, lr = 1e-06
+I1026 18:11:19.840298 12447 solver.cpp:218] Iteration 5260 (4.53092 iter/s, 4.41412s/20 iters), loss = 0.578623
+I1026 18:11:19.840490 12447 solver.cpp:237]     Train net output #0: loss = 0.578623 (* 1 = 0.578623 loss)
+I1026 18:11:19.840512 12447 sgd_solver.cpp:105] Iteration 5260, lr = 1e-06
+I1026 18:11:25.056386 12447 solver.cpp:218] Iteration 5280 (3.83448 iter/s, 5.21583s/20 iters), loss = 0.499661
+I1026 18:11:25.056526 12447 solver.cpp:237]     Train net output #0: loss = 0.499661 (* 1 = 0.499661 loss)
+I1026 18:11:25.056547 12447 sgd_solver.cpp:105] Iteration 5280, lr = 1e-06
+I1026 18:11:30.577172 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5300.caffemodel
+I1026 18:11:32.099598 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5300.solverstate
+I1026 18:11:32.643646 12447 solver.cpp:330] Iteration 5300, Testing net (#0)
+I1026 18:11:43.749734 12447 solver.cpp:397]     Test net output #0: loss = 3.959 (* 1 = 3.959 loss)
+I1026 18:11:44.104219 12447 solver.cpp:218] Iteration 5300 (1.05 iter/s, 19.0476s/20 iters), loss = 0.570727
+I1026 18:11:44.104296 12447 solver.cpp:237]     Train net output #0: loss = 0.570727 (* 1 = 0.570727 loss)
+I1026 18:11:44.104308 12447 sgd_solver.cpp:105] Iteration 5300, lr = 1e-06
+I1026 18:11:51.312649 12447 solver.cpp:218] Iteration 5320 (2.77459 iter/s, 7.20828s/20 iters), loss = 0.483629
+I1026 18:11:51.312723 12447 solver.cpp:237]     Train net output #0: loss = 0.483629 (* 1 = 0.483629 loss)
+I1026 18:11:51.312734 12447 sgd_solver.cpp:105] Iteration 5320, lr = 1e-06
+I1026 18:11:58.148910 12447 solver.cpp:218] Iteration 5340 (2.92564 iter/s, 6.83611s/20 iters), loss = 0.580872
+I1026 18:11:58.148978 12447 solver.cpp:237]     Train net output #0: loss = 0.580872 (* 1 = 0.580872 loss)
+I1026 18:11:58.148991 12447 sgd_solver.cpp:105] Iteration 5340, lr = 1e-06
+I1026 18:12:02.601907 12447 solver.cpp:218] Iteration 5360 (4.49146 iter/s, 4.4529s/20 iters), loss = 0.517265
+I1026 18:12:02.602038 12447 solver.cpp:237]     Train net output #0: loss = 0.517265 (* 1 = 0.517265 loss)
+I1026 18:12:02.602052 12447 sgd_solver.cpp:105] Iteration 5360, lr = 1e-06
+I1026 18:12:07.798208 12447 solver.cpp:218] Iteration 5380 (3.84905 iter/s, 5.19609s/20 iters), loss = 0.598771
+I1026 18:12:07.798298 12447 solver.cpp:237]     Train net output #0: loss = 0.598771 (* 1 = 0.598771 loss)
+I1026 18:12:07.798313 12447 sgd_solver.cpp:105] Iteration 5380, lr = 1e-06
+I1026 18:12:13.335240 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5400.caffemodel
+I1026 18:12:14.860636 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5400.solverstate
+I1026 18:12:15.394062 12447 solver.cpp:330] Iteration 5400, Testing net (#0)
+I1026 18:12:26.506378 12447 solver.cpp:397]     Test net output #0: loss = 3.89127 (* 1 = 3.89127 loss)
+I1026 18:12:26.861626 12447 solver.cpp:218] Iteration 5400 (1.04914 iter/s, 19.0632s/20 iters), loss = 0.514126
+I1026 18:12:26.861696 12447 solver.cpp:237]     Train net output #0: loss = 0.514126 (* 1 = 0.514126 loss)
+I1026 18:12:26.861708 12447 sgd_solver.cpp:105] Iteration 5400, lr = 1e-06
+I1026 18:12:34.085927 12447 solver.cpp:218] Iteration 5420 (2.76849 iter/s, 7.22415s/20 iters), loss = 0.504779
+I1026 18:12:34.086061 12447 solver.cpp:237]     Train net output #0: loss = 0.504779 (* 1 = 0.504779 loss)
+I1026 18:12:34.086079 12447 sgd_solver.cpp:105] Iteration 5420, lr = 1e-06
+I1026 18:12:40.909667 12447 solver.cpp:218] Iteration 5440 (2.93103 iter/s, 6.82353s/20 iters), loss = 0.497182
+I1026 18:12:40.909737 12447 solver.cpp:237]     Train net output #0: loss = 0.497182 (* 1 = 0.497182 loss)
+I1026 18:12:40.909750 12447 sgd_solver.cpp:105] Iteration 5440, lr = 1e-06
+I1026 18:12:45.353401 12447 solver.cpp:218] Iteration 5460 (4.50082 iter/s, 4.44364s/20 iters), loss = 0.562714
+I1026 18:12:45.353482 12447 solver.cpp:237]     Train net output #0: loss = 0.562714 (* 1 = 0.562714 loss)
+I1026 18:12:45.353494 12447 sgd_solver.cpp:105] Iteration 5460, lr = 1e-06
+I1026 18:12:50.573325 12447 solver.cpp:218] Iteration 5480 (3.83158 iter/s, 5.21978s/20 iters), loss = 0.54961
+I1026 18:12:50.573408 12447 solver.cpp:237]     Train net output #0: loss = 0.54961 (* 1 = 0.54961 loss)
+I1026 18:12:50.573421 12447 sgd_solver.cpp:105] Iteration 5480, lr = 1e-06
+I1026 18:12:56.093317 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5500.caffemodel
+I1026 18:12:57.628921 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5500.solverstate
+I1026 18:12:58.169960 12447 solver.cpp:330] Iteration 5500, Testing net (#0)
+I1026 18:13:09.263991 12447 solver.cpp:397]     Test net output #0: loss = 3.77442 (* 1 = 3.77442 loss)
+I1026 18:13:09.615674 12447 solver.cpp:218] Iteration 5500 (1.0503 iter/s, 19.0421s/20 iters), loss = 0.519426
+I1026 18:13:09.615761 12447 solver.cpp:237]     Train net output #0: loss = 0.519426 (* 1 = 0.519426 loss)
+I1026 18:13:09.615775 12447 sgd_solver.cpp:105] Iteration 5500, lr = 1e-06
+I1026 18:13:16.835392 12447 solver.cpp:218] Iteration 5520 (2.77025 iter/s, 7.21956s/20 iters), loss = 0.571015
+I1026 18:13:16.835474 12447 solver.cpp:237]     Train net output #0: loss = 0.571015 (* 1 = 0.571015 loss)
+I1026 18:13:16.835487 12447 sgd_solver.cpp:105] Iteration 5520, lr = 1e-06
+I1026 18:13:23.647974 12447 solver.cpp:218] Iteration 5540 (2.93581 iter/s, 6.81243s/20 iters), loss = 0.511332
+I1026 18:13:23.648041 12447 solver.cpp:237]     Train net output #0: loss = 0.511332 (* 1 = 0.511332 loss)
+I1026 18:13:23.648056 12447 sgd_solver.cpp:105] Iteration 5540, lr = 1e-06
+I1026 18:13:28.088975 12447 solver.cpp:218] Iteration 5560 (4.50358 iter/s, 4.44091s/20 iters), loss = 0.531261
+I1026 18:13:28.089056 12447 solver.cpp:237]     Train net output #0: loss = 0.531261 (* 1 = 0.531261 loss)
+I1026 18:13:28.089067 12447 sgd_solver.cpp:105] Iteration 5560, lr = 1e-06
+I1026 18:13:33.288259 12447 solver.cpp:218] Iteration 5580 (3.84679 iter/s, 5.19914s/20 iters), loss = 0.560244
+I1026 18:13:33.288384 12447 solver.cpp:237]     Train net output #0: loss = 0.560244 (* 1 = 0.560244 loss)
+I1026 18:13:33.288414 12447 sgd_solver.cpp:105] Iteration 5580, lr = 1e-06
+I1026 18:13:38.806594 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5600.caffemodel
+I1026 18:13:40.342356 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5600.solverstate
+I1026 18:13:40.863234 12447 solver.cpp:330] Iteration 5600, Testing net (#0)
+I1026 18:13:51.979933 12447 solver.cpp:397]     Test net output #0: loss = 3.85455 (* 1 = 3.85455 loss)
+I1026 18:13:52.332557 12447 solver.cpp:218] Iteration 5600 (1.05031 iter/s, 19.042s/20 iters), loss = 0.549937
+I1026 18:13:52.332625 12447 solver.cpp:237]     Train net output #0: loss = 0.549937 (* 1 = 0.549937 loss)
+I1026 18:13:52.332638 12447 sgd_solver.cpp:105] Iteration 5600, lr = 1e-06
+I1026 18:13:59.547477 12447 solver.cpp:218] Iteration 5620 (2.77209 iter/s, 7.21478s/20 iters), loss = 0.523898
+I1026 18:13:59.547554 12447 solver.cpp:237]     Train net output #0: loss = 0.523898 (* 1 = 0.523898 loss)
+I1026 18:13:59.547567 12447 sgd_solver.cpp:105] Iteration 5620, lr = 1e-06
+I1026 18:14:06.374411 12447 solver.cpp:218] Iteration 5640 (2.92964 iter/s, 6.82679s/20 iters), loss = 0.583054
+I1026 18:14:06.374482 12447 solver.cpp:237]     Train net output #0: loss = 0.583054 (* 1 = 0.583054 loss)
+I1026 18:14:06.374497 12447 sgd_solver.cpp:105] Iteration 5640, lr = 1e-06
+I1026 18:14:10.827134 12447 solver.cpp:218] Iteration 5660 (4.49173 iter/s, 4.45263s/20 iters), loss = 0.551103
+I1026 18:14:10.827356 12447 solver.cpp:237]     Train net output #0: loss = 0.551103 (* 1 = 0.551103 loss)
+I1026 18:14:10.827370 12447 sgd_solver.cpp:105] Iteration 5660, lr = 1e-06
+I1026 18:14:16.039379 12447 solver.cpp:218] Iteration 5680 (3.83733 iter/s, 5.21195s/20 iters), loss = 0.60473
+I1026 18:14:16.039463 12447 solver.cpp:237]     Train net output #0: loss = 0.60473 (* 1 = 0.60473 loss)
+I1026 18:14:16.039476 12447 sgd_solver.cpp:105] Iteration 5680, lr = 1e-06
+I1026 18:14:21.553102 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5700.caffemodel
+I1026 18:14:23.078078 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5700.solverstate
+I1026 18:14:23.623970 12447 solver.cpp:330] Iteration 5700, Testing net (#0)
+I1026 18:14:34.724376 12447 solver.cpp:397]     Test net output #0: loss = 3.87672 (* 1 = 3.87672 loss)
+I1026 18:14:35.078824 12447 solver.cpp:218] Iteration 5700 (1.05046 iter/s, 19.0392s/20 iters), loss = 0.51416
+I1026 18:14:35.078905 12447 solver.cpp:237]     Train net output #0: loss = 0.51416 (* 1 = 0.51416 loss)
+I1026 18:14:35.078918 12447 sgd_solver.cpp:105] Iteration 5700, lr = 1e-06
+I1026 18:14:42.308728 12447 solver.cpp:218] Iteration 5720 (2.76635 iter/s, 7.22975s/20 iters), loss = 0.577313
+I1026 18:14:42.308934 12447 solver.cpp:237]     Train net output #0: loss = 0.577313 (* 1 = 0.577313 loss)
+I1026 18:14:42.308948 12447 sgd_solver.cpp:105] Iteration 5720, lr = 1e-06
+I1026 18:14:49.144227 12447 solver.cpp:218] Iteration 5740 (2.92603 iter/s, 6.83521s/20 iters), loss = 0.553011
+I1026 18:14:49.144306 12447 solver.cpp:237]     Train net output #0: loss = 0.553011 (* 1 = 0.553011 loss)
+I1026 18:14:49.144318 12447 sgd_solver.cpp:105] Iteration 5740, lr = 1e-06
+I1026 18:14:53.588593 12447 solver.cpp:218] Iteration 5760 (4.50019 iter/s, 4.44426s/20 iters), loss = 0.552558
+I1026 18:14:53.588666 12447 solver.cpp:237]     Train net output #0: loss = 0.552558 (* 1 = 0.552558 loss)
+I1026 18:14:53.588677 12447 sgd_solver.cpp:105] Iteration 5760, lr = 1e-06
+I1026 18:14:58.812793 12447 solver.cpp:218] Iteration 5780 (3.82844 iter/s, 5.22406s/20 iters), loss = 0.583395
+I1026 18:14:58.812872 12447 solver.cpp:237]     Train net output #0: loss = 0.583395 (* 1 = 0.583395 loss)
+I1026 18:14:58.812883 12447 sgd_solver.cpp:105] Iteration 5780, lr = 1e-06
+I1026 18:15:04.329845 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5800.caffemodel
+I1026 18:15:05.848928 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5800.solverstate
+I1026 18:15:06.378831 12447 solver.cpp:330] Iteration 5800, Testing net (#0)
+I1026 18:15:17.505012 12447 solver.cpp:397]     Test net output #0: loss = 3.79019 (* 1 = 3.79019 loss)
+I1026 18:15:17.858088 12447 solver.cpp:218] Iteration 5800 (1.05014 iter/s, 19.0451s/20 iters), loss = 0.5014
+I1026 18:15:17.858165 12447 solver.cpp:237]     Train net output #0: loss = 0.5014 (* 1 = 0.5014 loss)
+I1026 18:15:17.858177 12447 sgd_solver.cpp:105] Iteration 5800, lr = 1e-06
+I1026 18:15:25.069244 12447 solver.cpp:218] Iteration 5820 (2.77354 iter/s, 7.21101s/20 iters), loss = 0.652658
+I1026 18:15:25.069319 12447 solver.cpp:237]     Train net output #0: loss = 0.652658 (* 1 = 0.652658 loss)
+I1026 18:15:25.069331 12447 sgd_solver.cpp:105] Iteration 5820, lr = 1e-06
+I1026 18:15:31.893923 12447 solver.cpp:218] Iteration 5840 (2.93061 iter/s, 6.82453s/20 iters), loss = 0.594717
+I1026 18:15:31.893993 12447 solver.cpp:237]     Train net output #0: loss = 0.594717 (* 1 = 0.594717 loss)
+I1026 18:15:31.894006 12447 sgd_solver.cpp:105] Iteration 5840, lr = 1e-06
+I1026 18:15:36.338109 12447 solver.cpp:218] Iteration 5860 (4.50036 iter/s, 4.44409s/20 iters), loss = 0.419945
+I1026 18:15:36.338191 12447 solver.cpp:237]     Train net output #0: loss = 0.419945 (* 1 = 0.419945 loss)
+I1026 18:15:36.338202 12447 sgd_solver.cpp:105] Iteration 5860, lr = 1e-06
+I1026 18:15:41.554682 12447 solver.cpp:218] Iteration 5880 (3.83404 iter/s, 5.21643s/20 iters), loss = 0.583836
+I1026 18:15:41.554747 12447 solver.cpp:237]     Train net output #0: loss = 0.583836 (* 1 = 0.583836 loss)
+I1026 18:15:41.554759 12447 sgd_solver.cpp:105] Iteration 5880, lr = 1e-06
+I1026 18:15:47.074774 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5900.caffemodel
+I1026 18:15:48.600622 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_5900.solverstate
+I1026 18:15:49.131762 12447 solver.cpp:330] Iteration 5900, Testing net (#0)
+I1026 18:16:00.240208 12447 solver.cpp:397]     Test net output #0: loss = 3.75536 (* 1 = 3.75536 loss)
+I1026 18:16:00.590752 12447 solver.cpp:218] Iteration 5900 (1.05076 iter/s, 19.0338s/20 iters), loss = 0.587403
+I1026 18:16:00.590863 12447 solver.cpp:237]     Train net output #0: loss = 0.587403 (* 1 = 0.587403 loss)
+I1026 18:16:00.590890 12447 sgd_solver.cpp:105] Iteration 5900, lr = 1e-06
+I1026 18:16:07.804306 12447 solver.cpp:218] Iteration 5920 (2.77272 iter/s, 7.21315s/20 iters), loss = 0.576869
+I1026 18:16:07.804425 12447 solver.cpp:237]     Train net output #0: loss = 0.576869 (* 1 = 0.576869 loss)
+I1026 18:16:07.804437 12447 sgd_solver.cpp:105] Iteration 5920, lr = 1e-06
+I1026 18:16:14.623448 12447 solver.cpp:218] Iteration 5940 (2.933 iter/s, 6.81896s/20 iters), loss = 0.564892
+I1026 18:16:14.623512 12447 solver.cpp:237]     Train net output #0: loss = 0.564892 (* 1 = 0.564892 loss)
+I1026 18:16:14.623524 12447 sgd_solver.cpp:105] Iteration 5940, lr = 1e-06
+I1026 18:16:19.057581 12447 solver.cpp:218] Iteration 5960 (4.51057 iter/s, 4.43403s/20 iters), loss = 0.535015
+I1026 18:16:19.057798 12447 solver.cpp:237]     Train net output #0: loss = 0.535015 (* 1 = 0.535015 loss)
+I1026 18:16:19.057811 12447 sgd_solver.cpp:105] Iteration 5960, lr = 1e-06
+I1026 18:16:24.274052 12447 solver.cpp:218] Iteration 5980 (3.83421 iter/s, 5.2162s/20 iters), loss = 0.604455
+I1026 18:16:24.274121 12447 solver.cpp:237]     Train net output #0: loss = 0.604455 (* 1 = 0.604455 loss)
+I1026 18:16:24.274133 12447 sgd_solver.cpp:105] Iteration 5980, lr = 1e-06
+I1026 18:16:29.782909 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6000.caffemodel
+I1026 18:16:31.299823 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6000.solverstate
+I1026 18:16:31.823053 12447 solver.cpp:330] Iteration 6000, Testing net (#0)
+I1026 18:16:42.942787 12447 solver.cpp:397]     Test net output #0: loss = 3.86632 (* 1 = 3.86632 loss)
+I1026 18:16:43.298147 12447 solver.cpp:218] Iteration 6000 (1.05131 iter/s, 19.0239s/20 iters), loss = 0.613808
+I1026 18:16:43.298214 12447 solver.cpp:237]     Train net output #0: loss = 0.613808 (* 1 = 0.613808 loss)
+I1026 18:16:43.298228 12447 sgd_solver.cpp:105] Iteration 6000, lr = 1e-06
+I1026 18:16:50.499944 12447 solver.cpp:218] Iteration 6020 (2.77714 iter/s, 7.20165s/20 iters), loss = 0.503248
+I1026 18:16:50.500069 12447 solver.cpp:237]     Train net output #0: loss = 0.503248 (* 1 = 0.503248 loss)
+I1026 18:16:50.500083 12447 sgd_solver.cpp:105] Iteration 6020, lr = 1e-06
+I1026 18:16:57.317016 12447 solver.cpp:218] Iteration 6040 (2.9339 iter/s, 6.81687s/20 iters), loss = 0.595086
+I1026 18:16:57.317083 12447 solver.cpp:237]     Train net output #0: loss = 0.595086 (* 1 = 0.595086 loss)
+I1026 18:16:57.317095 12447 sgd_solver.cpp:105] Iteration 6040, lr = 1e-06
+I1026 18:17:01.765790 12447 solver.cpp:218] Iteration 6060 (4.49572 iter/s, 4.44868s/20 iters), loss = 0.581188
+I1026 18:17:01.765858 12447 solver.cpp:237]     Train net output #0: loss = 0.581188 (* 1 = 0.581188 loss)
+I1026 18:17:01.765869 12447 sgd_solver.cpp:105] Iteration 6060, lr = 1e-06
+I1026 18:17:06.976794 12447 solver.cpp:218] Iteration 6080 (3.83971 iter/s, 5.20872s/20 iters), loss = 0.491551
+I1026 18:17:06.976894 12447 solver.cpp:237]     Train net output #0: loss = 0.491551 (* 1 = 0.491551 loss)
+I1026 18:17:06.976915 12447 sgd_solver.cpp:105] Iteration 6080, lr = 1e-06
+I1026 18:17:12.485018 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6100.caffemodel
+I1026 18:17:14.000466 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6100.solverstate
+I1026 18:17:14.534411 12447 solver.cpp:330] Iteration 6100, Testing net (#0)
+I1026 18:17:25.660060 12447 solver.cpp:397]     Test net output #0: loss = 3.90245 (* 1 = 3.90245 loss)
+I1026 18:17:26.012547 12447 solver.cpp:218] Iteration 6100 (1.05067 iter/s, 19.0355s/20 iters), loss = 0.670182
+I1026 18:17:26.012620 12447 solver.cpp:237]     Train net output #0: loss = 0.670182 (* 1 = 0.670182 loss)
+I1026 18:17:26.012634 12447 sgd_solver.cpp:105] Iteration 6100, lr = 1e-06
+I1026 18:17:33.228178 12447 solver.cpp:218] Iteration 6120 (2.77182 iter/s, 7.21548s/20 iters), loss = 0.531051
+I1026 18:17:33.228272 12447 solver.cpp:237]     Train net output #0: loss = 0.531051 (* 1 = 0.531051 loss)
+I1026 18:17:33.228288 12447 sgd_solver.cpp:105] Iteration 6120, lr = 1e-06
+I1026 18:17:40.055363 12447 solver.cpp:218] Iteration 6140 (2.92953 iter/s, 6.82703s/20 iters), loss = 0.594019
+I1026 18:17:40.055430 12447 solver.cpp:237]     Train net output #0: loss = 0.594019 (* 1 = 0.594019 loss)
+I1026 18:17:40.055444 12447 sgd_solver.cpp:105] Iteration 6140, lr = 1e-06
+I1026 18:17:44.571823 12447 solver.cpp:218] Iteration 6160 (4.42835 iter/s, 4.51636s/20 iters), loss = 0.614061
+I1026 18:17:44.571928 12447 solver.cpp:237]     Train net output #0: loss = 0.614061 (* 1 = 0.614061 loss)
+I1026 18:17:44.571946 12447 sgd_solver.cpp:105] Iteration 6160, lr = 1e-06
+I1026 18:17:49.794548 12447 solver.cpp:218] Iteration 6180 (3.82955 iter/s, 5.22255s/20 iters), loss = 0.535106
+I1026 18:17:49.794669 12447 solver.cpp:237]     Train net output #0: loss = 0.535106 (* 1 = 0.535106 loss)
+I1026 18:17:49.794687 12447 sgd_solver.cpp:105] Iteration 6180, lr = 1e-06
+I1026 18:17:55.422847 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6200.caffemodel
+I1026 18:17:56.935992 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6200.solverstate
+I1026 18:17:57.467042 12447 solver.cpp:330] Iteration 6200, Testing net (#0)
+I1026 18:18:08.593197 12447 solver.cpp:397]     Test net output #0: loss = 3.84278 (* 1 = 3.84278 loss)
+I1026 18:18:08.946362 12447 solver.cpp:218] Iteration 6200 (1.0443 iter/s, 19.1516s/20 iters), loss = 0.579461
+I1026 18:18:08.946432 12447 solver.cpp:237]     Train net output #0: loss = 0.579461 (* 1 = 0.579461 loss)
+I1026 18:18:08.946445 12447 sgd_solver.cpp:105] Iteration 6200, lr = 1e-06
+I1026 18:18:16.157004 12447 solver.cpp:218] Iteration 6220 (2.77373 iter/s, 7.2105s/20 iters), loss = 0.673247
+I1026 18:18:16.157073 12447 solver.cpp:237]     Train net output #0: loss = 0.673247 (* 1 = 0.673247 loss)
+I1026 18:18:16.157084 12447 sgd_solver.cpp:105] Iteration 6220, lr = 1e-06
+I1026 18:18:22.786640 12447 solver.cpp:218] Iteration 6240 (3.01683 iter/s, 6.62948s/20 iters), loss = 0.506525
+I1026 18:18:22.786720 12447 solver.cpp:237]     Train net output #0: loss = 0.506525 (* 1 = 0.506525 loss)
+I1026 18:18:22.786734 12447 sgd_solver.cpp:105] Iteration 6240, lr = 1e-06
+I1026 18:18:27.315934 12447 solver.cpp:218] Iteration 6260 (4.4158 iter/s, 4.52919s/20 iters), loss = 0.581856
+I1026 18:18:27.316131 12447 solver.cpp:237]     Train net output #0: loss = 0.581856 (* 1 = 0.581856 loss)
+I1026 18:18:27.316144 12447 sgd_solver.cpp:105] Iteration 6260, lr = 1e-06
+I1026 18:18:32.532534 12447 solver.cpp:218] Iteration 6280 (3.83411 iter/s, 5.21634s/20 iters), loss = 0.564101
+I1026 18:18:32.532606 12447 solver.cpp:237]     Train net output #0: loss = 0.564101 (* 1 = 0.564101 loss)
+I1026 18:18:32.532618 12447 sgd_solver.cpp:105] Iteration 6280, lr = 1e-06
+I1026 18:18:38.158063 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6300.caffemodel
+I1026 18:18:39.668251 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6300.solverstate
+I1026 18:18:40.183949 12447 solver.cpp:330] Iteration 6300, Testing net (#0)
+I1026 18:18:51.321444 12447 solver.cpp:397]     Test net output #0: loss = 3.8059 (* 1 = 3.8059 loss)
+I1026 18:18:51.676170 12447 solver.cpp:218] Iteration 6300 (1.04474 iter/s, 19.1434s/20 iters), loss = 0.527882
+I1026 18:18:51.676244 12447 solver.cpp:237]     Train net output #0: loss = 0.527882 (* 1 = 0.527882 loss)
+I1026 18:18:51.676256 12447 sgd_solver.cpp:105] Iteration 6300, lr = 1e-06
+I1026 18:18:58.878866 12447 solver.cpp:218] Iteration 6320 (2.7768 iter/s, 7.20254s/20 iters), loss = 0.500466
+I1026 18:18:58.879081 12447 solver.cpp:237]     Train net output #0: loss = 0.500466 (* 1 = 0.500466 loss)
+I1026 18:18:58.879096 12447 sgd_solver.cpp:105] Iteration 6320, lr = 1e-06
+I1026 18:19:05.511605 12447 solver.cpp:218] Iteration 6340 (3.01548 iter/s, 6.63244s/20 iters), loss = 0.526237
+I1026 18:19:05.511690 12447 solver.cpp:237]     Train net output #0: loss = 0.526237 (* 1 = 0.526237 loss)
+I1026 18:19:05.511704 12447 sgd_solver.cpp:105] Iteration 6340, lr = 1e-06
+I1026 18:19:10.032989 12447 solver.cpp:218] Iteration 6360 (4.42354 iter/s, 4.52127s/20 iters), loss = 0.469002
+I1026 18:19:10.033082 12447 solver.cpp:237]     Train net output #0: loss = 0.469002 (* 1 = 0.469002 loss)
+I1026 18:19:10.033100 12447 sgd_solver.cpp:105] Iteration 6360, lr = 1e-06
+I1026 18:19:15.247282 12447 solver.cpp:218] Iteration 6380 (3.83573 iter/s, 5.21414s/20 iters), loss = 0.674602
+I1026 18:19:15.247361 12447 solver.cpp:237]     Train net output #0: loss = 0.674602 (* 1 = 0.674602 loss)
+I1026 18:19:15.247373 12447 sgd_solver.cpp:105] Iteration 6380, lr = 1e-06
+I1026 18:19:20.858846 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6400.caffemodel
+I1026 18:19:22.365694 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6400.solverstate
+I1026 18:19:22.876641 12447 solver.cpp:330] Iteration 6400, Testing net (#0)
+I1026 18:19:33.984378 12447 solver.cpp:397]     Test net output #0: loss = 3.7339 (* 1 = 3.7339 loss)
+I1026 18:19:34.321569 12447 solver.cpp:218] Iteration 6400 (1.04854 iter/s, 19.0741s/20 iters), loss = 0.567572
+I1026 18:19:34.321645 12447 solver.cpp:237]     Train net output #0: loss = 0.567572 (* 1 = 0.567572 loss)
+I1026 18:19:34.321660 12447 sgd_solver.cpp:105] Iteration 6400, lr = 1e-06
+I1026 18:19:41.604152 12447 solver.cpp:218] Iteration 6420 (2.74713 iter/s, 7.28032s/20 iters), loss = 0.577407
+I1026 18:19:41.604216 12447 solver.cpp:237]     Train net output #0: loss = 0.577407 (* 1 = 0.577407 loss)
+I1026 18:19:41.604229 12447 sgd_solver.cpp:105] Iteration 6420, lr = 1e-06
+I1026 18:19:48.322952 12447 solver.cpp:218] Iteration 6440 (2.97777 iter/s, 6.71642s/20 iters), loss = 0.55182
+I1026 18:19:48.323032 12447 solver.cpp:237]     Train net output #0: loss = 0.55182 (* 1 = 0.55182 loss)
+I1026 18:19:48.323046 12447 sgd_solver.cpp:105] Iteration 6440, lr = 1e-06
+I1026 18:19:52.760498 12447 solver.cpp:218] Iteration 6460 (4.50711 iter/s, 4.43744s/20 iters), loss = 0.555294
+I1026 18:19:52.760578 12447 solver.cpp:237]     Train net output #0: loss = 0.555294 (* 1 = 0.555294 loss)
+I1026 18:19:52.760591 12447 sgd_solver.cpp:105] Iteration 6460, lr = 1e-06
+I1026 18:19:57.972120 12447 solver.cpp:218] Iteration 6480 (3.83769 iter/s, 5.21147s/20 iters), loss = 0.566283
+I1026 18:19:57.972213 12447 solver.cpp:237]     Train net output #0: loss = 0.566283 (* 1 = 0.566283 loss)
+I1026 18:19:57.972230 12447 sgd_solver.cpp:105] Iteration 6480, lr = 1e-06
+I1026 18:20:03.485397 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6500.caffemodel
+I1026 18:20:04.996052 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6500.solverstate
+I1026 18:20:05.501866 12447 solver.cpp:330] Iteration 6500, Testing net (#0)
+I1026 18:20:16.649667 12447 solver.cpp:397]     Test net output #0: loss = 3.83515 (* 1 = 3.83515 loss)
+I1026 18:20:16.990434 12447 solver.cpp:218] Iteration 6500 (1.05163 iter/s, 19.0181s/20 iters), loss = 0.574091
+I1026 18:20:16.990523 12447 solver.cpp:237]     Train net output #0: loss = 0.574091 (* 1 = 0.574091 loss)
+I1026 18:20:16.990542 12447 sgd_solver.cpp:105] Iteration 6500, lr = 1e-06
+I1026 18:20:24.311208 12447 solver.cpp:218] Iteration 6520 (2.73281 iter/s, 7.31848s/20 iters), loss = 0.489064
+I1026 18:20:24.311285 12447 solver.cpp:237]     Train net output #0: loss = 0.489064 (* 1 = 0.489064 loss)
+I1026 18:20:24.311305 12447 sgd_solver.cpp:105] Iteration 6520, lr = 1e-06
+I1026 18:20:31.218654 12447 solver.cpp:218] Iteration 6540 (2.89564 iter/s, 6.90693s/20 iters), loss = 0.55166
+I1026 18:20:31.218750 12447 solver.cpp:237]     Train net output #0: loss = 0.55166 (* 1 = 0.55166 loss)
+I1026 18:20:31.218765 12447 sgd_solver.cpp:105] Iteration 6540, lr = 1e-06
+I1026 18:20:35.559962 12447 solver.cpp:218] Iteration 6560 (4.60704 iter/s, 4.34118s/20 iters), loss = 0.577664
+I1026 18:20:35.560092 12447 solver.cpp:237]     Train net output #0: loss = 0.577664 (* 1 = 0.577664 loss)
+I1026 18:20:35.560120 12447 sgd_solver.cpp:105] Iteration 6560, lr = 1e-06
+I1026 18:20:40.814537 12447 solver.cpp:218] Iteration 6580 (3.80635 iter/s, 5.25438s/20 iters), loss = 0.600202
+I1026 18:20:40.814620 12447 solver.cpp:237]     Train net output #0: loss = 0.600202 (* 1 = 0.600202 loss)
+I1026 18:20:40.814631 12447 sgd_solver.cpp:105] Iteration 6580, lr = 1e-06
+I1026 18:20:46.222678 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6600.caffemodel
+I1026 18:20:47.729121 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6600.solverstate
+I1026 18:20:48.244825 12447 solver.cpp:330] Iteration 6600, Testing net (#0)
+I1026 18:20:59.403889 12447 solver.cpp:397]     Test net output #0: loss = 3.82744 (* 1 = 3.82744 loss)
+I1026 18:20:59.755743 12447 solver.cpp:218] Iteration 6600 (1.05591 iter/s, 18.941s/20 iters), loss = 0.528093
+I1026 18:20:59.755827 12447 solver.cpp:237]     Train net output #0: loss = 0.528093 (* 1 = 0.528093 loss)
+I1026 18:20:59.755846 12447 sgd_solver.cpp:105] Iteration 6600, lr = 1e-06
+I1026 18:21:06.979491 12447 solver.cpp:218] Iteration 6620 (2.76871 iter/s, 7.22358s/20 iters), loss = 0.562595
+I1026 18:21:06.979624 12447 solver.cpp:237]     Train net output #0: loss = 0.562595 (* 1 = 0.562595 loss)
+I1026 18:21:06.979640 12447 sgd_solver.cpp:105] Iteration 6620, lr = 1e-06
+I1026 18:21:14.000934 12447 solver.cpp:218] Iteration 6640 (2.84851 iter/s, 7.02123s/20 iters), loss = 0.58231
+I1026 18:21:14.001034 12447 solver.cpp:237]     Train net output #0: loss = 0.58231 (* 1 = 0.58231 loss)
+I1026 18:21:14.001047 12447 sgd_solver.cpp:105] Iteration 6640, lr = 1e-06
+I1026 18:21:18.346635 12447 solver.cpp:218] Iteration 6660 (4.60238 iter/s, 4.34558s/20 iters), loss = 0.536513
+I1026 18:21:18.346709 12447 solver.cpp:237]     Train net output #0: loss = 0.536513 (* 1 = 0.536513 loss)
+I1026 18:21:18.346721 12447 sgd_solver.cpp:105] Iteration 6660, lr = 1e-06
+I1026 18:21:23.602843 12447 solver.cpp:218] Iteration 6680 (3.80512 iter/s, 5.25607s/20 iters), loss = 0.455855
+I1026 18:21:23.602902 12447 solver.cpp:237]     Train net output #0: loss = 0.455855 (* 1 = 0.455855 loss)
+I1026 18:21:23.602916 12447 sgd_solver.cpp:105] Iteration 6680, lr = 1e-06
+I1026 18:21:29.010445 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6700.caffemodel
+I1026 18:21:30.530351 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6700.solverstate
+I1026 18:21:31.062434 12447 solver.cpp:330] Iteration 6700, Testing net (#0)
+I1026 18:21:42.180809 12447 solver.cpp:397]     Test net output #0: loss = 3.87472 (* 1 = 3.87472 loss)
+I1026 18:21:42.531536 12447 solver.cpp:218] Iteration 6700 (1.05661 iter/s, 18.9285s/20 iters), loss = 0.549435
+I1026 18:21:42.531606 12447 solver.cpp:237]     Train net output #0: loss = 0.549435 (* 1 = 0.549435 loss)
+I1026 18:21:42.531620 12447 sgd_solver.cpp:105] Iteration 6700, lr = 1e-06
+I1026 18:21:49.744669 12447 solver.cpp:218] Iteration 6720 (2.77278 iter/s, 7.21298s/20 iters), loss = 0.504215
+I1026 18:21:49.744765 12447 solver.cpp:237]     Train net output #0: loss = 0.504215 (* 1 = 0.504215 loss)
+I1026 18:21:49.744781 12447 sgd_solver.cpp:105] Iteration 6720, lr = 1e-06
+I1026 18:21:56.757244 12447 solver.cpp:218] Iteration 6740 (2.85209 iter/s, 7.0124s/20 iters), loss = 0.51076
+I1026 18:21:56.757333 12447 solver.cpp:237]     Train net output #0: loss = 0.51076 (* 1 = 0.51076 loss)
+I1026 18:21:56.757347 12447 sgd_solver.cpp:105] Iteration 6740, lr = 1e-06
+I1026 18:22:01.104908 12447 solver.cpp:218] Iteration 6760 (4.6003 iter/s, 4.34754s/20 iters), loss = 0.516157
+I1026 18:22:01.105026 12447 solver.cpp:237]     Train net output #0: loss = 0.516157 (* 1 = 0.516157 loss)
+I1026 18:22:01.105041 12447 sgd_solver.cpp:105] Iteration 6760, lr = 1e-06
+I1026 18:22:06.352797 12447 solver.cpp:218] Iteration 6780 (3.81118 iter/s, 5.24772s/20 iters), loss = 0.583265
+I1026 18:22:06.352903 12447 solver.cpp:237]     Train net output #0: loss = 0.583265 (* 1 = 0.583265 loss)
+I1026 18:22:06.352928 12447 sgd_solver.cpp:105] Iteration 6780, lr = 1e-06
+I1026 18:22:11.763520 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6800.caffemodel
+I1026 18:22:13.289710 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6800.solverstate
+I1026 18:22:13.823038 12447 solver.cpp:330] Iteration 6800, Testing net (#0)
+I1026 18:22:24.936241 12447 solver.cpp:397]     Test net output #0: loss = 3.85918 (* 1 = 3.85918 loss)
+I1026 18:22:25.288650 12447 solver.cpp:218] Iteration 6800 (1.05625 iter/s, 18.935s/20 iters), loss = 0.482662
+I1026 18:22:25.288727 12447 solver.cpp:237]     Train net output #0: loss = 0.482662 (* 1 = 0.482662 loss)
+I1026 18:22:25.288739 12447 sgd_solver.cpp:105] Iteration 6800, lr = 1e-06
+I1026 18:22:32.495920 12447 solver.cpp:218] Iteration 6820 (2.77503 iter/s, 7.20712s/20 iters), loss = 0.48
+I1026 18:22:32.495990 12447 solver.cpp:237]     Train net output #0: loss = 0.48 (* 1 = 0.48 loss)
+I1026 18:22:32.496003 12447 sgd_solver.cpp:105] Iteration 6820, lr = 1e-06
+I1026 18:22:39.499152 12447 solver.cpp:218] Iteration 6840 (2.85589 iter/s, 7.00308s/20 iters), loss = 0.625922
+I1026 18:22:39.499238 12447 solver.cpp:237]     Train net output #0: loss = 0.625922 (* 1 = 0.625922 loss)
+I1026 18:22:39.499253 12447 sgd_solver.cpp:105] Iteration 6840, lr = 1e-06
+I1026 18:22:43.834786 12447 solver.cpp:218] Iteration 6860 (4.61305 iter/s, 4.33553s/20 iters), loss = 0.514739
+I1026 18:22:43.834899 12447 solver.cpp:237]     Train net output #0: loss = 0.514739 (* 1 = 0.514739 loss)
+I1026 18:22:43.834913 12447 sgd_solver.cpp:105] Iteration 6860, lr = 1e-06
+I1026 18:22:49.054308 12447 solver.cpp:218] Iteration 6880 (3.83191 iter/s, 5.21933s/20 iters), loss = 0.546989
+I1026 18:22:49.054402 12447 solver.cpp:237]     Train net output #0: loss = 0.546989 (* 1 = 0.546989 loss)
+I1026 18:22:49.054417 12447 sgd_solver.cpp:105] Iteration 6880, lr = 1e-06
+I1026 18:22:54.485780 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6900.caffemodel
+I1026 18:22:56.009740 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_6900.solverstate
+I1026 18:22:56.551311 12447 solver.cpp:330] Iteration 6900, Testing net (#0)
+I1026 18:23:07.678354 12447 solver.cpp:397]     Test net output #0: loss = 3.80242 (* 1 = 3.80242 loss)
+I1026 18:23:08.030210 12447 solver.cpp:218] Iteration 6900 (1.05398 iter/s, 18.9757s/20 iters), loss = 0.605105
+I1026 18:23:08.030277 12447 solver.cpp:237]     Train net output #0: loss = 0.605105 (* 1 = 0.605105 loss)
+I1026 18:23:08.030292 12447 sgd_solver.cpp:105] Iteration 6900, lr = 1e-06
+I1026 18:23:15.263568 12447 solver.cpp:218] Iteration 6920 (2.76502 iter/s, 7.23321s/20 iters), loss = 0.471931
+I1026 18:23:15.263811 12447 solver.cpp:237]     Train net output #0: loss = 0.471931 (* 1 = 0.471931 loss)
+I1026 18:23:15.263844 12447 sgd_solver.cpp:105] Iteration 6920, lr = 1e-06
+I1026 18:23:22.285444 12447 solver.cpp:218] Iteration 6940 (2.84837 iter/s, 7.02155s/20 iters), loss = 0.60649
+I1026 18:23:22.285540 12447 solver.cpp:237]     Train net output #0: loss = 0.60649 (* 1 = 0.60649 loss)
+I1026 18:23:22.285555 12447 sgd_solver.cpp:105] Iteration 6940, lr = 1e-06
+I1026 18:23:26.635432 12447 solver.cpp:218] Iteration 6960 (4.59785 iter/s, 4.34986s/20 iters), loss = 0.539199
+I1026 18:23:26.635540 12447 solver.cpp:237]     Train net output #0: loss = 0.539199 (* 1 = 0.539199 loss)
+I1026 18:23:26.635560 12447 sgd_solver.cpp:105] Iteration 6960, lr = 1e-06
+I1026 18:23:31.856431 12447 solver.cpp:218] Iteration 6980 (3.83081 iter/s, 5.22083s/20 iters), loss = 0.510247
+I1026 18:23:31.856499 12447 solver.cpp:237]     Train net output #0: loss = 0.510247 (* 1 = 0.510247 loss)
+I1026 18:23:31.856514 12447 sgd_solver.cpp:105] Iteration 6980, lr = 1e-06
+I1026 18:23:37.293213 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7000.caffemodel
+I1026 18:23:38.819525 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7000.solverstate
+I1026 18:23:39.340298 12447 solver.cpp:330] Iteration 7000, Testing net (#0)
+I1026 18:23:50.474865 12447 solver.cpp:397]     Test net output #0: loss = 3.86308 (* 1 = 3.86308 loss)
+I1026 18:23:50.826761 12447 solver.cpp:218] Iteration 7000 (1.05429 iter/s, 18.9701s/20 iters), loss = 0.575308
+I1026 18:23:50.826831 12447 solver.cpp:237]     Train net output #0: loss = 0.575308 (* 1 = 0.575308 loss)
+I1026 18:23:50.826844 12447 sgd_solver.cpp:105] Iteration 7000, lr = 1e-06
+I1026 18:23:58.059701 12447 solver.cpp:218] Iteration 7020 (2.76518 iter/s, 7.2328s/20 iters), loss = 0.495601
+I1026 18:23:58.059777 12447 solver.cpp:237]     Train net output #0: loss = 0.495601 (* 1 = 0.495601 loss)
+I1026 18:23:58.059789 12447 sgd_solver.cpp:105] Iteration 7020, lr = 1e-06
+I1026 18:24:05.081382 12447 solver.cpp:218] Iteration 7040 (2.84839 iter/s, 7.02152s/20 iters), loss = 0.48845
+I1026 18:24:05.081471 12447 solver.cpp:237]     Train net output #0: loss = 0.48845 (* 1 = 0.48845 loss)
+I1026 18:24:05.081488 12447 sgd_solver.cpp:105] Iteration 7040, lr = 1e-06
+I1026 18:24:09.434940 12447 solver.cpp:218] Iteration 7060 (4.59406 iter/s, 4.35345s/20 iters), loss = 0.505815
+I1026 18:24:09.435014 12447 solver.cpp:237]     Train net output #0: loss = 0.505815 (* 1 = 0.505815 loss)
+I1026 18:24:09.435026 12447 sgd_solver.cpp:105] Iteration 7060, lr = 1e-06
+I1026 18:24:14.696708 12447 solver.cpp:218] Iteration 7080 (3.80111 iter/s, 5.26163s/20 iters), loss = 0.638291
+I1026 18:24:14.696785 12447 solver.cpp:237]     Train net output #0: loss = 0.638291 (* 1 = 0.638291 loss)
+I1026 18:24:14.696800 12447 sgd_solver.cpp:105] Iteration 7080, lr = 1e-06
+I1026 18:24:20.103021 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7100.caffemodel
+I1026 18:24:21.626358 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7100.solverstate
+I1026 18:24:22.159297 12447 solver.cpp:330] Iteration 7100, Testing net (#0)
+I1026 18:24:33.272024 12447 solver.cpp:397]     Test net output #0: loss = 3.84174 (* 1 = 3.84174 loss)
+I1026 18:24:33.623688 12447 solver.cpp:218] Iteration 7100 (1.0567 iter/s, 18.9268s/20 iters), loss = 0.563133
+I1026 18:24:33.623770 12447 solver.cpp:237]     Train net output #0: loss = 0.563133 (* 1 = 0.563133 loss)
+I1026 18:24:33.623783 12447 sgd_solver.cpp:105] Iteration 7100, lr = 1e-06
+I1026 18:24:40.838332 12447 solver.cpp:218] Iteration 7120 (2.7722 iter/s, 7.21448s/20 iters), loss = 0.550847
+I1026 18:24:40.838438 12447 solver.cpp:237]     Train net output #0: loss = 0.550847 (* 1 = 0.550847 loss)
+I1026 18:24:40.838457 12447 sgd_solver.cpp:105] Iteration 7120, lr = 1e-06
+I1026 18:24:47.843185 12447 solver.cpp:218] Iteration 7140 (2.85524 iter/s, 7.00466s/20 iters), loss = 0.544404
+I1026 18:24:47.843279 12447 solver.cpp:237]     Train net output #0: loss = 0.544404 (* 1 = 0.544404 loss)
+I1026 18:24:47.843294 12447 sgd_solver.cpp:105] Iteration 7140, lr = 1e-06
+I1026 18:24:52.173359 12447 solver.cpp:218] Iteration 7160 (4.61889 iter/s, 4.33005s/20 iters), loss = 0.528491
+I1026 18:24:52.173570 12447 solver.cpp:237]     Train net output #0: loss = 0.528491 (* 1 = 0.528491 loss)
+I1026 18:24:52.173597 12447 sgd_solver.cpp:105] Iteration 7160, lr = 1e-06
+I1026 18:24:57.396450 12447 solver.cpp:218] Iteration 7180 (3.82935 iter/s, 5.22282s/20 iters), loss = 0.609385
+I1026 18:24:57.396517 12447 solver.cpp:237]     Train net output #0: loss = 0.609385 (* 1 = 0.609385 loss)
+I1026 18:24:57.396528 12447 sgd_solver.cpp:105] Iteration 7180, lr = 1e-06
+I1026 18:25:02.831163 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7200.caffemodel
+I1026 18:25:04.356390 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7200.solverstate
+I1026 18:25:04.891780 12447 solver.cpp:330] Iteration 7200, Testing net (#0)
+I1026 18:25:16.008594 12447 solver.cpp:397]     Test net output #0: loss = 3.82141 (* 1 = 3.82141 loss)
+I1026 18:25:16.360743 12447 solver.cpp:218] Iteration 7200 (1.05462 iter/s, 18.9641s/20 iters), loss = 0.580789
+I1026 18:25:16.360829 12447 solver.cpp:237]     Train net output #0: loss = 0.580789 (* 1 = 0.580789 loss)
+I1026 18:25:16.360842 12447 sgd_solver.cpp:105] Iteration 7200, lr = 1e-06
+I1026 18:25:23.562724 12447 solver.cpp:218] Iteration 7220 (2.77707 iter/s, 7.20182s/20 iters), loss = 0.535271
+I1026 18:25:23.562865 12447 solver.cpp:237]     Train net output #0: loss = 0.535271 (* 1 = 0.535271 loss)
+I1026 18:25:23.562876 12447 sgd_solver.cpp:105] Iteration 7220, lr = 1e-06
+I1026 18:25:30.570286 12447 solver.cpp:218] Iteration 7240 (2.85415 iter/s, 7.00735s/20 iters), loss = 0.414766
+I1026 18:25:30.570363 12447 solver.cpp:237]     Train net output #0: loss = 0.414766 (* 1 = 0.414766 loss)
+I1026 18:25:30.570376 12447 sgd_solver.cpp:105] Iteration 7240, lr = 1e-06
+I1026 18:25:34.905522 12447 solver.cpp:218] Iteration 7260 (4.61347 iter/s, 4.33513s/20 iters), loss = 0.470401
+I1026 18:25:34.905601 12447 solver.cpp:237]     Train net output #0: loss = 0.470401 (* 1 = 0.470401 loss)
+I1026 18:25:34.905611 12447 sgd_solver.cpp:105] Iteration 7260, lr = 1e-06
+I1026 18:25:40.122030 12447 solver.cpp:218] Iteration 7280 (3.83409 iter/s, 5.21636s/20 iters), loss = 0.599591
+I1026 18:25:40.122110 12447 solver.cpp:237]     Train net output #0: loss = 0.599591 (* 1 = 0.599591 loss)
+I1026 18:25:40.122123 12447 sgd_solver.cpp:105] Iteration 7280, lr = 1e-06
+I1026 18:25:45.553843 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7300.caffemodel
+I1026 18:25:47.089478 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7300.solverstate
+I1026 18:25:47.683324 12447 solver.cpp:330] Iteration 7300, Testing net (#0)
+I1026 18:25:58.748035 12447 solver.cpp:397]     Test net output #0: loss = 3.82066 (* 1 = 3.82066 loss)
+I1026 18:25:59.099720 12447 solver.cpp:218] Iteration 7300 (1.05388 iter/s, 18.9775s/20 iters), loss = 0.580578
+I1026 18:25:59.099802 12447 solver.cpp:237]     Train net output #0: loss = 0.580578 (* 1 = 0.580578 loss)
+I1026 18:25:59.099814 12447 sgd_solver.cpp:105] Iteration 7300, lr = 1e-06
+I1026 18:26:06.320727 12447 solver.cpp:218] Iteration 7320 (2.76975 iter/s, 7.22086s/20 iters), loss = 0.49318
+I1026 18:26:06.320806 12447 solver.cpp:237]     Train net output #0: loss = 0.49318 (* 1 = 0.49318 loss)
+I1026 18:26:06.320818 12447 sgd_solver.cpp:105] Iteration 7320, lr = 1e-06
+I1026 18:26:13.343799 12447 solver.cpp:218] Iteration 7340 (2.84782 iter/s, 7.02291s/20 iters), loss = 0.489978
+I1026 18:26:13.343883 12447 solver.cpp:237]     Train net output #0: loss = 0.489978 (* 1 = 0.489978 loss)
+I1026 18:26:13.343897 12447 sgd_solver.cpp:105] Iteration 7340, lr = 1e-06
+I1026 18:26:17.685688 12447 solver.cpp:218] Iteration 7360 (4.60641 iter/s, 4.34178s/20 iters), loss = 0.559889
+I1026 18:26:17.685757 12447 solver.cpp:237]     Train net output #0: loss = 0.559889 (* 1 = 0.559889 loss)
+I1026 18:26:17.685770 12447 sgd_solver.cpp:105] Iteration 7360, lr = 1e-06
+I1026 18:26:22.912489 12447 solver.cpp:218] Iteration 7380 (3.82653 iter/s, 5.22667s/20 iters), loss = 0.592138
+I1026 18:26:22.912569 12447 solver.cpp:237]     Train net output #0: loss = 0.592138 (* 1 = 0.592138 loss)
+I1026 18:26:22.912580 12447 sgd_solver.cpp:105] Iteration 7380, lr = 1e-06
+I1026 18:26:28.348359 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7400.caffemodel
+I1026 18:26:29.876242 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7400.solverstate
+I1026 18:26:30.411188 12447 solver.cpp:330] Iteration 7400, Testing net (#0)
+I1026 18:26:41.535362 12447 solver.cpp:397]     Test net output #0: loss = 3.77934 (* 1 = 3.77934 loss)
+I1026 18:26:41.888002 12447 solver.cpp:218] Iteration 7400 (1.054 iter/s, 18.9753s/20 iters), loss = 0.639474
+I1026 18:26:41.888097 12447 solver.cpp:237]     Train net output #0: loss = 0.639474 (* 1 = 0.639474 loss)
+I1026 18:26:41.888110 12447 sgd_solver.cpp:105] Iteration 7400, lr = 1e-06
+I1026 18:26:49.116137 12447 solver.cpp:218] Iteration 7420 (2.76703 iter/s, 7.22797s/20 iters), loss = 0.551781
+I1026 18:26:49.116214 12447 solver.cpp:237]     Train net output #0: loss = 0.551781 (* 1 = 0.551781 loss)
+I1026 18:26:49.116225 12447 sgd_solver.cpp:105] Iteration 7420, lr = 1e-06
+I1026 18:26:56.144160 12447 solver.cpp:218] Iteration 7440 (2.84582 iter/s, 7.02786s/20 iters), loss = 0.559978
+I1026 18:26:56.144251 12447 solver.cpp:237]     Train net output #0: loss = 0.559978 (* 1 = 0.559978 loss)
+I1026 18:26:56.144266 12447 sgd_solver.cpp:105] Iteration 7440, lr = 1e-06
+I1026 18:27:00.500524 12447 solver.cpp:218] Iteration 7460 (4.59111 iter/s, 4.35625s/20 iters), loss = 0.580785
+I1026 18:27:00.502081 12447 solver.cpp:237]     Train net output #0: loss = 0.580785 (* 1 = 0.580785 loss)
+I1026 18:27:00.502094 12447 sgd_solver.cpp:105] Iteration 7460, lr = 1e-06
+I1026 18:27:05.729300 12447 solver.cpp:218] Iteration 7480 (3.82673 iter/s, 5.22639s/20 iters), loss = 0.521257
+I1026 18:27:05.729373 12447 solver.cpp:237]     Train net output #0: loss = 0.521257 (* 1 = 0.521257 loss)
+I1026 18:27:05.729388 12447 sgd_solver.cpp:105] Iteration 7480, lr = 1e-06
+I1026 18:27:11.164036 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7500.caffemodel
+I1026 18:27:12.685932 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7500.solverstate
+I1026 18:27:13.222725 12447 solver.cpp:330] Iteration 7500, Testing net (#0)
+I1026 18:27:24.351002 12447 solver.cpp:397]     Test net output #0: loss = 3.83932 (* 1 = 3.83932 loss)
+I1026 18:27:24.703011 12447 solver.cpp:218] Iteration 7500 (1.0541 iter/s, 18.9735s/20 iters), loss = 0.561963
+I1026 18:27:24.703111 12447 solver.cpp:237]     Train net output #0: loss = 0.561963 (* 1 = 0.561963 loss)
+I1026 18:27:24.703128 12447 sgd_solver.cpp:105] Iteration 7500, lr = 1e-06
+I1026 18:27:31.910333 12447 solver.cpp:218] Iteration 7520 (2.77503 iter/s, 7.20714s/20 iters), loss = 0.561108
+I1026 18:27:31.910580 12447 solver.cpp:237]     Train net output #0: loss = 0.561108 (* 1 = 0.561108 loss)
+I1026 18:27:31.910596 12447 sgd_solver.cpp:105] Iteration 7520, lr = 1e-06
+I1026 18:27:38.925092 12447 solver.cpp:218] Iteration 7540 (2.85126 iter/s, 7.01444s/20 iters), loss = 0.469215
+I1026 18:27:38.925164 12447 solver.cpp:237]     Train net output #0: loss = 0.469215 (* 1 = 0.469215 loss)
+I1026 18:27:38.925176 12447 sgd_solver.cpp:105] Iteration 7540, lr = 1e-06
+I1026 18:27:43.279289 12447 solver.cpp:218] Iteration 7560 (4.59338 iter/s, 4.35409s/20 iters), loss = 0.528199
+I1026 18:27:43.279373 12447 solver.cpp:237]     Train net output #0: loss = 0.528199 (* 1 = 0.528199 loss)
+I1026 18:27:43.279384 12447 sgd_solver.cpp:105] Iteration 7560, lr = 1e-06
+I1026 18:27:48.491302 12447 solver.cpp:218] Iteration 7580 (3.8374 iter/s, 5.21187s/20 iters), loss = 0.517547
+I1026 18:27:48.491381 12447 solver.cpp:237]     Train net output #0: loss = 0.517547 (* 1 = 0.517547 loss)
+I1026 18:27:48.491394 12447 sgd_solver.cpp:105] Iteration 7580, lr = 1e-06
+I1026 18:27:53.915567 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7600.caffemodel
+I1026 18:27:55.447654 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7600.solverstate
+I1026 18:27:55.987594 12447 solver.cpp:330] Iteration 7600, Testing net (#0)
+I1026 18:28:07.102958 12447 solver.cpp:397]     Test net output #0: loss = 3.81925 (* 1 = 3.81925 loss)
+I1026 18:28:07.455482 12447 solver.cpp:218] Iteration 7600 (1.05463 iter/s, 18.964s/20 iters), loss = 0.558617
+I1026 18:28:07.455557 12447 solver.cpp:237]     Train net output #0: loss = 0.558617 (* 1 = 0.558617 loss)
+I1026 18:28:07.455574 12447 sgd_solver.cpp:105] Iteration 7600, lr = 1e-06
+I1026 18:28:14.668601 12447 solver.cpp:218] Iteration 7620 (2.77278 iter/s, 7.21297s/20 iters), loss = 0.417589
+I1026 18:28:14.668681 12447 solver.cpp:237]     Train net output #0: loss = 0.417589 (* 1 = 0.417589 loss)
+I1026 18:28:14.668695 12447 sgd_solver.cpp:105] Iteration 7620, lr = 1e-06
+I1026 18:28:21.686131 12447 solver.cpp:218] Iteration 7640 (2.85007 iter/s, 7.01738s/20 iters), loss = 0.417578
+I1026 18:28:21.686204 12447 solver.cpp:237]     Train net output #0: loss = 0.417578 (* 1 = 0.417578 loss)
+I1026 18:28:21.686216 12447 sgd_solver.cpp:105] Iteration 7640, lr = 1e-06
+I1026 18:28:26.026988 12447 solver.cpp:218] Iteration 7660 (4.60751 iter/s, 4.34074s/20 iters), loss = 0.504281
+I1026 18:28:26.027078 12447 solver.cpp:237]     Train net output #0: loss = 0.504281 (* 1 = 0.504281 loss)
+I1026 18:28:26.027097 12447 sgd_solver.cpp:105] Iteration 7660, lr = 1e-06
+I1026 18:28:31.249711 12447 solver.cpp:218] Iteration 7680 (3.82954 iter/s, 5.22256s/20 iters), loss = 0.504372
+I1026 18:28:31.249788 12447 solver.cpp:237]     Train net output #0: loss = 0.504372 (* 1 = 0.504372 loss)
+I1026 18:28:31.249804 12447 sgd_solver.cpp:105] Iteration 7680, lr = 1e-06
+I1026 18:28:36.688038 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7700.caffemodel
+I1026 18:28:38.226207 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7700.solverstate
+I1026 18:28:38.766196 12447 solver.cpp:330] Iteration 7700, Testing net (#0)
+I1026 18:28:49.879410 12447 solver.cpp:397]     Test net output #0: loss = 3.87216 (* 1 = 3.87216 loss)
+I1026 18:28:50.231052 12447 solver.cpp:218] Iteration 7700 (1.05368 iter/s, 18.9811s/20 iters), loss = 0.567176
+I1026 18:28:50.231128 12447 solver.cpp:237]     Train net output #0: loss = 0.567176 (* 1 = 0.567176 loss)
+I1026 18:28:50.231142 12447 sgd_solver.cpp:105] Iteration 7700, lr = 1e-06
+I1026 18:28:57.458976 12447 solver.cpp:218] Iteration 7720 (2.7671 iter/s, 7.22778s/20 iters), loss = 0.504579
+I1026 18:28:57.459056 12447 solver.cpp:237]     Train net output #0: loss = 0.504579 (* 1 = 0.504579 loss)
+I1026 18:28:57.459067 12447 sgd_solver.cpp:105] Iteration 7720, lr = 1e-06
+I1026 18:29:04.482894 12447 solver.cpp:218] Iteration 7740 (2.84748 iter/s, 7.02376s/20 iters), loss = 0.603885
+I1026 18:29:04.482969 12447 solver.cpp:237]     Train net output #0: loss = 0.603885 (* 1 = 0.603885 loss)
+I1026 18:29:04.482978 12447 sgd_solver.cpp:105] Iteration 7740, lr = 1e-06
+I1026 18:29:08.828758 12447 solver.cpp:218] Iteration 7760 (4.60219 iter/s, 4.34575s/20 iters), loss = 0.500867
+I1026 18:29:08.828975 12447 solver.cpp:237]     Train net output #0: loss = 0.500867 (* 1 = 0.500867 loss)
+I1026 18:29:08.828990 12447 sgd_solver.cpp:105] Iteration 7760, lr = 1e-06
+I1026 18:29:14.054261 12447 solver.cpp:218] Iteration 7780 (3.8276 iter/s, 5.22521s/20 iters), loss = 0.458661
+I1026 18:29:14.054373 12447 solver.cpp:237]     Train net output #0: loss = 0.458661 (* 1 = 0.458661 loss)
+I1026 18:29:14.054394 12447 sgd_solver.cpp:105] Iteration 7780, lr = 1e-06
+I1026 18:29:19.490082 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7800.caffemodel
+I1026 18:29:21.005578 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7800.solverstate
+I1026 18:29:21.539276 12447 solver.cpp:330] Iteration 7800, Testing net (#0)
+I1026 18:29:32.670267 12447 solver.cpp:397]     Test net output #0: loss = 3.74524 (* 1 = 3.74524 loss)
+I1026 18:29:33.024061 12447 solver.cpp:218] Iteration 7800 (1.05432 iter/s, 18.9696s/20 iters), loss = 0.574077
+I1026 18:29:33.024134 12447 solver.cpp:237]     Train net output #0: loss = 0.574077 (* 1 = 0.574077 loss)
+I1026 18:29:33.024147 12447 sgd_solver.cpp:105] Iteration 7800, lr = 1e-06
+I1026 18:29:40.248968 12447 solver.cpp:218] Iteration 7820 (2.76826 iter/s, 7.22476s/20 iters), loss = 0.513769
+I1026 18:29:40.249119 12447 solver.cpp:237]     Train net output #0: loss = 0.513769 (* 1 = 0.513769 loss)
+I1026 18:29:40.249130 12447 sgd_solver.cpp:105] Iteration 7820, lr = 1e-06
+I1026 18:29:47.271636 12447 solver.cpp:218] Iteration 7840 (2.84802 iter/s, 7.02243s/20 iters), loss = 0.43353
+I1026 18:29:47.271731 12447 solver.cpp:237]     Train net output #0: loss = 0.43353 (* 1 = 0.43353 loss)
+I1026 18:29:47.271745 12447 sgd_solver.cpp:105] Iteration 7840, lr = 1e-06
+I1026 18:29:51.626966 12447 solver.cpp:218] Iteration 7860 (4.5922 iter/s, 4.35521s/20 iters), loss = 0.538045
+I1026 18:29:51.627053 12447 solver.cpp:237]     Train net output #0: loss = 0.538045 (* 1 = 0.538045 loss)
+I1026 18:29:51.627065 12447 sgd_solver.cpp:105] Iteration 7860, lr = 1e-06
+I1026 18:29:56.853152 12447 solver.cpp:218] Iteration 7880 (3.827 iter/s, 5.22603s/20 iters), loss = 0.522569
+I1026 18:29:56.853235 12447 solver.cpp:237]     Train net output #0: loss = 0.522569 (* 1 = 0.522569 loss)
+I1026 18:29:56.853247 12447 sgd_solver.cpp:105] Iteration 7880, lr = 1e-06
+I1026 18:30:02.294840 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7900.caffemodel
+I1026 18:30:03.829777 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_7900.solverstate
+I1026 18:30:04.371137 12447 solver.cpp:330] Iteration 7900, Testing net (#0)
+I1026 18:30:15.469166 12447 solver.cpp:397]     Test net output #0: loss = 3.81671 (* 1 = 3.81671 loss)
+I1026 18:30:15.820192 12447 solver.cpp:218] Iteration 7900 (1.05447 iter/s, 18.9668s/20 iters), loss = 0.540579
+I1026 18:30:15.820266 12447 solver.cpp:237]     Train net output #0: loss = 0.540579 (* 1 = 0.540579 loss)
+I1026 18:30:15.820278 12447 sgd_solver.cpp:105] Iteration 7900, lr = 1e-06
+I1026 18:30:23.035130 12447 solver.cpp:218] Iteration 7920 (2.77208 iter/s, 7.21479s/20 iters), loss = 0.627715
+I1026 18:30:23.035210 12447 solver.cpp:237]     Train net output #0: loss = 0.627715 (* 1 = 0.627715 loss)
+I1026 18:30:23.035223 12447 sgd_solver.cpp:105] Iteration 7920, lr = 1e-06
+I1026 18:30:30.041000 12447 solver.cpp:218] Iteration 7940 (2.85481 iter/s, 7.00571s/20 iters), loss = 0.601323
+I1026 18:30:30.041070 12447 solver.cpp:237]     Train net output #0: loss = 0.601323 (* 1 = 0.601323 loss)
+I1026 18:30:30.041081 12447 sgd_solver.cpp:105] Iteration 7940, lr = 1e-06
+I1026 18:30:34.388774 12447 solver.cpp:218] Iteration 7960 (4.60016 iter/s, 4.34767s/20 iters), loss = 0.502882
+I1026 18:30:34.388854 12447 solver.cpp:237]     Train net output #0: loss = 0.502882 (* 1 = 0.502882 loss)
+I1026 18:30:34.388865 12447 sgd_solver.cpp:105] Iteration 7960, lr = 1e-06
+I1026 18:30:39.614279 12447 solver.cpp:218] Iteration 7980 (3.82749 iter/s, 5.22535s/20 iters), loss = 0.543973
+I1026 18:30:39.614359 12447 solver.cpp:237]     Train net output #0: loss = 0.543973 (* 1 = 0.543973 loss)
+I1026 18:30:39.614372 12447 sgd_solver.cpp:105] Iteration 7980, lr = 1e-06
+I1026 18:30:45.043022 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8000.caffemodel
+I1026 18:30:46.598135 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8000.solverstate
+I1026 18:30:47.113199 12447 solver.cpp:330] Iteration 8000, Testing net (#0)
+I1026 18:30:58.234839 12447 solver.cpp:397]     Test net output #0: loss = 3.88178 (* 1 = 3.88178 loss)
+I1026 18:30:58.585988 12447 solver.cpp:218] Iteration 8000 (1.05421 iter/s, 18.9715s/20 iters), loss = 0.533568
+I1026 18:30:58.586055 12447 solver.cpp:237]     Train net output #0: loss = 0.533568 (* 1 = 0.533568 loss)
+I1026 18:30:58.586068 12447 sgd_solver.cpp:105] Iteration 8000, lr = 1e-07
+I1026 18:31:05.817993 12447 solver.cpp:218] Iteration 8020 (2.76554 iter/s, 7.23186s/20 iters), loss = 0.543962
+I1026 18:31:05.818064 12447 solver.cpp:237]     Train net output #0: loss = 0.543962 (* 1 = 0.543962 loss)
+I1026 18:31:05.818076 12447 sgd_solver.cpp:105] Iteration 8020, lr = 1e-07
+I1026 18:31:12.820009 12447 solver.cpp:218] Iteration 8040 (2.85639 iter/s, 7.00186s/20 iters), loss = 0.532207
+I1026 18:31:12.820106 12447 solver.cpp:237]     Train net output #0: loss = 0.532207 (* 1 = 0.532207 loss)
+I1026 18:31:12.820121 12447 sgd_solver.cpp:105] Iteration 8040, lr = 1e-07
+I1026 18:31:17.157315 12447 solver.cpp:218] Iteration 8060 (4.61128 iter/s, 4.33719s/20 iters), loss = 0.494125
+I1026 18:31:17.157446 12447 solver.cpp:237]     Train net output #0: loss = 0.494125 (* 1 = 0.494125 loss)
+I1026 18:31:17.157459 12447 sgd_solver.cpp:105] Iteration 8060, lr = 1e-07
+I1026 18:31:22.399402 12447 solver.cpp:218] Iteration 8080 (3.81542 iter/s, 5.24189s/20 iters), loss = 0.50786
+I1026 18:31:22.399472 12447 solver.cpp:237]     Train net output #0: loss = 0.50786 (* 1 = 0.50786 loss)
+I1026 18:31:22.399484 12447 sgd_solver.cpp:105] Iteration 8080, lr = 1e-07
+I1026 18:31:27.805506 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8100.caffemodel
+I1026 18:31:29.330835 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8100.solverstate
+I1026 18:31:29.867029 12447 solver.cpp:330] Iteration 8100, Testing net (#0)
+I1026 18:31:40.987869 12447 solver.cpp:397]     Test net output #0: loss = 3.86806 (* 1 = 3.86806 loss)
+I1026 18:31:41.342608 12447 solver.cpp:218] Iteration 8100 (1.0558 iter/s, 18.943s/20 iters), loss = 0.454124
+I1026 18:31:41.342679 12447 solver.cpp:237]     Train net output #0: loss = 0.454124 (* 1 = 0.454124 loss)
+I1026 18:31:41.342694 12447 sgd_solver.cpp:105] Iteration 8100, lr = 1e-07
+I1026 18:31:48.573585 12447 solver.cpp:218] Iteration 8120 (2.76594 iter/s, 7.23082s/20 iters), loss = 0.544967
+I1026 18:31:48.573741 12447 solver.cpp:237]     Train net output #0: loss = 0.544967 (* 1 = 0.544967 loss)
+I1026 18:31:48.573788 12447 sgd_solver.cpp:105] Iteration 8120, lr = 1e-07
+I1026 18:31:55.597693 12447 solver.cpp:218] Iteration 8140 (2.84743 iter/s, 7.02387s/20 iters), loss = 0.502424
+I1026 18:31:55.597785 12447 solver.cpp:237]     Train net output #0: loss = 0.502424 (* 1 = 0.502424 loss)
+I1026 18:31:55.597800 12447 sgd_solver.cpp:105] Iteration 8140, lr = 1e-07
+I1026 18:31:59.944440 12447 solver.cpp:218] Iteration 8160 (4.60127 iter/s, 4.34662s/20 iters), loss = 0.54287
+I1026 18:31:59.944543 12447 solver.cpp:237]     Train net output #0: loss = 0.54287 (* 1 = 0.54287 loss)
+I1026 18:31:59.944561 12447 sgd_solver.cpp:105] Iteration 8160, lr = 1e-07
+I1026 18:32:05.168182 12447 solver.cpp:218] Iteration 8180 (3.82879 iter/s, 5.22358s/20 iters), loss = 0.509396
+I1026 18:32:05.168256 12447 solver.cpp:237]     Train net output #0: loss = 0.509396 (* 1 = 0.509396 loss)
+I1026 18:32:05.168267 12447 sgd_solver.cpp:105] Iteration 8180, lr = 1e-07
+I1026 18:32:10.597309 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8200.caffemodel
+I1026 18:32:12.123950 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8200.solverstate
+I1026 18:32:12.645685 12447 solver.cpp:330] Iteration 8200, Testing net (#0)
+I1026 18:32:23.766607 12447 solver.cpp:397]     Test net output #0: loss = 3.82783 (* 1 = 3.82783 loss)
+I1026 18:32:24.120331 12447 solver.cpp:218] Iteration 8200 (1.0553 iter/s, 18.952s/20 iters), loss = 0.514928
+I1026 18:32:24.120400 12447 solver.cpp:237]     Train net output #0: loss = 0.514928 (* 1 = 0.514928 loss)
+I1026 18:32:24.120414 12447 sgd_solver.cpp:105] Iteration 8200, lr = 1e-07
+I1026 18:32:31.332275 12447 solver.cpp:218] Iteration 8220 (2.77323 iter/s, 7.2118s/20 iters), loss = 0.537182
+I1026 18:32:31.332346 12447 solver.cpp:237]     Train net output #0: loss = 0.537182 (* 1 = 0.537182 loss)
+I1026 18:32:31.332360 12447 sgd_solver.cpp:105] Iteration 8220, lr = 1e-07
+I1026 18:32:38.351636 12447 solver.cpp:218] Iteration 8240 (2.84933 iter/s, 7.0192s/20 iters), loss = 0.617627
+I1026 18:32:38.351737 12447 solver.cpp:237]     Train net output #0: loss = 0.617627 (* 1 = 0.617627 loss)
+I1026 18:32:38.351752 12447 sgd_solver.cpp:105] Iteration 8240, lr = 1e-07
+I1026 18:32:42.688462 12447 solver.cpp:218] Iteration 8260 (4.61179 iter/s, 4.33671s/20 iters), loss = 0.563989
+I1026 18:32:42.688540 12447 solver.cpp:237]     Train net output #0: loss = 0.563989 (* 1 = 0.563989 loss)
+I1026 18:32:42.688552 12447 sgd_solver.cpp:105] Iteration 8260, lr = 1e-07
+I1026 18:32:47.912101 12447 solver.cpp:218] Iteration 8280 (3.82886 iter/s, 5.22349s/20 iters), loss = 0.479646
+I1026 18:32:47.912178 12447 solver.cpp:237]     Train net output #0: loss = 0.479646 (* 1 = 0.479646 loss)
+I1026 18:32:47.912191 12447 sgd_solver.cpp:105] Iteration 8280, lr = 1e-07
+I1026 18:32:53.347898 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8300.caffemodel
+I1026 18:32:54.882452 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8300.solverstate
+I1026 18:32:55.420179 12447 solver.cpp:330] Iteration 8300, Testing net (#0)
+I1026 18:33:06.532869 12447 solver.cpp:397]     Test net output #0: loss = 3.82087 (* 1 = 3.82087 loss)
+I1026 18:33:06.887125 12447 solver.cpp:218] Iteration 8300 (1.05403 iter/s, 18.9748s/20 iters), loss = 0.5227
+I1026 18:33:06.887218 12447 solver.cpp:237]     Train net output #0: loss = 0.5227 (* 1 = 0.5227 loss)
+I1026 18:33:06.887234 12447 sgd_solver.cpp:105] Iteration 8300, lr = 1e-07
+I1026 18:33:14.089509 12447 solver.cpp:218] Iteration 8320 (2.77692 iter/s, 7.20221s/20 iters), loss = 0.508278
+I1026 18:33:14.089596 12447 solver.cpp:237]     Train net output #0: loss = 0.508278 (* 1 = 0.508278 loss)
+I1026 18:33:14.089607 12447 sgd_solver.cpp:105] Iteration 8320, lr = 1e-07
+I1026 18:33:21.083544 12447 solver.cpp:218] Iteration 8340 (2.85965 iter/s, 6.99386s/20 iters), loss = 0.555963
+I1026 18:33:21.083626 12447 solver.cpp:237]     Train net output #0: loss = 0.555963 (* 1 = 0.555963 loss)
+I1026 18:33:21.083642 12447 sgd_solver.cpp:105] Iteration 8340, lr = 1e-07
+I1026 18:33:25.415534 12447 solver.cpp:218] Iteration 8360 (4.61694 iter/s, 4.33187s/20 iters), loss = 0.497661
+I1026 18:33:25.415727 12447 solver.cpp:237]     Train net output #0: loss = 0.497661 (* 1 = 0.497661 loss)
+I1026 18:33:25.415742 12447 sgd_solver.cpp:105] Iteration 8360, lr = 1e-07
+I1026 18:33:30.661856 12447 solver.cpp:218] Iteration 8380 (3.81238 iter/s, 5.24607s/20 iters), loss = 0.40458
+I1026 18:33:30.661926 12447 solver.cpp:237]     Train net output #0: loss = 0.40458 (* 1 = 0.40458 loss)
+I1026 18:33:30.661938 12447 sgd_solver.cpp:105] Iteration 8380, lr = 1e-07
+I1026 18:33:36.077585 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8400.caffemodel
+I1026 18:33:37.607645 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8400.solverstate
+I1026 18:33:38.142112 12447 solver.cpp:330] Iteration 8400, Testing net (#0)
+I1026 18:33:49.252894 12447 solver.cpp:397]     Test net output #0: loss = 3.85536 (* 1 = 3.85536 loss)
+I1026 18:33:49.602640 12447 solver.cpp:218] Iteration 8400 (1.05605 iter/s, 18.9385s/20 iters), loss = 0.376467
+I1026 18:33:49.602708 12447 solver.cpp:237]     Train net output #0: loss = 0.376467 (* 1 = 0.376467 loss)
+I1026 18:33:49.602721 12447 sgd_solver.cpp:105] Iteration 8400, lr = 1e-07
+I1026 18:33:56.815963 12447 solver.cpp:218] Iteration 8420 (2.7727 iter/s, 7.21318s/20 iters), loss = 0.541287
+I1026 18:33:56.816092 12447 solver.cpp:237]     Train net output #0: loss = 0.541287 (* 1 = 0.541287 loss)
+I1026 18:33:56.816107 12447 sgd_solver.cpp:105] Iteration 8420, lr = 1e-07
+I1026 18:34:03.820938 12447 solver.cpp:218] Iteration 8440 (2.8552 iter/s, 7.00477s/20 iters), loss = 0.58744
+I1026 18:34:03.821010 12447 solver.cpp:237]     Train net output #0: loss = 0.58744 (* 1 = 0.58744 loss)
+I1026 18:34:03.821025 12447 sgd_solver.cpp:105] Iteration 8440, lr = 1e-07
+I1026 18:34:08.180480 12447 solver.cpp:218] Iteration 8460 (4.58776 iter/s, 4.35943s/20 iters), loss = 0.596693
+I1026 18:34:08.180567 12447 solver.cpp:237]     Train net output #0: loss = 0.596693 (* 1 = 0.596693 loss)
+I1026 18:34:08.180585 12447 sgd_solver.cpp:105] Iteration 8460, lr = 1e-07
+I1026 18:34:13.375666 12447 solver.cpp:218] Iteration 8480 (3.85136 iter/s, 5.19297s/20 iters), loss = 0.614949
+I1026 18:34:13.375744 12447 solver.cpp:237]     Train net output #0: loss = 0.614949 (* 1 = 0.614949 loss)
+I1026 18:34:13.375756 12447 sgd_solver.cpp:105] Iteration 8480, lr = 1e-07
+I1026 18:34:18.804394 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8500.caffemodel
+I1026 18:34:20.334270 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8500.solverstate
+I1026 18:34:20.880538 12447 solver.cpp:330] Iteration 8500, Testing net (#0)
+I1026 18:34:31.982378 12447 solver.cpp:397]     Test net output #0: loss = 3.86902 (* 1 = 3.86902 loss)
+I1026 18:34:32.335209 12447 solver.cpp:218] Iteration 8500 (1.05489 iter/s, 18.9593s/20 iters), loss = 0.54155
+I1026 18:34:32.335284 12447 solver.cpp:237]     Train net output #0: loss = 0.54155 (* 1 = 0.54155 loss)
+I1026 18:34:32.335297 12447 sgd_solver.cpp:105] Iteration 8500, lr = 1e-07
+I1026 18:34:39.557696 12447 solver.cpp:218] Iteration 8520 (2.76919 iter/s, 7.22234s/20 iters), loss = 0.546077
+I1026 18:34:39.557776 12447 solver.cpp:237]     Train net output #0: loss = 0.546077 (* 1 = 0.546077 loss)
+I1026 18:34:39.557790 12447 sgd_solver.cpp:105] Iteration 8520, lr = 1e-07
+I1026 18:34:46.577006 12447 solver.cpp:218] Iteration 8540 (2.84935 iter/s, 7.01914s/20 iters), loss = 0.608654
+I1026 18:34:46.577093 12447 solver.cpp:237]     Train net output #0: loss = 0.608654 (* 1 = 0.608654 loss)
+I1026 18:34:46.577109 12447 sgd_solver.cpp:105] Iteration 8540, lr = 1e-07
+I1026 18:34:50.921838 12447 solver.cpp:218] Iteration 8560 (4.6033 iter/s, 4.34471s/20 iters), loss = 0.554979
+I1026 18:34:50.921947 12447 solver.cpp:237]     Train net output #0: loss = 0.554979 (* 1 = 0.554979 loss)
+I1026 18:34:50.921967 12447 sgd_solver.cpp:105] Iteration 8560, lr = 1e-07
+I1026 18:34:56.142000 12447 solver.cpp:218] Iteration 8580 (3.83143 iter/s, 5.21998s/20 iters), loss = 0.526906
+I1026 18:34:56.142088 12447 solver.cpp:237]     Train net output #0: loss = 0.526906 (* 1 = 0.526906 loss)
+I1026 18:34:56.142103 12447 sgd_solver.cpp:105] Iteration 8580, lr = 1e-07
+I1026 18:35:01.575767 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8600.caffemodel
+I1026 18:35:03.088043 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8600.solverstate
+I1026 18:35:03.603389 12447 solver.cpp:330] Iteration 8600, Testing net (#0)
+I1026 18:35:14.745187 12447 solver.cpp:397]     Test net output #0: loss = 3.8537 (* 1 = 3.8537 loss)
+I1026 18:35:15.095506 12447 solver.cpp:218] Iteration 8600 (1.05523 iter/s, 18.9533s/20 iters), loss = 0.544401
+I1026 18:35:15.095588 12447 solver.cpp:237]     Train net output #0: loss = 0.544401 (* 1 = 0.544401 loss)
+I1026 18:35:15.095602 12447 sgd_solver.cpp:105] Iteration 8600, lr = 1e-07
+I1026 18:35:22.310678 12447 solver.cpp:218] Iteration 8620 (2.772 iter/s, 7.21502s/20 iters), loss = 0.53747
+I1026 18:35:22.310760 12447 solver.cpp:237]     Train net output #0: loss = 0.53747 (* 1 = 0.53747 loss)
+I1026 18:35:22.310772 12447 sgd_solver.cpp:105] Iteration 8620, lr = 1e-07
+I1026 18:35:29.323021 12447 solver.cpp:218] Iteration 8640 (2.85218 iter/s, 7.01219s/20 iters), loss = 0.538275
+I1026 18:35:29.323091 12447 solver.cpp:237]     Train net output #0: loss = 0.538275 (* 1 = 0.538275 loss)
+I1026 18:35:29.323103 12447 sgd_solver.cpp:105] Iteration 8640, lr = 1e-07
+I1026 18:35:33.675011 12447 solver.cpp:218] Iteration 8660 (4.5957 iter/s, 4.35189s/20 iters), loss = 0.488515
+I1026 18:35:33.675137 12447 solver.cpp:237]     Train net output #0: loss = 0.488515 (* 1 = 0.488515 loss)
+I1026 18:35:33.675151 12447 sgd_solver.cpp:105] Iteration 8660, lr = 1e-07
+I1026 18:35:38.893146 12447 solver.cpp:218] Iteration 8680 (3.83293 iter/s, 5.21794s/20 iters), loss = 0.571278
+I1026 18:35:38.893281 12447 solver.cpp:237]     Train net output #0: loss = 0.571278 (* 1 = 0.571278 loss)
+I1026 18:35:38.893306 12447 sgd_solver.cpp:105] Iteration 8680, lr = 1e-07
+I1026 18:35:44.328577 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8700.caffemodel
+I1026 18:35:45.865036 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8700.solverstate
+I1026 18:35:46.399574 12447 solver.cpp:330] Iteration 8700, Testing net (#0)
+I1026 18:35:57.500960 12447 solver.cpp:397]     Test net output #0: loss = 3.82717 (* 1 = 3.82717 loss)
+I1026 18:35:57.852031 12447 solver.cpp:218] Iteration 8700 (1.05493 iter/s, 18.9586s/20 iters), loss = 0.611025
+I1026 18:35:57.852104 12447 solver.cpp:237]     Train net output #0: loss = 0.611025 (* 1 = 0.611025 loss)
+I1026 18:35:57.852118 12447 sgd_solver.cpp:105] Iteration 8700, lr = 1e-07
+I1026 18:36:05.060372 12447 solver.cpp:218] Iteration 8720 (2.77462 iter/s, 7.20818s/20 iters), loss = 0.452166
+I1026 18:36:05.060508 12447 solver.cpp:237]     Train net output #0: loss = 0.452166 (* 1 = 0.452166 loss)
+I1026 18:36:05.060525 12447 sgd_solver.cpp:105] Iteration 8720, lr = 1e-07
+I1026 18:36:12.065132 12447 solver.cpp:218] Iteration 8740 (2.85529 iter/s, 7.00454s/20 iters), loss = 0.610459
+I1026 18:36:12.065229 12447 solver.cpp:237]     Train net output #0: loss = 0.610459 (* 1 = 0.610459 loss)
+I1026 18:36:12.065245 12447 sgd_solver.cpp:105] Iteration 8740, lr = 1e-07
+I1026 18:36:16.409900 12447 solver.cpp:218] Iteration 8760 (4.60337 iter/s, 4.34464s/20 iters), loss = 0.507904
+I1026 18:36:16.409988 12447 solver.cpp:237]     Train net output #0: loss = 0.507904 (* 1 = 0.507904 loss)
+I1026 18:36:16.410002 12447 sgd_solver.cpp:105] Iteration 8760, lr = 1e-07
+I1026 18:36:21.619395 12447 solver.cpp:218] Iteration 8780 (3.83926 iter/s, 5.20934s/20 iters), loss = 0.603903
+I1026 18:36:21.619475 12447 solver.cpp:237]     Train net output #0: loss = 0.603903 (* 1 = 0.603903 loss)
+I1026 18:36:21.619488 12447 sgd_solver.cpp:105] Iteration 8780, lr = 1e-07
+I1026 18:36:27.046166 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8800.caffemodel
+I1026 18:36:28.565373 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8800.solverstate
+I1026 18:36:29.095778 12447 solver.cpp:330] Iteration 8800, Testing net (#0)
+I1026 18:36:40.225587 12447 solver.cpp:397]     Test net output #0: loss = 3.84067 (* 1 = 3.84067 loss)
+I1026 18:36:40.574908 12447 solver.cpp:218] Iteration 8800 (1.05511 iter/s, 18.9553s/20 iters), loss = 0.539055
+I1026 18:36:40.574971 12447 solver.cpp:237]     Train net output #0: loss = 0.539055 (* 1 = 0.539055 loss)
+I1026 18:36:40.574985 12447 sgd_solver.cpp:105] Iteration 8800, lr = 1e-07
+I1026 18:36:47.792273 12447 solver.cpp:218] Iteration 8820 (2.77115 iter/s, 7.21722s/20 iters), loss = 0.517327
+I1026 18:36:47.792348 12447 solver.cpp:237]     Train net output #0: loss = 0.517327 (* 1 = 0.517327 loss)
+I1026 18:36:47.792361 12447 sgd_solver.cpp:105] Iteration 8820, lr = 1e-07
+I1026 18:36:54.788976 12447 solver.cpp:218] Iteration 8840 (2.85856 iter/s, 6.99653s/20 iters), loss = 0.548626
+I1026 18:36:54.789094 12447 solver.cpp:237]     Train net output #0: loss = 0.548626 (* 1 = 0.548626 loss)
+I1026 18:36:54.789113 12447 sgd_solver.cpp:105] Iteration 8840, lr = 1e-07
+I1026 18:36:59.155349 12447 solver.cpp:218] Iteration 8860 (4.58061 iter/s, 4.36623s/20 iters), loss = 0.542929
+I1026 18:36:59.155417 12447 solver.cpp:237]     Train net output #0: loss = 0.542929 (* 1 = 0.542929 loss)
+I1026 18:36:59.155429 12447 sgd_solver.cpp:105] Iteration 8860, lr = 1e-07
+I1026 18:37:04.369154 12447 solver.cpp:218] Iteration 8880 (3.83607 iter/s, 5.21367s/20 iters), loss = 0.56668
+I1026 18:37:04.369223 12447 solver.cpp:237]     Train net output #0: loss = 0.56668 (* 1 = 0.56668 loss)
+I1026 18:37:04.369237 12447 sgd_solver.cpp:105] Iteration 8880, lr = 1e-07
+I1026 18:37:09.774363 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8900.caffemodel
+I1026 18:37:11.305160 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_8900.solverstate
+I1026 18:37:11.822055 12447 solver.cpp:330] Iteration 8900, Testing net (#0)
+I1026 18:37:22.929363 12447 solver.cpp:397]     Test net output #0: loss = 3.82714 (* 1 = 3.82714 loss)
+I1026 18:37:23.282119 12447 solver.cpp:218] Iteration 8900 (1.05749 iter/s, 18.9128s/20 iters), loss = 0.493467
+I1026 18:37:23.282199 12447 solver.cpp:237]     Train net output #0: loss = 0.493467 (* 1 = 0.493467 loss)
+I1026 18:37:23.282212 12447 sgd_solver.cpp:105] Iteration 8900, lr = 1e-07
+I1026 18:37:30.511309 12447 solver.cpp:218] Iteration 8920 (2.76662 iter/s, 7.22903s/20 iters), loss = 0.464562
+I1026 18:37:30.511411 12447 solver.cpp:237]     Train net output #0: loss = 0.464562 (* 1 = 0.464562 loss)
+I1026 18:37:30.511428 12447 sgd_solver.cpp:105] Iteration 8920, lr = 1e-07
+I1026 18:37:37.531250 12447 solver.cpp:218] Iteration 8940 (2.8491 iter/s, 7.01975s/20 iters), loss = 0.503675
+I1026 18:37:37.531340 12447 solver.cpp:237]     Train net output #0: loss = 0.503675 (* 1 = 0.503675 loss)
+I1026 18:37:37.531373 12447 sgd_solver.cpp:105] Iteration 8940, lr = 1e-07
+I1026 18:37:41.865641 12447 solver.cpp:218] Iteration 8960 (4.61438 iter/s, 4.33427s/20 iters), loss = 0.564141
+I1026 18:37:41.865820 12447 solver.cpp:237]     Train net output #0: loss = 0.564141 (* 1 = 0.564141 loss)
+I1026 18:37:41.865854 12447 sgd_solver.cpp:105] Iteration 8960, lr = 1e-07
+I1026 18:37:47.092970 12447 solver.cpp:218] Iteration 8980 (3.82622 iter/s, 5.22709s/20 iters), loss = 0.499579
+I1026 18:37:47.093050 12447 solver.cpp:237]     Train net output #0: loss = 0.499579 (* 1 = 0.499579 loss)
+I1026 18:37:47.093062 12447 sgd_solver.cpp:105] Iteration 8980, lr = 1e-07
+I1026 18:37:52.517062 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9000.caffemodel
+I1026 18:37:54.045454 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9000.solverstate
+I1026 18:37:54.575176 12447 solver.cpp:330] Iteration 9000, Testing net (#0)
+I1026 18:38:05.697568 12447 solver.cpp:397]     Test net output #0: loss = 3.84096 (* 1 = 3.84096 loss)
+I1026 18:38:06.051075 12447 solver.cpp:218] Iteration 9000 (1.05497 iter/s, 18.9579s/20 iters), loss = 0.503553
+I1026 18:38:06.051168 12447 solver.cpp:237]     Train net output #0: loss = 0.503553 (* 1 = 0.503553 loss)
+I1026 18:38:06.051187 12447 sgd_solver.cpp:105] Iteration 9000, lr = 1e-07
+I1026 18:38:13.265710 12447 solver.cpp:218] Iteration 9020 (2.77221 iter/s, 7.21447s/20 iters), loss = 0.51337
+I1026 18:38:13.265908 12447 solver.cpp:237]     Train net output #0: loss = 0.51337 (* 1 = 0.51337 loss)
+I1026 18:38:13.265926 12447 sgd_solver.cpp:105] Iteration 9020, lr = 1e-07
+I1026 18:38:20.292031 12447 solver.cpp:218] Iteration 9040 (2.84655 iter/s, 7.02604s/20 iters), loss = 0.570675
+I1026 18:38:20.292119 12447 solver.cpp:237]     Train net output #0: loss = 0.570675 (* 1 = 0.570675 loss)
+I1026 18:38:20.292132 12447 sgd_solver.cpp:105] Iteration 9040, lr = 1e-07
+I1026 18:38:24.655916 12447 solver.cpp:218] Iteration 9060 (4.58319 iter/s, 4.36377s/20 iters), loss = 0.539873
+I1026 18:38:24.655987 12447 solver.cpp:237]     Train net output #0: loss = 0.539873 (* 1 = 0.539873 loss)
+I1026 18:38:24.655999 12447 sgd_solver.cpp:105] Iteration 9060, lr = 1e-07
+I1026 18:38:29.903560 12447 solver.cpp:218] Iteration 9080 (3.81289 iter/s, 5.24537s/20 iters), loss = 0.477285
+I1026 18:38:29.903625 12447 solver.cpp:237]     Train net output #0: loss = 0.477285 (* 1 = 0.477285 loss)
+I1026 18:38:29.903637 12447 sgd_solver.cpp:105] Iteration 9080, lr = 1e-07
+I1026 18:38:35.300673 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9100.caffemodel
+I1026 18:38:36.815629 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9100.solverstate
+I1026 18:38:37.340868 12447 solver.cpp:330] Iteration 9100, Testing net (#0)
+I1026 18:38:48.466152 12447 solver.cpp:397]     Test net output #0: loss = 3.84867 (* 1 = 3.84867 loss)
+I1026 18:38:48.818032 12447 solver.cpp:218] Iteration 9100 (1.0574 iter/s, 18.9143s/20 iters), loss = 0.495516
+I1026 18:38:48.818104 12447 solver.cpp:237]     Train net output #0: loss = 0.495516 (* 1 = 0.495516 loss)
+I1026 18:38:48.818117 12447 sgd_solver.cpp:105] Iteration 9100, lr = 1e-07
+I1026 18:38:56.034157 12447 solver.cpp:218] Iteration 9120 (2.77163 iter/s, 7.21597s/20 iters), loss = 0.48932
+I1026 18:38:56.034258 12447 solver.cpp:237]     Train net output #0: loss = 0.48932 (* 1 = 0.48932 loss)
+I1026 18:38:56.034276 12447 sgd_solver.cpp:105] Iteration 9120, lr = 1e-07
+I1026 18:39:03.037050 12447 solver.cpp:218] Iteration 9140 (2.85603 iter/s, 7.00272s/20 iters), loss = 0.548254
+I1026 18:39:03.037163 12447 solver.cpp:237]     Train net output #0: loss = 0.548254 (* 1 = 0.548254 loss)
+I1026 18:39:03.037186 12447 sgd_solver.cpp:105] Iteration 9140, lr = 1e-07
+I1026 18:39:07.423060 12447 solver.cpp:218] Iteration 9160 (4.5601 iter/s, 4.38587s/20 iters), loss = 0.508717
+I1026 18:39:07.423143 12447 solver.cpp:237]     Train net output #0: loss = 0.508717 (* 1 = 0.508717 loss)
+I1026 18:39:07.423156 12447 sgd_solver.cpp:105] Iteration 9160, lr = 1e-07
+I1026 18:39:12.638010 12447 solver.cpp:218] Iteration 9180 (3.83524 iter/s, 5.2148s/20 iters), loss = 0.539507
+I1026 18:39:12.638092 12447 solver.cpp:237]     Train net output #0: loss = 0.539507 (* 1 = 0.539507 loss)
+I1026 18:39:12.638106 12447 sgd_solver.cpp:105] Iteration 9180, lr = 1e-07
+I1026 18:39:18.038506 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9200.caffemodel
+I1026 18:39:19.657099 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9200.solverstate
+I1026 18:39:20.192828 12447 solver.cpp:330] Iteration 9200, Testing net (#0)
+I1026 18:39:31.210743 12447 solver.cpp:397]     Test net output #0: loss = 3.83129 (* 1 = 3.83129 loss)
+I1026 18:39:31.562995 12447 solver.cpp:218] Iteration 9200 (1.05682 iter/s, 18.9248s/20 iters), loss = 0.484267
+I1026 18:39:31.563067 12447 solver.cpp:237]     Train net output #0: loss = 0.484267 (* 1 = 0.484267 loss)
+I1026 18:39:31.563081 12447 sgd_solver.cpp:105] Iteration 9200, lr = 1e-07
+I1026 18:39:38.763936 12447 solver.cpp:218] Iteration 9220 (2.77747 iter/s, 7.20079s/20 iters), loss = 0.541243
+I1026 18:39:38.764019 12447 solver.cpp:237]     Train net output #0: loss = 0.541243 (* 1 = 0.541243 loss)
+I1026 18:39:38.764031 12447 sgd_solver.cpp:105] Iteration 9220, lr = 1e-07
+I1026 18:39:45.771881 12447 solver.cpp:218] Iteration 9240 (2.85397 iter/s, 7.00779s/20 iters), loss = 0.549481
+I1026 18:39:45.771960 12447 solver.cpp:237]     Train net output #0: loss = 0.549481 (* 1 = 0.549481 loss)
+I1026 18:39:45.771973 12447 sgd_solver.cpp:105] Iteration 9240, lr = 1e-07
+I1026 18:39:50.118450 12447 solver.cpp:218] Iteration 9260 (4.60145 iter/s, 4.34645s/20 iters), loss = 0.467576
+I1026 18:39:50.118572 12447 solver.cpp:237]     Train net output #0: loss = 0.467576 (* 1 = 0.467576 loss)
+I1026 18:39:50.118587 12447 sgd_solver.cpp:105] Iteration 9260, lr = 1e-07
+I1026 18:39:55.322758 12447 solver.cpp:218] Iteration 9280 (3.84464 iter/s, 5.20205s/20 iters), loss = 0.483127
+I1026 18:39:55.322840 12447 solver.cpp:237]     Train net output #0: loss = 0.483127 (* 1 = 0.483127 loss)
+I1026 18:39:55.322854 12447 sgd_solver.cpp:105] Iteration 9280, lr = 1e-07
+I1026 18:40:00.760300 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9300.caffemodel
+I1026 18:40:02.285094 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9300.solverstate
+I1026 18:40:02.823027 12447 solver.cpp:330] Iteration 9300, Testing net (#0)
+I1026 18:40:13.933653 12447 solver.cpp:397]     Test net output #0: loss = 3.82159 (* 1 = 3.82159 loss)
+I1026 18:40:14.285951 12447 solver.cpp:218] Iteration 9300 (1.05469 iter/s, 18.963s/20 iters), loss = 0.535149
+I1026 18:40:14.286026 12447 solver.cpp:237]     Train net output #0: loss = 0.535149 (* 1 = 0.535149 loss)
+I1026 18:40:14.286038 12447 sgd_solver.cpp:105] Iteration 9300, lr = 1e-07
+I1026 18:40:21.515537 12447 solver.cpp:218] Iteration 9320 (2.76647 iter/s, 7.22944s/20 iters), loss = 0.63411
+I1026 18:40:21.515677 12447 solver.cpp:237]     Train net output #0: loss = 0.63411 (* 1 = 0.63411 loss)
+I1026 18:40:21.515689 12447 sgd_solver.cpp:105] Iteration 9320, lr = 1e-07
+I1026 18:40:28.537277 12447 solver.cpp:218] Iteration 9340 (2.84838 iter/s, 7.02153s/20 iters), loss = 0.65835
+I1026 18:40:28.537354 12447 solver.cpp:237]     Train net output #0: loss = 0.65835 (* 1 = 0.65835 loss)
+I1026 18:40:28.537367 12447 sgd_solver.cpp:105] Iteration 9340, lr = 1e-07
+I1026 18:40:32.921803 12447 solver.cpp:218] Iteration 9360 (4.5616 iter/s, 4.38442s/20 iters), loss = 0.50678
+I1026 18:40:32.921882 12447 solver.cpp:237]     Train net output #0: loss = 0.50678 (* 1 = 0.50678 loss)
+I1026 18:40:32.921893 12447 sgd_solver.cpp:105] Iteration 9360, lr = 1e-07
+I1026 18:40:38.144915 12447 solver.cpp:218] Iteration 9380 (3.82925 iter/s, 5.22295s/20 iters), loss = 0.568402
+I1026 18:40:38.145015 12447 solver.cpp:237]     Train net output #0: loss = 0.568402 (* 1 = 0.568402 loss)
+I1026 18:40:38.145032 12447 sgd_solver.cpp:105] Iteration 9380, lr = 1e-07
+I1026 18:40:43.548892 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9400.caffemodel
+I1026 18:40:45.163516 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9400.solverstate
+I1026 18:40:45.703181 12447 solver.cpp:330] Iteration 9400, Testing net (#0)
+I1026 18:40:56.715618 12447 solver.cpp:397]     Test net output #0: loss = 3.85224 (* 1 = 3.85224 loss)
+I1026 18:40:57.067656 12447 solver.cpp:218] Iteration 9400 (1.05694 iter/s, 18.9225s/20 iters), loss = 0.511776
+I1026 18:40:57.067734 12447 solver.cpp:237]     Train net output #0: loss = 0.511776 (* 1 = 0.511776 loss)
+I1026 18:40:57.067745 12447 sgd_solver.cpp:105] Iteration 9400, lr = 1e-07
+I1026 18:41:04.290210 12447 solver.cpp:218] Iteration 9420 (2.76916 iter/s, 7.2224s/20 iters), loss = 0.463383
+I1026 18:41:04.290284 12447 solver.cpp:237]     Train net output #0: loss = 0.463383 (* 1 = 0.463383 loss)
+I1026 18:41:04.290297 12447 sgd_solver.cpp:105] Iteration 9420, lr = 1e-07
+I1026 18:41:11.295531 12447 solver.cpp:218] Iteration 9440 (2.85503 iter/s, 7.00517s/20 iters), loss = 0.50392
+I1026 18:41:11.295601 12447 solver.cpp:237]     Train net output #0: loss = 0.50392 (* 1 = 0.50392 loss)
+I1026 18:41:11.295614 12447 sgd_solver.cpp:105] Iteration 9440, lr = 1e-07
+I1026 18:41:15.670672 12447 solver.cpp:218] Iteration 9460 (4.57139 iter/s, 4.37504s/20 iters), loss = 0.485197
+I1026 18:41:15.670753 12447 solver.cpp:237]     Train net output #0: loss = 0.485197 (* 1 = 0.485197 loss)
+I1026 18:41:15.670765 12447 sgd_solver.cpp:105] Iteration 9460, lr = 1e-07
+I1026 18:41:20.860360 12447 solver.cpp:218] Iteration 9480 (3.8539 iter/s, 5.18955s/20 iters), loss = 0.537042
+I1026 18:41:20.860435 12447 solver.cpp:237]     Train net output #0: loss = 0.537042 (* 1 = 0.537042 loss)
+I1026 18:41:20.860448 12447 sgd_solver.cpp:105] Iteration 9480, lr = 1e-07
+I1026 18:41:26.294746 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9500.caffemodel
+I1026 18:41:27.828323 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9500.solverstate
+I1026 18:41:28.361068 12447 solver.cpp:330] Iteration 9500, Testing net (#0)
+I1026 18:41:39.470738 12447 solver.cpp:397]     Test net output #0: loss = 3.87381 (* 1 = 3.87381 loss)
+I1026 18:41:39.820920 12447 solver.cpp:218] Iteration 9500 (1.05483 iter/s, 18.9604s/20 iters), loss = 0.506904
+I1026 18:41:39.820998 12447 solver.cpp:237]     Train net output #0: loss = 0.506904 (* 1 = 0.506904 loss)
+I1026 18:41:39.821012 12447 sgd_solver.cpp:105] Iteration 9500, lr = 1e-07
+I1026 18:41:47.027508 12447 solver.cpp:218] Iteration 9520 (2.7753 iter/s, 7.20644s/20 iters), loss = 0.507208
+I1026 18:41:47.027590 12447 solver.cpp:237]     Train net output #0: loss = 0.507208 (* 1 = 0.507208 loss)
+I1026 18:41:47.027602 12447 sgd_solver.cpp:105] Iteration 9520, lr = 1e-07
+I1026 18:41:54.036643 12447 solver.cpp:218] Iteration 9540 (2.85348 iter/s, 7.00898s/20 iters), loss = 0.541726
+I1026 18:41:54.036715 12447 solver.cpp:237]     Train net output #0: loss = 0.541726 (* 1 = 0.541726 loss)
+I1026 18:41:54.036727 12447 sgd_solver.cpp:105] Iteration 9540, lr = 1e-07
+I1026 18:41:58.391784 12447 solver.cpp:218] Iteration 9560 (4.59238 iter/s, 4.35504s/20 iters), loss = 0.561925
+I1026 18:41:58.391897 12447 solver.cpp:237]     Train net output #0: loss = 0.561925 (* 1 = 0.561925 loss)
+I1026 18:41:58.391916 12447 sgd_solver.cpp:105] Iteration 9560, lr = 1e-07
+I1026 18:42:03.593504 12447 solver.cpp:218] Iteration 9580 (3.84655 iter/s, 5.19946s/20 iters), loss = 0.547305
+I1026 18:42:03.593586 12447 solver.cpp:237]     Train net output #0: loss = 0.547305 (* 1 = 0.547305 loss)
+I1026 18:42:03.593598 12447 sgd_solver.cpp:105] Iteration 9580, lr = 1e-07
+I1026 18:42:09.013739 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9600.caffemodel
+I1026 18:42:10.545763 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9600.solverstate
+I1026 18:42:11.078884 12447 solver.cpp:330] Iteration 9600, Testing net (#0)
+I1026 18:42:22.183701 12447 solver.cpp:397]     Test net output #0: loss = 3.85031 (* 1 = 3.85031 loss)
+I1026 18:42:22.534905 12447 solver.cpp:218] Iteration 9600 (1.0559 iter/s, 18.9412s/20 iters), loss = 0.561603
+I1026 18:42:22.534982 12447 solver.cpp:237]     Train net output #0: loss = 0.561603 (* 1 = 0.561603 loss)
+I1026 18:42:22.534996 12447 sgd_solver.cpp:105] Iteration 9600, lr = 1e-07
+I1026 18:42:29.742173 12447 solver.cpp:218] Iteration 9620 (2.77504 iter/s, 7.20712s/20 iters), loss = 0.522703
+I1026 18:42:29.742363 12447 solver.cpp:237]     Train net output #0: loss = 0.522703 (* 1 = 0.522703 loss)
+I1026 18:42:29.742385 12447 sgd_solver.cpp:105] Iteration 9620, lr = 1e-07
+I1026 18:42:36.742677 12447 solver.cpp:218] Iteration 9640 (2.85704 iter/s, 7.00024s/20 iters), loss = 0.550245
+I1026 18:42:36.742796 12447 solver.cpp:237]     Train net output #0: loss = 0.550245 (* 1 = 0.550245 loss)
+I1026 18:42:36.742820 12447 sgd_solver.cpp:105] Iteration 9640, lr = 1e-07
+I1026 18:42:41.091923 12447 solver.cpp:218] Iteration 9660 (4.59865 iter/s, 4.3491s/20 iters), loss = 0.593352
+I1026 18:42:41.092002 12447 solver.cpp:237]     Train net output #0: loss = 0.593352 (* 1 = 0.593352 loss)
+I1026 18:42:41.092015 12447 sgd_solver.cpp:105] Iteration 9660, lr = 1e-07
+I1026 18:42:46.299595 12447 solver.cpp:218] Iteration 9680 (3.84217 iter/s, 5.20539s/20 iters), loss = 0.528365
+I1026 18:42:46.299669 12447 solver.cpp:237]     Train net output #0: loss = 0.528365 (* 1 = 0.528365 loss)
+I1026 18:42:46.299680 12447 sgd_solver.cpp:105] Iteration 9680, lr = 1e-07
+I1026 18:42:51.728793 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9700.caffemodel
+I1026 18:42:53.249986 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9700.solverstate
+I1026 18:42:53.783879 12447 solver.cpp:330] Iteration 9700, Testing net (#0)
+I1026 18:43:04.910684 12447 solver.cpp:397]     Test net output #0: loss = 3.81909 (* 1 = 3.81909 loss)
+I1026 18:43:05.264250 12447 solver.cpp:218] Iteration 9700 (1.0546 iter/s, 18.9644s/20 iters), loss = 0.511166
+I1026 18:43:05.264343 12447 solver.cpp:237]     Train net output #0: loss = 0.511166 (* 1 = 0.511166 loss)
+I1026 18:43:05.264359 12447 sgd_solver.cpp:105] Iteration 9700, lr = 1e-07
+I1026 18:43:12.480598 12447 solver.cpp:218] Iteration 9720 (2.77155 iter/s, 7.21619s/20 iters), loss = 0.527251
+I1026 18:43:12.480676 12447 solver.cpp:237]     Train net output #0: loss = 0.527251 (* 1 = 0.527251 loss)
+I1026 18:43:12.480690 12447 sgd_solver.cpp:105] Iteration 9720, lr = 1e-07
+I1026 18:43:19.499002 12447 solver.cpp:218] Iteration 9740 (2.84972 iter/s, 7.01824s/20 iters), loss = 0.629666
+I1026 18:43:19.499086 12447 solver.cpp:237]     Train net output #0: loss = 0.629666 (* 1 = 0.629666 loss)
+I1026 18:43:19.499100 12447 sgd_solver.cpp:105] Iteration 9740, lr = 1e-07
+I1026 18:43:23.914680 12447 solver.cpp:218] Iteration 9760 (4.52943 iter/s, 4.41557s/20 iters), loss = 0.454128
+I1026 18:43:23.914757 12447 solver.cpp:237]     Train net output #0: loss = 0.454128 (* 1 = 0.454128 loss)
+I1026 18:43:23.914768 12447 sgd_solver.cpp:105] Iteration 9760, lr = 1e-07
+I1026 18:43:29.134244 12447 solver.cpp:218] Iteration 9780 (3.83184 iter/s, 5.21942s/20 iters), loss = 0.478004
+I1026 18:43:29.134320 12447 solver.cpp:237]     Train net output #0: loss = 0.478004 (* 1 = 0.478004 loss)
+I1026 18:43:29.134332 12447 sgd_solver.cpp:105] Iteration 9780, lr = 1e-07
+I1026 18:43:34.676681 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9800.caffemodel
+I1026 18:43:36.192545 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9800.solverstate
+I1026 18:43:36.726686 12447 solver.cpp:330] Iteration 9800, Testing net (#0)
+I1026 18:43:47.852169 12447 solver.cpp:397]     Test net output #0: loss = 3.82225 (* 1 = 3.82225 loss)
+I1026 18:43:48.205835 12447 solver.cpp:218] Iteration 9800 (1.04869 iter/s, 19.0714s/20 iters), loss = 0.570578
+I1026 18:43:48.205914 12447 solver.cpp:237]     Train net output #0: loss = 0.570578 (* 1 = 0.570578 loss)
+I1026 18:43:48.205926 12447 sgd_solver.cpp:105] Iteration 9800, lr = 1e-07
+I1026 18:43:55.428261 12447 solver.cpp:218] Iteration 9820 (2.76921 iter/s, 7.22227s/20 iters), loss = 0.533649
+I1026 18:43:55.428339 12447 solver.cpp:237]     Train net output #0: loss = 0.533649 (* 1 = 0.533649 loss)
+I1026 18:43:55.428350 12447 sgd_solver.cpp:105] Iteration 9820, lr = 1e-07
+I1026 18:44:02.248225 12447 solver.cpp:218] Iteration 9840 (2.93264 iter/s, 6.8198s/20 iters), loss = 0.49445
+I1026 18:44:02.248306 12447 solver.cpp:237]     Train net output #0: loss = 0.49445 (* 1 = 0.49445 loss)
+I1026 18:44:02.248319 12447 sgd_solver.cpp:105] Iteration 9840, lr = 1e-07
+I1026 18:44:06.703810 12447 solver.cpp:218] Iteration 9860 (4.48885 iter/s, 4.45548s/20 iters), loss = 0.602433
+I1026 18:44:06.703968 12447 solver.cpp:237]     Train net output #0: loss = 0.602433 (* 1 = 0.602433 loss)
+I1026 18:44:06.703980 12447 sgd_solver.cpp:105] Iteration 9860, lr = 1e-07
+I1026 18:44:11.931001 12447 solver.cpp:218] Iteration 9880 (3.82631 iter/s, 5.22696s/20 iters), loss = 0.578382
+I1026 18:44:11.931084 12447 solver.cpp:237]     Train net output #0: loss = 0.578382 (* 1 = 0.578382 loss)
+I1026 18:44:11.931097 12447 sgd_solver.cpp:105] Iteration 9880, lr = 1e-07
+I1026 18:44:17.453202 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9900.caffemodel
+I1026 18:44:18.967102 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_9900.solverstate
+I1026 18:44:19.494436 12447 solver.cpp:330] Iteration 9900, Testing net (#0)
+I1026 18:44:30.616480 12447 solver.cpp:397]     Test net output #0: loss = 3.84158 (* 1 = 3.84158 loss)
+I1026 18:44:30.969092 12447 solver.cpp:218] Iteration 9900 (1.05054 iter/s, 19.0379s/20 iters), loss = 0.558375
+I1026 18:44:30.969166 12447 solver.cpp:237]     Train net output #0: loss = 0.558375 (* 1 = 0.558375 loss)
+I1026 18:44:30.969178 12447 sgd_solver.cpp:105] Iteration 9900, lr = 1e-07
+I1026 18:44:38.168812 12447 solver.cpp:218] Iteration 9920 (2.77795 iter/s, 7.19956s/20 iters), loss = 0.555496
+I1026 18:44:38.168979 12447 solver.cpp:237]     Train net output #0: loss = 0.555496 (* 1 = 0.555496 loss)
+I1026 18:44:38.168998 12447 sgd_solver.cpp:105] Iteration 9920, lr = 1e-07
+I1026 18:44:44.983803 12447 solver.cpp:218] Iteration 9940 (2.93481 iter/s, 6.81476s/20 iters), loss = 0.462754
+I1026 18:44:44.983866 12447 solver.cpp:237]     Train net output #0: loss = 0.462754 (* 1 = 0.462754 loss)
+I1026 18:44:44.983878 12447 sgd_solver.cpp:105] Iteration 9940, lr = 1e-07
+I1026 18:44:49.440196 12447 solver.cpp:218] Iteration 9960 (4.48803 iter/s, 4.4563s/20 iters), loss = 0.590267
+I1026 18:44:49.440264 12447 solver.cpp:237]     Train net output #0: loss = 0.590267 (* 1 = 0.590267 loss)
+I1026 18:44:49.440277 12447 sgd_solver.cpp:105] Iteration 9960, lr = 1e-07
+I1026 18:44:54.653198 12447 solver.cpp:218] Iteration 9980 (3.83666 iter/s, 5.21287s/20 iters), loss = 0.477872
+I1026 18:44:54.653270 12447 solver.cpp:237]     Train net output #0: loss = 0.477872 (* 1 = 0.477872 loss)
+I1026 18:44:54.653283 12447 sgd_solver.cpp:105] Iteration 9980, lr = 1e-07
+I1026 18:45:00.163908 12447 solver.cpp:447] Snapshotting to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_10000.caffemodel
+I1026 18:45:01.688236 12447 sgd_solver.cpp:273] Snapshotting solver state to binary proto file /home/hzzone/1tb/bone-age-model/bysex/male/male_alexnet_train_iter_10000.solverstate
+I1026 18:45:02.438941 12447 solver.cpp:310] Iteration 10000, loss = 0.536163
+I1026 18:45:02.438988 12447 solver.cpp:330] Iteration 10000, Testing net (#0)
+I1026 18:45:13.588165 12447 solver.cpp:397]     Test net output #0: loss = 3.82964 (* 1 = 3.82964 loss)
+I1026 18:45:13.588337 12447 solver.cpp:315] Optimization Done.
+I1026 18:45:13.588343 12447 caffe.cpp:259] Optimization Done.
