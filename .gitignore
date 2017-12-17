@@ -1,6 +1,6 @@
 .idea
 *.pyc
 __pycache__
-/*.log
+*.log
 paper/paper.docx
 *.caffemodel
