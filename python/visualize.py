@@ -14,6 +14,7 @@ import dicom
 def visualize_layers(caffemodel, deploy, dicom_file, IMAGE_SIZE=227, mode=True, save_dir=""):
     im = preprocess.process(dicom_file, IMAGE_SIZE=IMAGE_SIZE)
     patientID = dicom.read_file(dicom_file).PatientID
+    file_name = dicom_file.split("/")[-1]
     if mode:
         caffe.set_mode_gpu()
     else:
@@ -31,7 +32,7 @@ def visualize_layers(caffemodel, deploy, dicom_file, IMAGE_SIZE=227, mode=True, 
             except:
                 continue
 
-            features_path = os.path.join(save_dir, patientID)
+            features_path = os.path.join(save_dir, "%s_%s" % (patientID, file_name))
             # if os.path.exists(features_path):
             #     shutil.rmtree(features_path)
             if not os.path.exists(features_path):
@@ -119,3 +120,9 @@ if __name__=="__main__":
 
     save_dir_feature_map(save_dir="/home/hzzone/features/all_test1", source_list=["/home/hzzone/Bone-Age-Data/test1/female", "/home/hzzone/Bone-Age-Data/test1/male"], caffemodel="/home/hzzone/1tb/bone-age-model/all/caffenet/all_caffenet_train_iter_4000.caffemodel", deploy_file="/home/hzzone/Bone-Age-Assessment/train/male/CaffeNet/caffenet_deploy.prototxt")
     save_dir_feature_map(save_dir="/home/hzzone/features/all_test2", source_list=["/home/hzzone/Bone-Age-Data/test2/female", "/home/hzzone/Bone-Age-Data/test2/male"], caffemodel="/home/hzzone/1tb/bone-age-model/all/caffenet/all_caffenet_train_iter_4000.caffemodel", deploy_file="/home/hzzone/Bone-Age-Assessment/train/female/CaffeNet/caffenet_deploy.prototxt")
+
+    save_dir_feature_map(save_dir="/home/hzzone/features/male_train", source_list=["/home/hzzone/Bone-Age-Data/initial_data_train/male", "/home/hzzone/Bone-Age-Data/new_data_train/new_data_processed/male"], caffemodel="/home/hzzone/1tb/bone-age-model/bysex/male/alexnet/male_alexnet_train_iter_800.caffemodel", deploy_file="/home/hzzone/Bone-Age-Assessment/train/male/AlexNet/alexnet_deploy.prototxt")
+
+    save_dir_feature_map(save_dir="/home/hzzone/features/female_train", source_list=["/home/hzzone/Bone-Age-Data/initial_data_train/female", "/home/hzzone/Bone-Age-Data/new_data_train/new_data_processed/female"], caffemodel="/home/hzzone/1tb/bone-age-model/bysex/female/caffenet/female_caffenet_train_iter_3900.caffemodel", deploy_file="/home/hzzone/Bone-Age-Assessment/train/female/CaffeNet/caffenet_deploy.prototxt")
+
+    save_dir_feature_map(save_dir="/home/hzzone/features/all_train", source_list=["/home/hzzone/Bone-Age-Data/initial_data_train", "/home/hzzone/Bone-Age-Data/new_data_train"], caffemodel="/home/hzzone/1tb/bone-age-model/all/caffenet/all_caffenet_train_iter_4000.caffemodel", deploy_file="/home/hzzone/Bone-Age-Assessment/train/female/CaffeNet/caffenet_deploy.prototxt")
